@@ -1,16 +1,13 @@
 # main links links
 main:
-  - title: "Quick-Start Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+  - title: "Home"
+    url: http://xrdocs.github.io/
 
-  - title: "About"
-    url: https://mmistakes.github.io/minimal-mistakes/
+  - title: "Application-Hosting"
+    url: http://xrdocs.github.io/application-hosting/
 
-  - title: "Sample Posts"
-    url: https://mmistakes.github.io/minimal-mistakes/year-archive/
+  - title: "Developer Page"
+    url: https://developer.cisco.com/site/ios-xr/
 
-  - title: "Sample Pages"
-    url: https://mmistakes.github.io/minimal-mistakes/page-archive/
-
-  - title: "Sample Collections"
-    url: https://mmistakes.github.io/minimal-mistakes/collection-archive/
+  - title: "Updates"
+    url: http://xrdocs.github.io/updates
