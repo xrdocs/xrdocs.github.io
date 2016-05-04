@@ -9,7 +9,7 @@
 locale                   : "en-US"
 title                    : "Welcome to @xrdocs!"
 title_separator          : "-"
-name                     : &name "Cisco Systems Inc."
+name                     : &name "Cisco Systems Inc"
 description              : &description "Documentation, Blogs and Tutorials for all things IOS-XR"
 url                      : https://xrdocs.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  :  # the subpath of your site, e.g. "/blog"
