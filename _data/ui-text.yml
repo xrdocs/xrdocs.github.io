@@ -20,6 +20,7 @@ en: &DEFAULT_EN
   date_label            : "Updated:"
   comments_label        : "Leave a Comment"
   more_label            : "Learn More"
+  coming_soon_label     : "Documentation Coming Soon!"
   related_label         : "You May Also Enjoy"
   follow_label          : "Follow:"
   feed_label            : "Feed"

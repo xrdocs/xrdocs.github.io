@@ -1,13 +1,95 @@
+# example navigation
+foo:
+  - title: "Parent Link 1"
+    url: /parent-1-page-url/
+    children:
+      - title: "Child Link 1"
+        url: /child-1-page-url/
+      - title: "Child Link 2"
+        url: /child-2-page-url/
+
+  - title: "Parent Link 2"
+    url: /parent-2-page-url/
+    children:
+      - title: "Child Link 1"
+        url: /child-1-page-url/
+      - title: "Child Link 2"
+        url: /child-2-page-url/
+      - title: "Child Link 3"
+        url: /child-3-page-url/
+
+
 # main links links
 main:
-  - title: "Home"
-    url: http://xrdocs.github.io/
+  - title: "App-Hosting"
+    url: https://xrdocs.github.io/application-hosting
 
-  - title: "Application-Hosting"
-    url: http://xrdocs.github.io/application-hosting/
+  - title: "Telemetry"
+    url: https://www.cisco.com/c/en/us/td/docs/iosxr/Telemetry/Telemetry-Config-Guide.html
+
+  - title: "Programmability"
+    url: http://ydk.cisco.com/py/docs/
+
+  - title: "Software-Management"
+    url: https://www.cisco.com/c/en/us/td/docs/iosxr/ncs5500/system-setup/60x/b-ncs5500-system-setup-guide-60x.html
 
   - title: "Developer Page"
     url: https://developer.cisco.com/site/ios-xr/
 
-  - title: "Updates"
-    url: http://xrdocs.github.io/updates
+
+# documentation links
+docs:
+  - title: Getting Started
+    children:
+      - title: "Quick-Start Guide"
+        url: /docs/quick-start-guide/
+      - title: "Structure"
+        url: /docs/structure/
+      - title: "Installation"
+        url: /docs/installation/
+      - title: "Upgrading"
+        url: /docs/upgrading/
+
+  - title: Customization
+    children:
+      - title: "Configuration"
+        url: /docs/configuration/
+      - title: "Navigation"
+        url: /docs/navigation/
+      - title: "UI Text"
+        url: /docs/ui-text/
+      - title: "Authors"
+        url: /docs/authors/
+      - title: "Layouts"
+        url: /docs/layouts/
+
+  - title: Content
+    children:
+      - title: "Working with Posts"
+        url: /docs/posts/
+      - title: "Working with Pages"
+        url: /docs/pages/
+      - title: "Working with Collections"
+        url: /docs/collections/
+      - title: "Helpers"
+        url: /docs/helpers/
+      - title: "Utility Classes"
+        url: /docs/utility-classes/
+
+  - title: Extras
+    children:
+      - title: "Stylesheets"
+        url: /docs/stylesheets/
+      - title: "JavaScript"
+        url: /docs/javascript/
+
+  - title: Meta
+    children:
+      - title: "History"
+        url: /docs/history/
+      - title: "Contributing"
+        url: /docs/contributing/
+      - title: "Old 2.2 Docs"
+        url: /docs/docs-2-2/
+      - title: "License"
+        url: /docs/license/
