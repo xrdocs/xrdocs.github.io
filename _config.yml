@@ -62,11 +62,11 @@ google_ad_slot           :
 
 # Site Author
 author:
-  name             : Akshat Sharma
-  avatar           : "Akshat_pic.jpg"
-  bio              : "Technical Marketing Engineer, Web Solutions, Cisco."
+  name             : "Cisco Web Team"
+  avatar           : "app-hosting-team.jpg"
+  bio              : "A Team of coders and network engineers determined to build the best network operating system for Web-Scale Service Providers" 
   location         : "San jose, California"
-  email            : akshshar@cisco.com
+  email            : 
   uri              :
   bitbucket        :
   codepen          :
@@ -74,7 +74,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "akshshar"
+  github           : "xrdocs"
   google_plus      :
   keybase          :
   instagram        :
@@ -85,7 +85,7 @@ author:
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : irakshat
+  twitter          : 
   vine             :
   weibo            :
   xing             :
