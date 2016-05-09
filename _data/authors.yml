@@ -8,3 +8,11 @@ Akshat Sharma:
   avatar      : "akshat.jpg"
   twitter     : "irakshat"
   google_plus : "akshat31187"
+  
+Cisco Web Team:
+  name        : "Cisco Web Team"
+  uri         : "https://developer.cisco.com/site/ios-xr"
+  github      : "https://github.com/ios-xr"
+  bio         : "A Team of coders and network engineers determined to build the best network operating system for Web-Scale Service Providers."
+  avatar      : "app-hosting-team.jpg"
+  twitter     : "CiscoDevNet"
