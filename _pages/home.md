@@ -6,7 +6,7 @@ header:
   overlay_color: "#5e616c"
   overlay_image: data-center.png
   cta_label: "<i class='fa fa-step-forward'></i> Get Started!"
-  cta_url: "/docs/quick-start-guide/"
+  cta_url: "#"
   caption:
 excerpt: 'Documentation, Blogs and Tutorials on IOS-XR <br/> An Open, Extensible and Stable Cloud-Scale Network Operating System<br /> <small>Current Release: 6.0.0</small><br /><br /> '
 feature_row:
