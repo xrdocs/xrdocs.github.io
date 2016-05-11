@@ -29,7 +29,7 @@ main:
     url: https://xrdocs.github.io/application-hosting
 
   - title: "Telemetry"
-    url: https://www.cisco.com/c/en/us/td/docs/iosxr/Telemetry/Telemetry-Config-Guide.html
+    url: https://xrdocs.github.io/telemetry
 
   - title: "Programmability"
     url: http://ydk.cisco.com/py/docs/
