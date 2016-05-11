@@ -14,7 +14,7 @@ feature_row:
     alt: "fully responsive"
     title: "Streaming Telemetry"
     excerpt: "Stream Operational and Configuration data off the box in Real-Time!  "
-    url: https://www.cisco.com/c/en/us/td/docs/iosxr/Telemetry/Telemetry-Config-Guide.html
+    url: https://xrdocs.github.io/telemetry
     btn_label: "Learn More"
   - image_path: api-icon.png
     alt: "fully responsive"
