@@ -35,6 +35,14 @@ new_line:
     excerpt: "RPMs for package Management, iPXE for zero touch Deployment and more!"
     url: https://www.cisco.com/c/en/us/td/docs/iosxr/ncs5500/system-setup/60x/b-ncs5500-system-setup-guide-60x.html
     btn_label: "Learn More!"
+  - image_path: cloud-scale-networking.png
+    alt: "fully responsive"
+    title: "Cloud Scale Networking"      
+    excerpt: "Architectures and features to support networking for Cloud-Scale Deployments!"
+    url: https://xrdocs.github.io/cloud-scale-networking
+    btn_label: "Learn More!"
+
+
 github:
   - excerpt: '{::nomarkdown}<iframe style="display: inline-block;" src="https://ghbtns.com/github-btn.html?user=mmistakes&repo=minimal-mistakes&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe> <iframe style="display: inline-block;" src="https://ghbtns.com/github-btn.html?user=mmistakes&repo=minimal-mistakes&type=fork&count=true&size=small" frameborder="0" scrolling="0" width="158px" height="30px"></iframe>{:/nomarkdown}'
 intro:
@@ -43,4 +51,4 @@ intro:
 
 {% include feature_row id="intro" type="center" %}
 {% include feature_row %}
-{% include feature_row id="new_line" type="center" %}
+{% include feature_row id="new_line"%}
