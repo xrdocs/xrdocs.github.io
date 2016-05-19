@@ -101,9 +101,6 @@ And then drop-in the gallery include in the body where you'd like it to appear.
 
 {% include gallery caption="This is a sample gallery with **Markdown support**." %}
 
-**More Gallery Goodness:** A [few more examples]({{ base_path }}{% post_url 2010-09-09-post-gallery %}) and [source code]({{ site.gh_repo }}/gh-pages/_posts/2010-09-09-post-gallery.md) can be seen in the demo site.
-{: .notice--info}
-
 ## Feature Row
 
 Designed to compliment the [`splash`]({{ base_path }}/docs/layouts/#splash-page-layout) page layout as a way of arranging and aligning "feature blocks" containing text or image.

@@ -1,6 +1,7 @@
 ---
 layout: splash
 permalink: /
+sitemap: true
 date:
 header:
   overlay_color: "#5e616c"

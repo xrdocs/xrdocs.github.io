@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+
+<meta charset="utf-8">
+
+
+
+<!-- begin SEO -->
+
+
+
+
+
+
+
+
+
+<title>JavaScript - @xrdocs</title>
+
+
+
+
+
+
+
+<meta property="og:locale" content="en-US">
+<meta property="og:site_name" content="@xrdocs">
+<meta property="og:title" content="JavaScript">
+
+
+  <link rel="canonical" href="http://localhost:4000/docs/javascript/">
+  <meta property="og:url" content="http://localhost:4000/docs/javascript/">
+
+
+
+  <meta property="og:description" content="Instructions for customizing and building the theme’s scripts.">
+
+
+
+  <meta name="twitter:site" content="@CiscoDevNet">
+  <meta name="twitter:title" content="JavaScript">
+  <meta name="twitter:description" content="Instructions for customizing and building the theme’s scripts.">
+  <meta name="twitter:url" content="http://localhost:4000/docs/javascript/">
+
+  
+    <meta name="twitter:card" content="summary">
+    
+      <meta name="twitter:image" content="http://localhost:4000/images/site-logo.png">
+    
+  
+
+  
+
+
+
+  
+
+  
+
+
+
+
+
+  <meta property="og:type" content="article">
+  <meta property="article:published_time" content="2016-05-19T05:38:28-04:00">
+  
+    <link rel="next" href="http://localhost:4000/docs/history/" title="History">
+  
+  
+    <link rel="prev" href="http://localhost:4000/docs/stylesheets/" title="Stylesheets">
+  
+
+
+
+  <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "Organization",
+      "url": "http://localhost:4000",
+      "logo": "http://localhost:4000/images/site-logo.png"
+    }
+  </script>
+
+
+
+  <script type="application/ld+json">
+    {
+      "@context" : "http://schema.org",
+      "@type" : "person",
+      "name" : "Cisco Systems Inc",
+      "url" : "http://localhost:4000",
+      "sameAs" : ["https://twitter.com/CiscoDevNet"]
+    }
+  </script>
+
+
+
+
+
+
+<!-- end SEO -->
+
+<link href="http://localhost:4000/feed.xml" type="application/atom+xml" rel="alternate" title="@xrdocs Feed">
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="google-site-verification" content="d7ND0ZOt_6iO7q2p0L2v_TdIbciUEeCFYN8ceT_fmRg">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="http://localhost:4000/assets/css/main.css">
+
+<meta http-equiv="cleartype" content="on">
+
+    
+<!-- start custom head snippets -->
+
+<link rel="apple-touch-icon-precomposed" sizes="57x57" href="http://localhost:4000/images/apple-touch-icon-57x57.png">
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://localhost:4000/images/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://localhost:4000/images/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://localhost:4000/images/apple-touch-icon-144x144.png">
+<link rel="apple-touch-icon-precomposed" sizes="60x60" href="http://localhost:4000/images/apple-touch-icon-60x60.png">
+<link rel="apple-touch-icon-precomposed" sizes="120x120" href="http://localhost:4000/images/apple-touch-icon-120x120.png">
+<link rel="apple-touch-icon-precomposed" sizes="76x76" href="http://localhost:4000/images/apple-touch-icon-76x76.png">
+<link rel="apple-touch-icon-precomposed" sizes="152x152" href="http://localhost:4000/images/apple-touch-icon-152x152.png">
+<link rel="icon" type="image/png" href="http://localhost:4000/images/favicon-196x196.png" sizes="196x196">
+<link rel="icon" type="image/png" href="http://localhost:4000/images/favicon-96x96.png" sizes="96x96">
+<link rel="icon" type="image/png" href="http://localhost:4000/images/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="http://localhost:4000/images/favicon-16x16.png" sizes="16x16">
+<link rel="icon" type="image/png" href="http://localhost:4000/images/favicon-128.png" sizes="128x128">
+<link rel="shortcut icon" href="http://localhost:4000/images/favicon_cisco.ico">
+<meta name="application-name" content=" ">
+<meta name="msapplication-TileColor" content="#FFFFFF">
+<meta name="msapplication-TileImage" content="http://localhost:4000/images/mstile-144x144.png">
+<meta name="msapplication-square70x70logo" content="http://localhost:4000/images/mstile-70x70.png">
+<meta name="msapplication-square150x150logo" content="http://localhost:4000/images/mstile-150x150.png">
+<meta name="msapplication-wide310x150logo" content="http://localhost:4000/images/mstile-310x150.png">
+<meta name="msapplication-square310x310logo" content="http://localhost:4000/images/mstile-310x310.png">
+
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        <button><div class="navicon"></div></button>
+        <ul class="visible-links">
+          <li class="masthead__menu-item masthead__menu-item--lg"><a href="http://localhost:4000/">@xrdocs</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="http://localhost:4000#">Get Started</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://xrdocs.github.io/application-hosting">App-Hosting</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://xrdocs.github.io/telemetry">Telemetry</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://developer.cisco.com/site/ydk/documents/overview/">Programmability</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://www.cisco.com/c/en/us/td/docs/iosxr/ncs5500/system-setup/60x/b-ncs5500-system-setup-guide-60x.html">Software-Management</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://xrdocs.github.io/cloud-scale-networking">Cloud-Scale Networking</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://developer.cisco.com/site/ios-xr/">Developer Page</a></li>
+          
+        </ul>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+    
+
+
+
+
+
+<div id="main" role="main">
+  
+
+
+  <div class="sidebar sticky">
+  
+  
+    
+      
+      
+      
+    
+    
+      
+
+
+<nav class="nav__list">
+  
+  <ul>
+    
+      <li>
+        
+          <span class="nav__sub-title">Getting Started</span>
+        
+
+        
+        <ul>
+          
+            
+            
+
+            
+            
+
+            <li><a href="http://localhost:4000/docs/quick-start-guide/" class="">Quick-Start Guide</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="http://localhost:4000/docs/structure/" class="">Structure</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="http://localhost:4000/docs/installation/" class="">Installation</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="http://localhost:4000/docs/upgrading/" class="">Upgrading</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Customization</span>
+        
+
+        
+        <ul>
+          
+            
+            
+
+            
+            
+
+            <li><a href="http://localhost:4000/docs/configuration/" class="">Configuration</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="http://localhost:4000/docs/navigation/" class="">Navigation</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="http://localhost:4000/docs/ui-text/" class="">UI Text</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="http://localhost:4000/docs/authors/" class="">Authors</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="http://localhost:4000/docs/layouts/" class="">Layouts</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Content</span>
+        
+
+        
+        <ul>
+          
+            
+            
+
+            
+            
+
+            <li><a href="http://localhost:4000/docs/posts/" class="">Working with Posts</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="http://localhost:4000/docs/pages/" class="">Working with Pages</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="http://localhost:4000/docs/collections/" class="">Working with Collections</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="http://localhost:4000/docs/helpers/" class="">Helpers</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="http://localhost:4000/docs/utility-classes/" class="">Utility Classes</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Extras</span>
+        
+
+        
+        <ul>
+          
+            
+            
+
+            
+            
+
+            <li><a href="http://localhost:4000/docs/stylesheets/" class="">Stylesheets</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="http://localhost:4000/docs/javascript/" class="active">JavaScript</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Meta</span>
+        
+
+        
+        <ul>
+          
+            
+            
+
+            
+            
+
+            <li><a href="http://localhost:4000/docs/history/" class="">History</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="http://localhost:4000/docs/contributing/" class="">Contributing</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="http://localhost:4000/docs/docs-2-2/" class="">Old 2.2 Docs</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="http://localhost:4000/docs/license/" class="">License</a></li>
+          
+        </ul>
+        
+      </li>
+    
+  </ul>
+</nav>
+
+
+
+    
+  
+  </div>
+
+
+  <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
+    <meta itemprop="headline" content="JavaScript">
+    <meta itemprop="description" content="Instructions for customizing and building the theme’s scripts.">
+    <meta itemprop="datePublished" content="May 19, 2016">
+    <meta itemprop="dateModified" content="April 13, 2016">
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 class="page__title" itemprop="headline">JavaScript
+</h1>
+          
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+<p>The theme’s <code class="highlighter-rouge">main.js</code> script is built from several vendor, jQuery plugins, and other scripts found in <code class="highlighter-rouge">/assets/js/</code>.</p>
+
+<div class="highlighter-rouge">
+<pre class="highlight"><code>minimal mistakes
+├── assets
+|  ├── js
+|  |  ├── plugins
+|  |  |   ├── jquery.fitvids.js            <span class="c"># fluid width video embeds</span>
+|  |  |   ├── jquery.greedy-navigation.js  <span class="c"># priority plus navigation</span>
+|  |  |   ├── jquery.magnific-popup.js     <span class="c"># responsive lightbox</span>
+|  |  |   ├── jquery.smooth-scroll.min.js  <span class="c"># make same-page links scroll smoothly</span>
+|  |  |   └── stickyfill.min.js            <span class="c"># `position: sticky` polyfill</span>
+|  |  ├── vendor
+|  |  |   └── jquery
+|  |  |       └── jquery-1.12.1.min.js
+|  |  ├── _main.js                         <span class="c"># jQuery plugin settings and other scripts</span>
+|  |  └── main.min.js                      <span class="c"># concatenated and minified scripts</span>
+</code></pre>
+</div>
+
+<h2 id="customizing">Customizing</h2>
+
+<p>To modify or add your own scripts include them in <code class="highlighter-rouge">/assets/js/_main.js</code> and then rebuild using <code class="highlighter-rouge">npm run build:js</code>. See below for more details.</p>
+
+<p>If you add additional scripts to <code class="highlighter-rouge">/assets/js/plugins/</code> and would like them concatenated with the others, be sure to update the <code class="highlighter-rouge">uglify</code> script in <code class="highlighter-rouge">package.json</code>. Same goes for scripts that you remove.</p>
+
+<hr>
+
+<h2 id="build-process">Build Process</h2>
+
+<p>In an effort to reduce dependencies a set of <a href="https://css-tricks.com/why-npm-scripts/"><strong>npm scripts</strong></a> are used to build <code class="highlighter-rouge">main.min.js</code> instead of task runners like <a href="http://gulpjs.com/">Gulp</a> or <a href="http://gruntjs.com/">Grunt</a>. If those tools are more your style then by all use them instead <img class="emoji" title=":wink:" alt=":wink:" src="https://assets.github.com/images/icons/emoji/unicode/1f609.png" height="20" width="20" align="absmiddle">.</p>
+
+<p>To get started:</p>
+
+<ol>
+  <li>Install <a href="http://nodejs.org/">Node.js</a>.</li>
+  <li>
+<code class="highlighter-rouge">cd</code> to the root of your project.</li>
+  <li>Install all of the dependencies by running <code class="highlighter-rouge">npm install</code>.</li>
+</ol>
+
+<p class="notice--warning"><strong>Note:</strong> If you upgraded from a previous version of the theme be sure you copied over <a href="https://github.com/xrdocs/xrdocs.github.io/master/package.json"><code class="highlighter-rouge">package.json</code></a> prior to running <code class="highlighter-rouge">npm install</code>.</p>
+
+<p>If all goes well, running <code class="highlighter-rouge">npm build:js</code> will compress/concatenate <code class="highlighter-rouge">_main.js</code> and all plugin scripts into <code class="highlighter-rouge">main.min.js</code>.</p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+
+
+        
+          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> Updated:</strong> <time datetime="2016-04-13">April 13, 2016</time></p>
+        
+      </footer>
+
+      
+
+      
+
+
+  <nav class="pagination">
+    
+      <a href="http://localhost:4000/docs/stylesheets/" class="pagination--pager" title="Stylesheets
+">Previous</a>
+    
+    
+      <a href="http://localhost:4000/docs/history/" class="pagination--pager" title="History
+">Next</a>
+    
+  </nav>
+
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+    <div class="page__footer">
+      <footer>
+        
+
+<div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+    
+      <li><a href="https://twitter.com/CiscoDevNet"><i class="fa fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+    
+    
+    
+      <li><a href="http://github.com/xrdocs"><i class="fa fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+    
+    
+    <li><a href="http://localhost:4000/feed.xml"><i class="fa fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">© 2016 Cisco Systems Inc. Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+      </footer>
+    </div>
+
+    <script src="http://localhost:4000/assets/js/main.min.js"></script>
+
+
+
+
+
+  </body>
+</html>
