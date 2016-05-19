@@ -32,7 +32,7 @@ main:
     url: https://xrdocs.github.io/telemetry
 
   - title: "Programmability"
-    url: https://developer.cisco.com/site/ydk/documents/overview/
+    url: http://ydk.cisco.com/py/docs/ 
 
   - title: "Software-Management"
     url: https://www.cisco.com/c/en/us/td/docs/iosxr/ncs5500/system-setup/60x/b-ncs5500-system-setup-guide-60x.html
