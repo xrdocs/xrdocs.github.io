@@ -9,4 +9,4 @@ tags:
   - iosxr
   - cisco
 ---
-A blog to explain why we decide to create @xrdocs.
+A blog to explain why we decided to create @xrdocs.
