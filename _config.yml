@@ -7,13 +7,13 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "@xrdocs"
+title                    : "@xrdocs!"
 title_separator          : "|"
 name                     : &name "Cisco Systems Inc"
 description              : &description "Documentation, Blogs and Tutorials for all things IOS-XR"
-url                      : https://xrdocs.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  :  # the subpath of your site, e.g. "/blog"
-gh_repo                  : "https://github.com/xrdocs/xrdocs.github.io"
+url                      : "https://xrdocs.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+baseurl                  : #"/cloud-scale-networking" # the subpath of your site, e.g. "/blog"
+gh_repo                  : "https://github.com/xrdocs/"
 teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -63,10 +63,10 @@ google_ad_slot           :
 # Site Author
 author:
   name             : "Cisco Web Team"
-  avatar           : "app-hosting-team.jpg"
-  bio              : "A Team of coders and network engineers determined to build the best network operating system for Web-Scale Service Providers" 
+  avatar           : "cisco-web-team.jpg"
+  bio              : "A Team of coders and network engineers determined to build the best network operating system for Web-Scale Service Providers"
   location         : "San jose, California"
-  email            : 
+  email            :
   uri              :
   bitbucket        :
   codepen          :
@@ -85,7 +85,7 @@ author:
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : 
+  twitter          :
   vine             :
   weibo            :
   xing             :
@@ -148,26 +148,17 @@ kramdown:
 
 # Collections
 collections:
-  docs:
-    output: true
-    permalink: /:collection/:path/
-  recipes:
-    output: true
-    permalink: /:collection/:path/
-  pets:
-    output: true
-    permalink: /:collection/:path/
-  portfolio:
+  blogs:
     output: true
     permalink: /:collection/:path/
 
 
 # Defaults
 defaults:
-  # _posts
+# _blogs
   - scope:
       path: ""
-      type: posts
+      type: blogs
     values:
       layout: single
       author_profile: true
@@ -175,6 +166,7 @@ defaults:
       comments: true
       share: true
       related: true
+      position: "top"
   # _pages
   - scope:
       path: ""
@@ -182,59 +174,19 @@ defaults:
     values:
       layout: single
       author_profile: true
-  # _docs
-  - scope:
-      path: ""
-      type: docs
-    values:
-      layout: single
-      read_time: false
-      author_profile: false
-      share: false
-      comments: false
-      sidebar:
-        nav: "docs"
-  # _recipes
-  - scope:
-      path: ""
-      type: recipes
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: true
-  # _pets
-  - scope:
-      path: ""
-      type: pets
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comment: true
-  # _portfolio
-  - scope:
-      path: ""
-      type: portfolio
-    values:
-      layout: single
-      author_profile: false
-      share: true
-
 
 # Outputting
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: America/New_York # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-
+timezone: Australia/ACT# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+future: true
 
 # Plugins
 gems:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
-  - jekyll-feed
   - jemoji
   - jekyll-redirect-from
 
@@ -243,7 +195,6 @@ whitelist:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
-  - jekyll-feed
   - jemoji
   - jekyll-redirect-from
 
@@ -276,6 +227,92 @@ tags:
 #     category: /categories/:name/
 #     tag: /tags/:name/
 
+
+prose:
+  siteurl: 'https://xrdocs.github.io'
+  relativeLinks: 'http://prose.github.io/starter/links.jsonp'
+  media: 'images'
+  ignore:
+    - index.md
+    - _config.yml
+    - /_layouts
+    - /_includes
+    - /_posts
+    - /_pages
+    - /_docs
+    - /_data/ui-test.yml
+    - /_drafts
+    - /_includes
+    - /_layouts
+    - /_pages
+    - /_pets
+    - /_portfolio
+    - /_posts
+    - /_recipes
+    - /assets
+    - /images
+    - /_data/ui-text.yml
+    - Gemfile
+    - Gemfile.lock
+    - LICENSE
+    - _config.dev.yml
+    - _config.yml
+    - package.json
+    - search_data.html
+    - .jekyll-metadata
+    - CHANGELOG.md
+    - README.md
+  metadata:
+    _blogs:
+      - name: "title"
+        field:
+            element: "text"
+            label: "Title"
+            value: ""
+      - name: "permalink"
+        field:
+            element: "text"
+            label: "Relative URL"
+            help: "provide a url relative to site url, for eg. /blogs/blog1"
+      - name: "author"
+        field:
+            element: "text"
+            label: "Author"
+      - name: "excerpt"
+        field:
+            element: "text"
+            help: "Brief description of the blog"
+            label: "Excerpt"
+      - name: "tags"
+        field:
+            element: "multiselect"
+            label: "Add Tags"
+            placeholder: "Choose Tags"
+            alterable: true
+            options:
+             - name: "Vagrant"
+               value: "vagrant"
+             - name: "IOS-XR"
+               value: "iosxr"
+             - name: "Cisco"
+               value: "cisco"
+             - name: "Linux"
+               value: "linux"
+      - name: "published"
+        field:
+            label: "Published"
+            element: "checkbox"
+            value: false
+      - name: "date"
+        field:
+            element: "text"
+            label: "Date"
+            value: "CURRENT_DATETIME"
+
+
+sass:
+  sass_dir: _sass
+  style: compressed
 
 # HTML Compression
 # - http://jch.penibelst.de/
