@@ -148,17 +148,17 @@ kramdown:
 
 # Collections
 collections:
-  blogs:
+  getting-started:
     output: true
     permalink: /:collection/:path/
 
 
 # Defaults
 defaults:
-# _blogs
+# _getting-started
   - scope:
       path: ""
-      type: blogs
+      type: getting-started 
     values:
       layout: single
       author_profile: true
@@ -264,7 +264,7 @@ prose:
     - README.md
     - feed.xml
   metadata:
-    _blogs:
+    _getting-started:
       - name: "title"
         field:
             element: "text"
@@ -274,7 +274,7 @@ prose:
         field:
             element: "text"
             label: "Relative URL"
-            help: "provide a url relative to site url, for eg. /blogs/blog1"
+            help: "provide a url relative to site url, for eg. /getting-started/blog1"
       - name: "author"
         field:
             element: "text"

@@ -1,6 +1,6 @@
 ---
 layout: archive
-permalink: /blogs/
+permalink: /getting-started/
 title: "Get Started with @xrdocs"
 author_profile: true
 author: "Cisco Web Team"
@@ -8,7 +8,7 @@ author: "Cisco Web Team"
 
 {% include base_path %}
 {% capture written_year %}'None'{% endcapture %}
-{% assign sorted = (site.blogs | sort: 'date') | reverse %}
+{% assign sorted = (site.getting-started | sort: 'date') | reverse %}
 {% for post in sorted %}
   {% capture year %}{{ post.date | date: '%B %Y' }}{% endcapture %}
   {% if year != written_year %}
