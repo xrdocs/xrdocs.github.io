@@ -8,7 +8,7 @@
 # Site Settings
 locale                   : "en-US"
 title                    : "@xrdocs"
-title_separator          : "-"
+title_separator          : "|"
 name                     : &name "Cisco Systems Inc"
 description              : &description "Documentation, Blogs and Tutorials for all things IOS-XR"
 url                      : http://localhost:4000 #https://xrdocs.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
