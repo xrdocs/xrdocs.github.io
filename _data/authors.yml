@@ -2,7 +2,7 @@
 
 Akshat Sharma:
   name        : "Akshat Sharma"
-  uri         : "https://github.com/akshshar"
+  github      : "akshshar"
   email       : "akshshar@cisco.com"
   bio         : "Evangelist, tinkerer, dog-lover. Oh, and Technical Marketing Engineer, Web Solutions, Cisco."
   avatar      : "akshat.jpg"
@@ -12,7 +12,33 @@ Akshat Sharma:
 Cisco Web Team:
   name        : "Cisco Web Team"
   uri         : "https://developer.cisco.com/site/ios-xr"
-  github      : "https://github.com/ios-xr"
+  github      : "ios-xr"
   bio         : "A Team of coders and network engineers determined to build the best network operating system for Web-Scale Service Providers."
-  avatar      : "app-hosting-team.jpg"
+  avatar      : "cisco-web-team.jpg"
   twitter     : "CiscoDevNet"
+
+Jose Palafox:
+  name        : "Jose Palafox"
+  github      : "josepalafox"
+  email       : "jopalafo@cisco.com"
+  twitter     : "cruzfox"
+  bio         : "Business Development Manager, Web Solutions, Cisco"
+  avatar      : "josep_bio.jpeg"
+
+
+Shelly Cadora:
+  name        : "Shelly Cadora"
+  email       : "scadora@cisco.com"
+  bio         : "Technical Marketing Engineer, Cisco"
+  avatar      : "scadora16.jpeg"
+  twitter     : "scadora"
+  github      : "scadora"
+
+
+Jose Liste:
+  name        : "Jose Liste"
+  github      : "joseliste"
+  email       : "jliste@cisco.com"
+  avatar      : "jliste_bio.jpg"
+  bio         : "A (blue collar) Technical Marketing Engineer, Web Solutions, Cisco."
+  twitter     : "jliste2002"

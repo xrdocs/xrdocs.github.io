@@ -22,8 +22,7 @@ foo:
 # main links links
 main:
   - title: "Get Started"
-    url: "#"
-#    url: /docs/quick-start-guide
+    url: "/blogs"
 
   - title: "App-Hosting"
     url: https://xrdocs.github.io/application-hosting
