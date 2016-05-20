@@ -262,6 +262,7 @@ prose:
     - .jekyll-metadata
     - CHANGELOG.md
     - README.md
+    - feed.xml
   metadata:
     _blogs:
       - name: "title"
