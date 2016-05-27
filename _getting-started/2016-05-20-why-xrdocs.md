@@ -12,7 +12,6 @@ tags:
 
 Welcome to @xrdocs!
 
-This tutorial is meant to get a new blogger/technical-writer, unfamiliar with @xrdocs, up and running in minutes.
 
 Cisco IOS-XR 6.0+ brings with it some key operational enhancements in the domains of monitoring, automation, application-hosting and software management. However, these enhancements require the right tools to aid their consumption. 
 
