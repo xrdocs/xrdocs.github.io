@@ -8,12 +8,7 @@ author: "Cisco Web Team"
 
 {% include base_path %}
 {% capture written_year %}'None'{% endcapture %}
-{% assign sorted = (site.getting-started | sort: 'date') | reverse %}
+{% assign sorted = (site.getting-started | sort: 'date') %}
 {% for post in sorted %}
-  {% capture year %}{{ post.date | date: '%B %Y' }}{% endcapture %}
-  {% if year != written_year %}
-    <h2 id="{{ year | slugify }}" class="archive__subtitle">{{ year }}</h2>
-    {% capture written_year %}{{ year }}{% endcapture %}
-  {% endif %}
   {% include archive-techdocs.html %}
 {% endfor %}
