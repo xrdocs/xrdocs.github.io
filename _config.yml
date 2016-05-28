@@ -151,7 +151,10 @@ collections:
   getting-started:
     output: true
     permalink: /:collection/:path/
-
+  helpdocs:
+    output: true
+    permalink: /:collection/:path/
+  
 
 # Defaults
 defaults:
@@ -167,7 +170,19 @@ defaults:
       share: true
       related: true
       position: "top"
-  # _pages
+# _helpdocs
+  - scope:
+      path: ""
+      type: helpdocs 
+    values:
+      layout: single
+      author_profile: true
+      read_time: false
+      comments: true
+      share: true
+      related: true
+      position: "top"
+# _pages
   - scope:
       path: ""
       type: pages

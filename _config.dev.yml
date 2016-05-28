@@ -11,7 +11,7 @@ title                    : "@xrdocs!"
 title_separator          : "|"
 name                     : &name "Cisco Systems Inc"
 description              : &description "Documentation, Blogs and Tutorials for all things IOS-XR"
-url                      : "http://localhost:4000" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : http://localhost:4000 #"https://xrdocs.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : #"/cloud-scale-networking" # the subpath of your site, e.g. "/blog"
 gh_repo                  : "https://github.com/xrdocs/"
 teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
@@ -151,7 +151,10 @@ collections:
   getting-started:
     output: true
     permalink: /:collection/:path/
-
+  helpdocs:
+    output: true
+    permalink: /:collection/:path/
+  
 
 # Defaults
 defaults:
@@ -167,7 +170,19 @@ defaults:
       share: true
       related: true
       position: "top"
-  # _pages
+# _helpdocs
+  - scope:
+      path: ""
+      type: helpdocs 
+    values:
+      layout: single
+      author_profile: true
+      read_time: false
+      comments: true
+      share: true
+      related: true
+      position: "top"
+# _pages
   - scope:
       path: ""
       type: pages

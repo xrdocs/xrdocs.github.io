@@ -6,7 +6,7 @@
   {% capture teaser %}{{ site.teaser }}{% endcapture %}
 {% endif %}
 
-{% if post.position == "top" %}
+{% if post.position == "hidden" %}
 <div class="{{ include.type | default: "list" }}__item">
   {% if post.link %}
     <a href="{{ post.link }}" target="_blank">
