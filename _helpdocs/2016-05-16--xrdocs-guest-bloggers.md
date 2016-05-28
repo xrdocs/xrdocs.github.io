@@ -13,14 +13,14 @@ position: hidden
 {% include toc icon="table" title="Guest Blogging on @xrdocs" %}
 
 {% include base_path %}
-[Back to @xrdocs How-To]({{ base_path }}/help/xrdocs-how-to)
+[Back to @xrdocs How-To]({{ base_path }}/helpdocs/xrdocs-how-to)
 
 ---
 
 
 ## First Steps:
 
-As we've already explained in the [xrdocs How-To guide/First Steps]({{ base_path }}/help/xrdocs-how-to#first-steps) section, 
+As we've already explained in the [xrdocs How-To guide/First Steps]({{ base_path }}/helpdocs/xrdocs-how-to#first-steps) section, 
 
 >
 Request access to the [xrdocs/xrdocs-images](https://github.com/xrdocs/xrdocs-images/tree/gh-pages) images repository and set up your author profile by sending an email to the [xrdocs-team](mailto:xrdocs-team@cisco.com) with the following data:  
