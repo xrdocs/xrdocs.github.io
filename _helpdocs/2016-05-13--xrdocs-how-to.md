@@ -13,6 +13,8 @@ position: hidden
 
 {% include toc icon="table" title="@xrdocs How-To" %}
 
+Holla!
+
 ## Introduction to @xrdocs
 
 Welcome to @xrdocs!
