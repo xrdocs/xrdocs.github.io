@@ -9,6 +9,7 @@ tags:
   - iosxr
   - cisco
 position: hidden
+sitemap: false
 ---
 
 {% include toc icon="table" title="@xrdocs How-To" %}
