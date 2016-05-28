@@ -13,7 +13,7 @@ tags:
 {% include toc icon="table" title="Formatting Tips for @xrdocs" %}
 
 {% include base_path %}
-[Back to @xrdocs How-To]({{ base_path }}/help/xrdocs-how-to)
+[Back to @xrdocs How-To]({{ base_path }}/helpdocs/xrdocs-how-to)
 
 
 This Tutorial gives a quick walkthrough of some of the functionalities available with @xrdocs.
@@ -26,11 +26,11 @@ Include and use the "base_path" variable so that you only have to use relative U
 For example:  
 
 {% include base_path %}
-Link back to the xrdocs Tutorial:  [@xrdocs How-To]({{ base_path }}/help/xrdocs-how-to)
+Link back to the xrdocs Tutorial:  [@xrdocs How-To]({{ base_path }}/helpdocs/xrdocs-how-to)
 
 ```
 {% raw %}{% include base_path %}
-Link back to the xrdocs Tutorial: [@xrdocs How-To]({{ base_path }}/help/xrdocs-how-to){% endraw %}
+Link back to the xrdocs Tutorial: [@xrdocs How-To]({{ base_path }}/helpdocs/xrdocs-how-to){% endraw %}
 
 ```
 
