@@ -1,3 +1,5 @@
+{% include base_path %}
+
 # example navigation
 foo:
   - title: "Parent Link 1"
@@ -22,7 +24,7 @@ foo:
 # main links links
 main:
   - title: "Get Started"
-    url: "/getting-started"
+    url: "{{ base_path }}/getting-started"
 
   - title: "App-Hosting"
     url: https://xrdocs.github.io/application-hosting
