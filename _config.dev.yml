@@ -182,6 +182,7 @@ defaults:
       share: true
       related: true
       position: "top"
+      sitemap: false
 # _pages
   - scope:
       path: ""
@@ -324,6 +325,52 @@ prose:
             element: "text"
             label: "Date"
             value: "CURRENT_DATETIME"
+    _helpdocs:
+      - name: "title"
+        field:
+            element: "text"
+            label: "Title"
+            value: ""
+      - name: "permalink"
+        field:
+            element: "text"
+            label: "Relative URL"
+            help: "provide a url relative to site url, for eg. /helpdocs/docname"
+      - name: "author"
+        field:
+            element: "text"
+            label: "Author"
+      - name: "excerpt"
+        field:
+            element: "text"
+            help: "Brief description of the helpdoc"
+            label: "Excerpt"
+      - name: "tags"
+        field:
+            element: "multiselect"
+            label: "Add Tags"
+            placeholder: "Choose Tags"
+            alterable: true
+            options:
+             - name: "Vagrant"
+               value: "vagrant"
+             - name: "IOS-XR"
+               value: "iosxr"
+             - name: "Cisco"
+               value: "cisco"
+             - name: "Linux"
+               value: "linux"
+      - name: "published"
+        field:
+            label: "Published"
+            element: "checkbox"
+            value: false
+      - name: "date"
+        field:
+            element: "text"
+            label: "Date"
+            value: "CURRENT_DATETIME"
+
 
 
 sass:
