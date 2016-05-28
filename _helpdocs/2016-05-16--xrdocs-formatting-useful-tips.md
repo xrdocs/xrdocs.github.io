@@ -9,6 +9,7 @@ position: hidden
 tags: 
   - iosxr
   - cisco
+sitemap: false
 ---
 {% include toc icon="table" title="Formatting Tips for @xrdocs" %}
 
