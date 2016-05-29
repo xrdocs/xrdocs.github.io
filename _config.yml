@@ -7,10 +7,10 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "xrdocs | IOS XR | Documentation | Cisco"
+title                    : "Cisco IOS XR Documentation @xrdocs"
 title_separator          : "|"
 name                     : &name "Cisco Systems Inc"
-description              : &description "Documentation, Blogs and Tutorials for all things IOS-XR"
+description              : &description "Documentation, Blogs and Tutorials for all things IOS-XR "
 url                      : "https://xrdocs.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : #"/cloud-scale-networking" # the subpath of your site, e.g. "/blog"
 gh_repo                  : "https://github.com/xrdocs/"
