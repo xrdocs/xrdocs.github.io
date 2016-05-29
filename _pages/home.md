@@ -1,5 +1,6 @@
 ---
 layout: splash
+title: "@xrdocs"
 permalink: /
 sitemap: true
 date:
