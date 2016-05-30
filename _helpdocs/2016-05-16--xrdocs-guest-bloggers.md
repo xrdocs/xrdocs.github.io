@@ -58,20 +58,25 @@ Without going into details of how the github organization (xrdocs) and its repos
 
 [appgit]: https://github.com/xrdocs/application-hosting
 [telgit]: https://github.com/xrdocs/application-hosting
+[csngit]: https://github.com/xrdocs/cloud-scale-networking
 [xrimagesgit]: https://github.com/xrdocs/xrdocs-images
 
 [apphome]:  https://xrdocs.github.io/application-hosting
 [telhome]:  https://xrdocs.github.io/telemetry
+[csnhome]:  https://xrdocs.github.io/cloud-scale-networking
 [xrimagehome]: https://xrdocs.github.io/xrdocs-images
 
 [aksgit]: https://github.com/akshshar
 [shellygit]: https://github.com/scadora
+[jlistegit]: https://github.com/joseliste 
+
 
 
 |  Github Repository        | Website Home                         |Owner           |       Guest Write Access| 
 | ------------------------- | -------------------------------------| ---------------------------|-------------
 | [xrdocs/application-hosting][appgit]| [Apphosting Home][apphome] |[Akshat Sharma][aksgit]     |    No       |
 | [xrdocs/telemetry][telgit]          | [Telemetry Home][telhome]   |[Shelly Cadora][shellygit] |    No       |
+| [xrdocs/cloud-scale-networking][csngit]| [Cloud-Scale Networking Home][csnhome]   |[Jose Liste][jlistegit] |    No       |
 | [xrdocs/xrdocs-images][xrimagesgit] | [Xrdocs-images Home][xrimagehome] |Cisco Web TMEs       |    Yes      |   
 
 [xrdocs/xrdocs-images](https://github.com/xrdocs/xrdocs-images/tree/gh-pages)  is the only repository that Guest bloggers will have write access to. Think of this as your image repository in the cloud.   
