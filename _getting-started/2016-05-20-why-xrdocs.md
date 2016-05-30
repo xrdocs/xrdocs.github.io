@@ -4,9 +4,6 @@ date: "2016-05-20 10:05 -0700"
 title: "Why @xrdocs?"
 permalink: "/getting-started/why-@xrdocs"
 author: Jose Palafox
-tags: 
-  - iosxr
-  - cisco
 ---
 
 Welcome to @xrdocs!
@@ -37,5 +34,3 @@ The choice was simple: If you've followed the tremendous success of github-pages
 
 So here we are, @xrdocs is up and running at <https://xrdocs.github.io> with links to domains of interest.
 {: .notice--success}
-
-
