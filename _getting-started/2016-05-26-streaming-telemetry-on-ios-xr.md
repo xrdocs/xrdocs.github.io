@@ -9,6 +9,5 @@ tags:
   - iosxr
   - cisco
   - telemetry
-position: hidden
 ---
 
