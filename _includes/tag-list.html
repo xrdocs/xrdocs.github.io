@@ -1,5 +1,7 @@
 {% include base_path %}
 
+{% assign tags_path = "/tags/" %}
+{% assign path_type = "#" %}
 {% if page.tags[0] %}
   {% comment %}
     <!-- Sort alphabetically regardless of case e.g. a B c d E -->
@@ -14,8 +16,8 @@
     {% for hash in tag_hashes %}
       {% assign keyValue = hash | split: '#' %}
       {% capture tag_word %}{{ keyValue[1] | strip_newlines }}{% endcapture %}
-      <a href="{{ base_path }}{{ tag_word | slugify | prepend: path_type | prepend: site.tags.path }}" class="page__taxonomy-item" rel="tag">{{ tag_word }}</a>{% unless forloop.last %}<span class="sep">, </span>{% endunless %}
+      <a href="{{ base_path }}{{ tag_word | slugify | prepend: path_type | prepend: tags_path }}" class="page__taxonomy-item" rel="tag">{{ tag_word }}</a>{% unless forloop.last %}<span class="sep">, </span>{% endunless %}
     {% endfor %}
     </span>
   </p>
-{% endif %}  
+{% endif %}
