@@ -1,5 +1,9 @@
 {% include base_path %}
 
+{% if site.tags.type and page.tags[0] %}
+  {% include tag-list.html %}
+{% endif %}
+
 <div class="page__comments">
   <h4 class="page__comments-title">{{ site.data.ui-text[site.locale].comments_label }}</h4>
   {% case site.comments.provider %}
