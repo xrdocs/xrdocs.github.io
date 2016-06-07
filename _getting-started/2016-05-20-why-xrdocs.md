@@ -15,8 +15,7 @@ XR 6.0.0 shifts IOS-XR to a 64-bit linux operating system. Now, Cisco's core rou
 XRdocs is one critical step in our journey. Here you’ll find tools that enable developer work flows, cleaner, user focused documentation and demos, more robust usability guides, a variety of internal and external tools and integrations. 
 
 Virtual Platform
-* * * 
-
+------
 First you’ll find a virtual edition of IOS-XR 6.1.1. You’ll notice this is ahead of the public release of the product. We’re releasing early to enable our community to integrate their automation and monitoring tools with XR prior to the release of the product.
 
 Releases of the virtual platform should be made frequently as new bugs are fixed and features are added until the release of the software for the hardware platforms. This will allow our community to more quickly deploy and manage our software and take a test drive of new features like Streaming Telemetry.
