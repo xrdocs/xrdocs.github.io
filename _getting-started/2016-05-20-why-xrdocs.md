@@ -9,9 +9,6 @@ tags:
   - cisco
 ---
 
-Welcome to @xrdocs!
-
-
 
 XR 6.0.0 shifts IOS-XR to a 64-bit linux operating system. Now, Cisco's core routing products can join the vibrant Linux ecosystem. We’re committed to engaging the community in various open source projects and working in a collaborative model with our partners and customers. XRDocs is one critical step in our journey. Here you’ll find tools that enable developer work flows, cleaner, user focused documentation and demos, more robust usability guides, a variety of internal and external tools and integrations. 
 
