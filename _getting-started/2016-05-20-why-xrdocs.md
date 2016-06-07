@@ -22,9 +22,14 @@ Releases of the virtual platform should be made frequently as new bugs are fixed
 
 The virtual platform is packaged as a Vagrant Box for Virtual Box, and as an ISO. We’re exploring other formats, too. The tools we’ve used to transform the base ISO to Vagrant/Virtual Box are also being released to transparently show how we’re transforming the image. Our goal is to distribute the right end artifact but should you want to make it in house, or change and improve the workflow you can.
 
+YDK
+-----
 You’ll also see the Yang Developer Kit (YDK). Again we’ve released the tools needed to generate a python library based on Yang models supported by the box as well as the libraries themselves. The tool is open source and pluggable and in the future could produce other libraries as needed by the community.
 
-In addition to these tools you’ll find useful integrations with leading configuration management tools, and soon, plugins for common monitoring and alerting tools.
+Linux Tools
+------
+
+In addition to these tools you’ll find useful integrations with leading configuration management tools, and soon, plugins for common monitoring and alerting tools. 
 
 In addition to getting a virtual edition of XR, you’ll notice the licensing terms are simple and meant to support a CI/CD workflow in the future. In the future hope to see customers working with us to define the provisioning syntax for a tool like Terraform to generate representative test topologies, execute a configuration management tool like Puppet, Ansible, or Chef to configure the test environment, and then execute tests using tools like Robot, Behave, or ServerSpec. 
 
