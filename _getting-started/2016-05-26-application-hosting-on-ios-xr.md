@@ -1,16 +1,16 @@
 ---
-published: true
-date: "2016-05-26 18:39 -0700"
-title: "Application-Hosting on IOS-XR"
-permalink: "/getting-started/application-hosting"
+published: false
+date: '2016-05-26 18:39 -0700'
+title: Application-Hosting on IOS-XR
+permalink: /getting-started/application-hosting
 author: Akshat Sharma
-excerpt: "A brief description of the Application Hosting Infrastructure on IOS-XR"
-tags: 
+excerpt: A brief description of the Application Hosting Infrastructure on IOS-XR
+tags:
   - iosxr
   - cisco
   - linux
   - application
-  - "application-hosting"
+  - application-hosting
 ---
 ## A New Post
 
