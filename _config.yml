@@ -36,7 +36,7 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : &twitter "CiscoDevNet"
+  username               : &twitter "xrdocs"
 facebook:
   username               :
   app_id                 :
@@ -48,7 +48,7 @@ social:
   type                   : # Person or Organization (defaults to Person)
   name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
-    - "https://twitter.com/CiscoDevNet"
+    - "https://twitter.com/xrdocs"
 
 # Analytics
 analytics:
