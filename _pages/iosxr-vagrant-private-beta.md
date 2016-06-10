@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: archive
 permalink: /iosxr-vagrant-beta/
 share: false
 comments: false
