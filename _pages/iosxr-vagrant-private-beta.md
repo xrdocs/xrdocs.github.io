@@ -1,7 +1,6 @@
 ---
-layout: archive
+layout: single
 permalink: /iosxr-vagrant-beta/
-author_profile: true
 ---
 
 
