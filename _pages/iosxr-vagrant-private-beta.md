@@ -1,6 +1,9 @@
 ---
-layout: archive
+layout: single
 permalink: /iosxr-vagrant-beta/
+share: false
+comments: false
+tags: false
 ---
 
 Fill out the fields below and we'll get back to you very soon with a link to the IOS-XR Vagant box.
