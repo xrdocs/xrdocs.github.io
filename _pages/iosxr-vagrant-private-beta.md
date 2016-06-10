@@ -1,7 +1,6 @@
 ---
 layout: archive
 permalink: /iosxr-vagrant-beta/
-title: "IOS-XR Vagrant Private-Beta"
 author_profile: true
 ---
 
