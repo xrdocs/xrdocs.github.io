@@ -11,7 +11,6 @@ tags: false
   
 Fill out the fields below and we'll get back to you with a link to the
 IOS-XR Vagrant box. 
-
 **Thank you for your participation!**
 
 <div style="width: 700px; height: 800px; overflow: hidden">
