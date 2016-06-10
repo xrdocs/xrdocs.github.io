@@ -7,8 +7,10 @@ comments: false
 tags: false
 ---
 
-**Fill out the fields below and we'll get back to you with a link to the**
-**IOS-XR Vagrant box.** 
+  
+  
+Fill out the fields below and we'll get back to you with a link to the
+IOS-XR Vagrant box. 
 
 **Thank you for your participation!**
 
