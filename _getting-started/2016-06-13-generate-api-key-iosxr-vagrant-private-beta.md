@@ -21,7 +21,7 @@ Follow along and we'll get you going:
 
    <http://tools.cisco.com/RPF/register/register.do>
    
-   **You will need to activate your account, once you receive an Email from Cisco, post sign-up. Without the activation, your login will fail.**
+   **You will need to activate your account once you receive an Email from Cisco, post sign-up. Without the activation, your subsequent login will fail.**
    {: .notice--warning}
    
 *  Request Access to the Vagrant box by filling up the form here:
