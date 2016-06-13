@@ -21,7 +21,7 @@ Follow along and we'll get you going:
 
    <http://tools.cisco.com/RPF/register/register.do>
    
-   **You Will need to activate your account, once you receive an Email from Cisco, post sign-up. Without the activation, your login will fail.**
+   **You will need to activate your account, once you receive an Email from Cisco, post sign-up. Without the activation, your login will fail.**
    {: .notice--warning}
    
 *  Request Access to the Vagrant box by filling up the form here:
@@ -36,7 +36,7 @@ Follow along and we'll get you going:
 
    Click on SSO login as shown below:
 
-  ![sso-login](https://xrdocs.github.io/xrdocs-images/assets/tutorial-images/sso-login.png){: .align-center}
+  ![artifactory-login](https://xrdocs.github.io/xrdocs-images/assets/tutorial-images/artifactory-login.png){: .align-center}
   {: .notice}
   
 
