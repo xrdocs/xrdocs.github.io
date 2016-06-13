@@ -38,4 +38,24 @@ Follow along and we'll get you going:
 
 
 
-*  Now login using your CCO ID
+*  you will be redirected to the page below. Login using your CCO ID
+
+
+
+*  Once you're in, Click on your user-name on the top right to open up the profile settings:
+
+
+*  Now generate an API-KEY as shown below:
+
+
+*  Click on  "Copy key to clipboard" to copy your API-KEY for browser-free operation!
+
+
+
+**Now head over to the   
+[IOS-XR Vagrant Quick Start guide]({{ site.url }}/application-hosting/tutorials/iosxr-vagrant-quickstart)   
+to use this API-KEY and download the box.**
+{: .notice--success}
+
+
+
