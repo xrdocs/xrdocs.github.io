@@ -36,6 +36,8 @@ Follow along and we'll get you going:
 
    Click on SSO login as shown below:
 
+  ![sso-login](https://xrdocs.github.io/xrdocs-images/assets/tutorial-images/sso-login.png)
+
 
 
 *  you will be redirected to the page below. Login using your CCO ID
