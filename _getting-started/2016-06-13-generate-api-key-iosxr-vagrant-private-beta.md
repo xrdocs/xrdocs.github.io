@@ -29,6 +29,7 @@ Follow along and we'll get you going:
    <{{ site.url }}/getting-started/iosxr-vagrant-beta>
    
    **You will get a confirmation email from us stating that you have been granted access**
+   {: .notice--info}
    
 *  Once you have access, browse to the artifactory that houses the vagrant box, here:
 
