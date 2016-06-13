@@ -15,3 +15,6 @@ Follow along and we'll get you going:
 *  To begin, make sure you have a CCO-ID. If you don't have one, create it here:  
 
    <http://tools.cisco.com/RPF/register/register.do>
+   
+   **You might need to confirm your account, once you receive an Email from Cisco post sign-up**
+   {: .notice--warning}
