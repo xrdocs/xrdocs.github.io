@@ -49,7 +49,8 @@ Follow along and we'll get you going:
   ![open-artifactory-profile](https://xrdocs.github.io/xrdocs-images/assets/tutorial-images/browse-to-user-profile.png){: .align-center}
   {: .notice}
 
-*  Now generate an API-KEY as shown below:
+*  Now generate an API-KEY as shown below:  
+
   ![generate-api-key](https://xrdocs.github.io/xrdocs-images/assets/tutorial-images/generate-key.png){: .align-center}
   {: .notice}
 
