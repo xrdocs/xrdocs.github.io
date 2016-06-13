@@ -64,7 +64,7 @@ Follow along and we'll get you going:
 
 **Now head over to the   
 [IOS-XR Vagrant Quick Start guide]({{ site.url }}/application-hosting/tutorials/iosxr-vagrant-quickstart)   
-to use this API-KEY and download the box.**
+to learn how to use this API-KEY and download the box.**
 {: .notice--success}
 
 
