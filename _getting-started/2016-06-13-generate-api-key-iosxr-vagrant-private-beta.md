@@ -48,11 +48,11 @@ Follow along and we'll get you going:
   ![open-artifactory-profile](https://xrdocs.github.io/xrdocs-images/assets/tutorial-images/browse-to-user-profile.png)
 
 *  Now generate an API-KEY as shown below:
-
+  ![generate-api-key](https://xrdocs.github.io/xrdocs-images/assets/tutorial-images/generate-key.png)
 
 *  Click on  "Copy key to clipboard" to copy your API-KEY for browser-free operation!
-
-
+  
+  ![copy-api-key](https://xrdocs.github.io/xrdocs-images/assets/tutorial-images/copy-api-key.png)
 
 **Now head over to the   
 [IOS-XR Vagrant Quick Start guide]({{ site.url }}/application-hosting/tutorials/iosxr-vagrant-quickstart)   
