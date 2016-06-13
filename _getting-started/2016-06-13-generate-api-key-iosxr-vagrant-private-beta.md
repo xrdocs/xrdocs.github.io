@@ -36,29 +36,27 @@ Follow along and we'll get you going:
 
    Click on SSO login as shown below:
 
-  ![sso-login](https://xrdocs.github.io/xrdocs-images/assets/tutorial-images/sso-login.png)
-  {: .notice}{: .align-center}
+  ![sso-login](https://xrdocs.github.io/xrdocs-images/assets/tutorial-images/sso-login.png){: .align-center}
+  {: .notice}
   
-
-
 
 *  you will be redirected to the page below. Login using your CCO ID
 
-  ![sso-login](https://xrdocs.github.io/xrdocs-images/assets/tutorial-images/sso-login.png)
-  {: .notice}{: .align-center}
+  ![sso-login](https://xrdocs.github.io/xrdocs-images/assets/tutorial-images/sso-login.png){: .align-center}
+  {: .notice}
 
 *  Once you're in, Click on your user-name on the top right to open up the profile settings:
-  ![open-artifactory-profile](https://xrdocs.github.io/xrdocs-images/assets/tutorial-images/browse-to-user-profile.png)
-  {: .notice}{: .align-center}
+  ![open-artifactory-profile](https://xrdocs.github.io/xrdocs-images/assets/tutorial-images/browse-to-user-profile.png){: .align-center}
+  {: .notice}
 
 *  Now generate an API-KEY as shown below:
-  ![generate-api-key](https://xrdocs.github.io/xrdocs-images/assets/tutorial-images/generate-key.png)
-  {: .notice}{: .align-center}
+  ![generate-api-key](https://xrdocs.github.io/xrdocs-images/assets/tutorial-images/generate-key.png){: .align-center}
+  {: .notice}
 
 *  Click on  "Copy key to clipboard" to copy your API-KEY for browser-free operation!
   
-  ![copy-api-key](https://xrdocs.github.io/xrdocs-images/assets/tutorial-images/copy-api-key.png)
-  {: .notice}{: .align-center}
+  ![copy-api-key](https://xrdocs.github.io/xrdocs-images/assets/tutorial-images/copy-api-key.png){: .align-center}
+  {: .notice}
 
 
 **Now head over to the   
