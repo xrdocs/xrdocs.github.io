@@ -42,10 +42,10 @@ Follow along and we'll get you going:
 
 *  you will be redirected to the page below. Login using your CCO ID
 
-
+  ![sso-login](https://xrdocs.github.io/xrdocs-images/assets/tutorial-images/sso-login.png)
 
 *  Once you're in, Click on your user-name on the top right to open up the profile settings:
-
+  ![open-artifactory-profile](https://xrdocs.github.io/xrdocs-images/assets/tutorial-images/browse-to-user-profile.png)
 
 *  Now generate an API-KEY as shown below:
 
