@@ -10,8 +10,10 @@ author: Cisco Web Team
      
 Fill out the fields below and we'll get back to you with a link to the
 IOS-XR Vagrant box.  
-**Thank you for your participation!**
+**Thank you for your participation!**   
 
+
+>
 **You will need a CCO ID to download the box! This is not optional. If you don't have one, please click here to register:  [Create CCO ID](tools.cisco.com/RPF/register/register.do)**
 
 
