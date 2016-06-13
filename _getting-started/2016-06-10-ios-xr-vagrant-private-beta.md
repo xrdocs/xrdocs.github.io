@@ -21,5 +21,5 @@ Make sure you activate your account once you receive an email, post registration
 
 
 <div style="width: 700px; height: 800px; overflow: hidden">
-<iframe src="https://docs.google.com/forms/d/1BFB-YEhllLuUQqPCxH5Z9UljtkyKLxyMG7lPmYEXReg/viewform?embedded=true" width="760" height="900" frameborder="0" marginheight="0" marginwidth="0" style="position: relative; top: -100px; left: -20px">Loading...</iframe>
+<iframe src="https://docs.google.com/forms/d/1BFB-YEhllLuUQqPCxH5Z9UljtkyKLxyMG7lPmYEXReg/viewform?embedded=true" width="760" height="900" frameborder="0" marginheight="0" marginwidth="0" style="position: relative; top: -100px; left: -20px; bottom: -100px">Loading...</iframe>
 </div>
