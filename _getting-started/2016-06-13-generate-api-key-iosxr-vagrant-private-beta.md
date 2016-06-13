@@ -7,6 +7,8 @@ excerpt: Steps to download the private-beta IOS-XR Vagrant box
 permalink: /getting-started/steps-download-iosxr-vagrant
 ---
 
+{% include base_path %}
+
 Since the IOS-XR Vagrant box is currently under Private-Beta, there is a slightly more involved/secure process for downloading the vagrant boxes.  
 
 **This is just a one time process. Once you have your API-KEY, you can start downloading boxes without going through this again**
@@ -22,12 +24,16 @@ Follow along and we'll get you going:
    **You might need to confirm your account, once you receive an Email from Cisco post sign-up**
    {: .notice--warning}
    
+*  Request Access to the Vagrant box by filling up the form here:
+
+   <{{ site.url }}/getting-started/iosxr-vagrant-beta>
+   
 *  Now browse to the artifactory that houses the vagrant box, here:
 
-<http://devhub.cisco.com/artifactory/webapp/#/login>
+   <http://devhub.cisco.com/artifactory/webapp/#/login>
 
-Click on SSO login as shown below:
+   Click on SSO login as shown below:
 
 
 
-*  
+*  Now login using your CCO ID:
