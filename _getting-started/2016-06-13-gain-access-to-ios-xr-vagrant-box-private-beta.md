@@ -12,6 +12,6 @@ Since the IOS-XR Vagrant box is currently under Private-Beta, there is a slightl
 
 Follow along and we'll get you going:  
 
-*  To begin, make sure you have a CCO-ID. If you don't have one, create it here:
+*  To begin, make sure you have a CCO-ID. If you don't have one, create it here:  
 
-   <tools.cisco.com/RPF/register/register.do>
+<tools.cisco.com/RPF/register/register.do>
