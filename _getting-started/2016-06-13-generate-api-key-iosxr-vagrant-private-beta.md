@@ -45,7 +45,8 @@ Follow along and we'll get you going:
   ![sso-login](https://xrdocs.github.io/xrdocs-images/assets/tutorial-images/sso-login.png){: .align-center}
   {: .notice}
 
-*  Once you're in, Click on your user-name on the top right to open up the profile settings:
+*  Once you're in, Click on your user-name on the top right to open up the profile settings:  
+
   ![open-artifactory-profile](https://xrdocs.github.io/xrdocs-images/assets/tutorial-images/browse-to-user-profile.png){: .align-center}
   {: .notice}
 
