@@ -10,7 +10,7 @@ header:
   cta_label: "<i class='fa fa-step-forward'></i> Get Started!"
   cta_url: "/getting-started"
   caption:
-excerpt: 'Documentation, Blogs and Tutorials on IOS-XR <br/> An Open, Extensible and Stable Cloud-Scale Network Operating System<br /> <small>Current Release: 6.0.0</small><br /><br /> '
+excerpt: 'Documentation, Blogs and Tutorials on IOS-XR <br/> An Open, Extensible and Stable Cloud-Scale Network Operating System<br /> <small>Current Release: 6.0.0</small><br /><br /> {::nomarkdown}<iframe style="display: inline-block;" src="https://ghbtns.com/github-btn.html?user=xrdocs&type=follow&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>&nbsp;&nbsp;<iframe style="display: inline-block;" src="https://ghbtns.com/github-btn.html?user=ios-xr&type=follow&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>{:/nomarkdown}'
 feature_row:
   - image_path: telemetry-icon.png
     alt: "fully responsive"
@@ -45,12 +45,14 @@ new_line:
     btn_label: "Learn More!"
 
 
-github:
+github_twitter:
   - excerpt: '{::nomarkdown}<iframe style="display: inline-block;" src="https://ghbtns.com/github-btn.html?user=mmistakes&repo=minimal-mistakes&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe> <iframe style="display: inline-block;" src="https://ghbtns.com/github-btn.html?user=mmistakes&repo=minimal-mistakes&type=fork&count=true&size=small" frameborder="0" scrolling="0" width="158px" height="30px"></iframe>{:/nomarkdown}'
 intro:
-  - excerpt: 'Check us out on Github! {::nomarkdown}<br><br><iframe style="display: inline-block;" src="https://ghbtns.com/github-btn.html?user=ios-xr&type=follow&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>{:/nomarkdown}'
+  - excerpt: 'Check us out on Github! {::nomarkdown}<br><br><iframe style="display: inline-block;" src="https://ghbtns.com/github-btn.html?user=ios-xr&type=follow&size=large" frameborder="0" scrolling="0" width="208px" height="39px"></iframe>{:/nomarkdown}'
+twitter:
+  - excerpt: 'Follow us on twitter for Content Updates!<br>[<i class="fa fa-twitter"></i> @xrdocs](https://twitter.com/xrdocs){: .btn .btn--large .btn--twitter}'  
 ---
 
-{% include feature_row id="intro" type="center" %}
+{% include feature_row id="twitter" type="center" %}
 {% include feature_row %}
 {% include feature_row id="new_line"%}
