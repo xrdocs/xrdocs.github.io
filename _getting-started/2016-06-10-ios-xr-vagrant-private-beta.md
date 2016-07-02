@@ -15,7 +15,7 @@ IOS-XR Vagrant box.
 
 **Already received an approval? You're all set to get your API-KEY. Click here to understand how to generate your API-KEY and download the vagrant box:  
 [Generate API-KEY to access IOS-XR Vagrant box](https://xrdocs.github.io/getting-started/steps-download-iosxr-vagrant)
-{: .notice-warning}
+{: .notice--warning}
 
 >
 **You will need a CCO ID to download the box! If you don't have one, please click here to register:  [Create CCO ID](http://tools.cisco.com/RPF/register/register.do)**  
