@@ -13,7 +13,7 @@ Fill out the fields below and we'll get back to you with a link to the
 IOS-XR Vagrant box.  
 **Thank you for your participation!**   
 
-**Already received an approval? You're all set to get your API-KEY. Click here to understand how to generate your API-KEY and download the vagrant box:  
+**Already received an approval? You're all set to get your API-KEY. Click here to understand how to generate your API-KEY and download the vagrant box:**  
 [Generate API-KEY to access IOS-XR Vagrant box](https://xrdocs.github.io/getting-started/steps-download-iosxr-vagrant)
 {: .notice--warning}
 
