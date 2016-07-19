@@ -1,11 +1,13 @@
 ---
 published: true
-date: "2016-05-13 16:35 +0530"
-title: "@xrdocs How-To"
-permalink: "/helpdocs/xrdocs-how-to"
+date: '2016-05-13 16:35 +0530'
+title: '@xrdocs How-To'
+permalink: /helpdocs/xrdocs-how-to
 author: Akshat Sharma
-excerpt: "This tutorial provides a walkthrough of the xrdocs platform for blogging, and creating tutorials and techdocs"
-tags: 
+excerpt: >-
+  This tutorial provides a walkthrough of the xrdocs platform for blogging, and
+  creating tutorials and techdocs
+tags:
   - iosxr
   - cisco
 position: hidden
@@ -278,22 +280,6 @@ If you'd like to understand how this tutorial utilizes different colored Boxes t
 
 ---
 
-## Guest Bloggers
-
-Guest Bloggers by definition do not have write access to the github repository. Since we're treating documentation like code, any document commit by a guest blogger would automatically result in a pull request on the github repo.   
-
-Reviewers can then be assigned to provide inline comments, reject or allow a guest post to appear on the website.   
-
-{% include base_path %}
-[Peer Review for Guest Bloggers]({{ base_path }}/helpdocs/xrdocs-guest-bloggers)
-
-
----
-
 ## Writing Technical Documents (Tech-Docs/Whitepapers)
 
-Each Technical Document (Tech-Doc/Whitepaper) is a collection of markdown files with a navigation sidebar.
-Learn how to easily construct a tech-doc on @xrdocs:   
-
-{% include base_path %}
-[Writing Technical Documents/Whitepapers]({{ base_path }}/helpdocs/techdocs-how-to)
+//TODO
