@@ -1,12 +1,14 @@
 ---
 published: true
-date: "2016-05-16 04:47 +0530"
-title: "@xrdocs Formatting Useful Tips"
-permalink: "/helpdocs/xrdocs-formatting-useful-tips"
+date: '2016-05-16 04:47 +0530'
+title: '@xrdocs Formatting Useful Tips'
+permalink: /helpdocs/xrdocs-formatting-useful-tips
 author: Akshat Sharma
-excerpt: "This tutorial gives a brief description of some helper classes that are available for quick and easy formatting of images and text in @xrdocs"
+excerpt: >-
+  This tutorial gives a brief description of some helper classes that are
+  available for quick and easy formatting of images and text in @xrdocs
 position: hidden
-tags: 
+tags:
   - iosxr
   - cisco
 sitemap: false
@@ -34,6 +36,22 @@ Link back to the xrdocs Tutorial:  [@xrdocs How-To]({{ base_path }}/helpdocs/xrd
 Link back to the xrdocs Tutorial: [@xrdocs How-To]({{ base_path }}/helpdocs/xrdocs-how-to){% endraw %}
 
 ```
+
+## How to hide your posts from indexing  
+
+Quite often you'd like to be able to publish your blog/tutorial to the website but not have it be indexed or tweeted automatically till you're ready.  
+This is pretty simple to enable. 
+
+Hit the metadata button on the right hand side as shown below:  
+
+![Proseio metadata](https://xrdocs.github.io/xrdocs-images/assets/tutorial-images/proseio_metadata_button.png){: .align-center}
+{: .notice}  
+
+When the metadata fields open up, enter `position: hidden`  into the raw metadata field as shown below:  
+
+![Proseio metadata](https://xrdocs.github.io/xrdocs-images/assets/images/position-hidden.png){: .align-center}
+
+
 
 ## Add new lines (carriage return)
 This is sort of a known secret with markdown. Markdown just outputs text directly on the next line as you hit enter. 
