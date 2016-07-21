@@ -70,7 +70,8 @@ So, if the blog needs to appear under  `https://xrdocs.github.io/telemetry/blogs
 Going live is simple. Hit the metadata button again and replace `position: hidden` with `position: top` as shown below:  
 
 ![position-top](https://xrdocs.github.io/xrdocs-images/assets/images/position-top.png){: .align-center}
-
+  
+Save and Commit. You're live! and will tweeted out on https://twitter.com/xrdocs in upto an hour.  
 
 
 
