@@ -71,7 +71,8 @@ Going live is simple. Hit the metadata button again and replace `position: hidde
 
 ![position-top](https://xrdocs.github.io/xrdocs-images/assets/images/position-top.png){: .align-center}
   
-Save and Commit. You're live! and will tweeted out on https://twitter.com/xrdocs in upto an hour.  
+Save and Commit. You're live! and will tweeted out on https://twitter.com/xrdocs in upto an hour.
+{: .notice--success}
 
 
 
