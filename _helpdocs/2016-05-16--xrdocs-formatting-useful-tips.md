@@ -7,7 +7,7 @@ author: Akshat Sharma
 excerpt: >-
   This tutorial gives a brief description of some helper classes that are
   available for quick and easy formatting of images and text in @xrdocs
-position: hidden
+position: top
 tags:
   - iosxr
   - cisco
@@ -57,11 +57,20 @@ Hit the settings button on the right hand side as shown:
 
 ![Proseio settings](https://xrdocs.github.io/xrdocs-images/assets/images/settings-button.png){: .align-center}
 
-Copy the filename that shows up under the directory you're posting under (remove .md) and append to the link where you expect the blog/tutorial to show up.
+Copy the filename that shows up under the directory you're posting under (remove the .md at the end) and append to the link where you expect the blog/tutorial to show up.
 
 So, if the blog needs to appear under  `https://xrdocs.github.io/telemetry/blogs/` and filename as determined above is `2016-07-23--my-new-blog.md`  then the link to the blog will be:  
 
-`https://xrdocs.github.io/telemetry/blogs/2016-07-23--my-new-blog/`
+`https://xrdocs.github.io/telemetry/blogs/2016-07-23--my-new-blog/`  
+
+### How do you go live after hiding it?  
+
+Going live is simple. Hit the metadata button again and replace `position: hidden` with `position: top` as shown below:  
+
+![position-top](https://xrdocs.github.io/xrdocs-images/assets/images/position-top.png){: .align-center}
+
+
+
 
 
 ## Add new lines (carriage return)
