@@ -61,9 +61,9 @@ Copy the filename that shows up under the directory you're posting under (remove
 
 ![Proseio settings content](https://xrdocs.github.io/xrdocs-images/assets/images/settings-content.png){: .align-center}
 
-So, if the blog needs to appear under  `https://xrdocs.github.io/telemetry/blogs/` and filename as determined above is `2016-07-23--my-new-blog.md`  then the link to the blog will be:  
+So, if the blog needs to appear under  `https://xrdocs.github.io/telemetry/blogs/` and filename as determined above is `2016-07-23-my-new-blog.md`  then the link to the blog will be:  
 
-`https://xrdocs.github.io/telemetry/blogs/2016-07-23--my-new-blog/`  
+`https://xrdocs.github.io/telemetry/blogs/2016-07-23-my-new-blog/`  
 
 ### How do you go live after hiding it?  
 
