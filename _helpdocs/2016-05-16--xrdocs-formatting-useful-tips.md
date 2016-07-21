@@ -37,7 +37,7 @@ Link back to the xrdocs Tutorial: [@xrdocs How-To]({{ base_path }}/helpdocs/xrdo
 
 ```
 
-## How to hide your posts from indexing  
+## How to hide your posts from indexing temporarily
 
 Quite often you'd like to be able to publish your blog/tutorial to the website but not have it be indexed or tweeted automatically till you're ready.  
 This is pretty simple to enable. 
@@ -49,8 +49,19 @@ Hit the metadata button on the right hand side as shown below:
 
 When the metadata fields open up, enter `position: hidden`  into the raw metadata field as shown below:  
 
-![Proseio metadata](https://xrdocs.github.io/xrdocs-images/assets/images/position-hidden.png){: .align-center}
+![position-hidden](https://xrdocs.github.io/xrdocs-images/assets/images/position-hidden.png){: .align-center}
 
+Now save/commit the blog. It will only be visible if you have the link to it. How do you get the link?  
+
+Hit the settings button on the right hand side as shown:  
+
+![Proseio settings](https://xrdocs.github.io/xrdocs-images/assets/images/settings-button.png){: .align-center}
+
+Copy the filename that shows up under the directory you're posting under (remove .md) and append to the link where you expect the blog/tutorial to show up.
+
+So, if the blog needs to appear under  `https://xrdocs.github.io/telemetry/blogs/` and filename as determined above is `2016-07-23--my-new-blog.md`  then the link to the blog will be:  
+
+`https://xrdocs.github.io/telemetry/blogs/2016-07-23--my-new-blog/`
 
 
 ## Add new lines (carriage return)
