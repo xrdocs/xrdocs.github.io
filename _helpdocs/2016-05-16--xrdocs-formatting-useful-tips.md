@@ -57,7 +57,8 @@ Hit the settings button on the right hand side as shown:
 
 ![Proseio settings](https://xrdocs.github.io/xrdocs-images/assets/images/settings-button.png){: .align-center}
 
-Copy the filename that shows up under the directory you're posting under (remove the .md at the end) and append to the link where you expect the blog/tutorial to show up.
+Copy the filename that shows up under the directory you're posting under (remove the .md at the end) and append to the link where you expect the blog/tutorial to show up.  
+![Proseio settings content](https://xrdocs.github.io/xrdocs-images/assets/images/settings-content.png){: .align-center}
 
 So, if the blog needs to appear under  `https://xrdocs.github.io/telemetry/blogs/` and filename as determined above is `2016-07-23--my-new-blog.md`  then the link to the blog will be:  
 
