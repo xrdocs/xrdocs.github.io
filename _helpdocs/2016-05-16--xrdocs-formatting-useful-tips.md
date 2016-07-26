@@ -7,7 +7,7 @@ author: Akshat Sharma
 excerpt: >-
   This tutorial gives a brief description of some helper classes that are
   available for quick and easy formatting of images and text in @xrdocs
-position: top
+position: hidden
 tags:
   - iosxr
   - cisco
