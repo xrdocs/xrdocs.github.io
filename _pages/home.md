@@ -22,7 +22,7 @@ feature_row:
     alt: "fully responsive"
     title: "Model Driven Programmability"
     excerpt: "YANG models to manage and engage with IOS-XR. Check out YDK today!"
-    url: https://xrdocs.github.io/programmability
+    url: http://ydk.cisco.com/py/docs/
     btn_label: "Learn More"
   - image_path: app-hosting-gear.jpg
     alt: "fully responsive"
