@@ -21,8 +21,8 @@ feature_row:
   - image_path: api-icon.png
     alt: "fully responsive"
     title: "Model Driven Programmability"
-    excerpt: "YANG models to manage and engage with IOS-XR. Check out YDK today!"
-    url: http://ydk.cisco.com/py/docs/
+    excerpt: "Data models to manage IOS-XR. Check out our APIs!"
+    url: https://xrdocs.github.io/telemetry
     btn_label: "Learn More"
   - image_path: app-hosting-gear.jpg
     alt: "fully responsive"
