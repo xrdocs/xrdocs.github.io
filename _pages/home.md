@@ -22,7 +22,7 @@ feature_row:
     alt: "fully responsive"
     title: "Model Driven Programmability"
     excerpt: "Data models to manage IOS-XR. Check out our APIs!"
-    url: https://xrdocs.github.io/telemetry
+    url: https://xrdocs.github.io/programmability
     btn_label: "Learn More"
   - image_path: app-hosting-gear.jpg
     alt: "fully responsive"
