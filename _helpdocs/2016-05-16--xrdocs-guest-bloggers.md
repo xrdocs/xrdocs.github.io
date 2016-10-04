@@ -20,7 +20,6 @@ sitemap: false
 
 ---
 
-
 ## First Steps:
 
 As we've already explained in the [xrdocs How-To guide/First Steps]({{ base_path }}/helpdocs/xrdocs-how-to#first-steps) section, 
