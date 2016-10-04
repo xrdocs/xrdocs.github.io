@@ -10,7 +10,7 @@ excerpt: >-
 tags:
   - iosxr
   - cisco
-position: hidden
+position: top
 sitemap: false
 ---
 {% include toc icon="table" title="Guest Blogging on @xrdocs" %}
