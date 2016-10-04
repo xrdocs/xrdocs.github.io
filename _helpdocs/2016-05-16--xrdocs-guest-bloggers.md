@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 date: '2016-05-16 16:06 +0530'
 title: '@xrdocs Guest Bloggers'
 permalink: /helpdocs/xrdocs-guest-bloggers
