@@ -9,7 +9,7 @@ layout: null
 		<description>{% if site.description %}{{ site.description | xml_escape }}{% endif %}</description>
 		<link>{{ base_path }}</link>
 		<atom:link href="{{ base_path }}/{{ page.path }}" rel="self" type="application/rss+xml" />
-		{% for post in site.getting-started limit:10 %}
+		{% for post in site.getting-started %}
                   {% unless post.position == "hidden" %}
 			<item>
 				<title>{{ post.title | xml_escape }}</title>
