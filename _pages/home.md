@@ -37,7 +37,7 @@ new_line:
     excerpt: "RPMs for package Management, iPXE for zero touch Deployment and more!"
     url: https://www.cisco.com/c/en/us/td/docs/iosxr/ncs5500/system-setup/60x/b-ncs5500-system-setup-guide-60x.html
     btn_label: "Learn More!"
-  - image_path: sr-web-team.jpg
+  - image_path: sr-web-team-small.jpg
     alt: "fully responsive"
     title: "Segment Routing"      
     excerpt: "Get up to speed with the latest tutorials, conferences and IETF developments associated with the de-facto SDN network architecture!"
