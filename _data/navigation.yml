@@ -30,7 +30,7 @@ main:
   - title: "Telemetry"
     url: https://xrdocs.github.io/telemetry
 
-  - title: "Segment Routing"
+  - title: "Segment-Routing"
     url: https://xrdocs.github.io/segment-routing 
     
   - title: "Programmability"
