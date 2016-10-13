@@ -35,7 +35,7 @@ new_line:
     alt: "fully responsive"
     title: "Software Packaging and Management"
     excerpt: "RPMs for package Management, iPXE for zero touch Deployment and more!"
-    url: https://www.cisco.com/c/en/us/td/docs/iosxr/ncs5500/system-setup/60x/b-ncs5500-system-setup-guide-60x.html
+    url: https://xrdocs.github.io/software-management
     btn_label: "Learn More!"
   - image_path: sr-web-team-small.jpg
     alt: "fully responsive"
