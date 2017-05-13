@@ -24,7 +24,7 @@ feature_row:
     excerpt: "Host Linux Applications on your router. Containers too!"
     url: https://xrdocs.github.io/application-hosting
     btn_label: "Learn More"
-  - image_path: sr-web-team-small.jpg
+  - image_path: sr-logo-blue-green.png
     alt: "fully responsive"
     title: "Segment Routing"      
     excerpt: "Get up to speed with the latest tutorials, conferences and IETF developments associated with the de-facto SDN network architecture!"
