@@ -18,18 +18,19 @@ feature_row:
     excerpt: "Stream Operational and Configuration data off the box in Real-Time!  "
     url: https://xrdocs.github.io/telemetry
     btn_label: "Learn More"
-  - image_path: api-icon.png
-    alt: "fully responsive"
-    title: "Model Driven Programmability"
-    excerpt: "Data models to manage IOS-XR. Check out our APIs!"
-    url: https://xrdocs.github.io/programmability
-    btn_label: "Learn More"
   - image_path: app-hosting-gear.jpg
     alt: "fully responsive"
     title: "Application-Hosting"
     excerpt: "Host Linux Applications on your router. Containers too!"
     url: https://xrdocs.github.io/application-hosting
     btn_label: "Learn More"
+  - image_path: sr-web-team-small.jpg
+    alt: "fully responsive"
+    title: "Segment Routing"      
+    excerpt: "Get up to speed with the latest tutorials, conferences and IETF developments associated with the de-facto SDN network architecture!"
+    url: https://xrdocs.github.io/segment-routing
+    btn_label: "Learn More!"    
+
 new_line:
   - image_path: packaging.png
     alt: "fully responsive"
@@ -37,12 +38,12 @@ new_line:
     excerpt: "RPMs for package Management, iPXE for zero touch Deployment and more!"
     url: https://xrdocs.github.io/software-management
     btn_label: "Learn More!"
-  - image_path: sr-web-team-small.jpg
+  - image_path: api-icon.png
     alt: "fully responsive"
-    title: "Segment Routing"      
-    excerpt: "Get up to speed with the latest tutorials, conferences and IETF developments associated with the de-facto SDN network architecture!"
-    url: https://xrdocs.github.io/segment-routing
-    btn_label: "Learn More!"
+    title: "Model Driven Programmability"
+    excerpt: "Data models to manage IOS-XR. Check out our APIs!"
+    url: https://xrdocs.github.io/programmability
+    btn_label: "Learn More"
   - image_path: cloud-scale-networking.png
     alt: "fully responsive"
     title: "Cloud Scale Networking"      
