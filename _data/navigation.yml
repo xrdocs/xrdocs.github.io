@@ -38,6 +38,9 @@ main:
 
   - title: "Software-Management"
     url: https://xrdocs.github.io/software-management
+    
+  - title: "Design"
+    url: https://xrdocs.github.io/design
 
   - title: "Cloud-Scale Networking"
     url: https://xrdocs.github.io/cloud-scale-networking
