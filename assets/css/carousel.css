@@ -84,7 +84,7 @@ body {
 ------------------------- */
 
 .featurette-divider {
-  margin: 80px 0; /* Space out the Bootstrap <hr> more */
+  margin: 60px 0; /* Space out the Bootstrap <hr> more */
 }
 
 
@@ -132,7 +132,7 @@ body {
   }
 
   .featurette-heading {
-    font-size: 2em;
+    font-size: 1.5em;
   }
 }
 
@@ -140,4 +140,28 @@ body {
   .featurette-heading {
     margin-top: 0.5em;
   }
+}
+
+
+@media screen and (max-width: 1200px) {
+
+  .col-md-7 {
+      width: 100%;
+      text-align: center;
+  }
+
+
+  .col-md-push-5 {
+      left: 0;
+  }
+
+  .col-md-pull-7 {
+      right: 0;
+  }
+
+  .col-md-5 {
+      width: 100%;
+  }
+
+
 }
