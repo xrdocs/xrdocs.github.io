@@ -86,12 +86,25 @@ body {
 .featurette-divider {
   margin: 6em 0; /* Space out the Bootstrap <hr> more */
   width: 20%;
-  margin-left: 35%;
+  margin-left: 40%;
   border: none;
   height: 1px;
   /* Set the hr color */
   color: #333; /* old IE */
   background-color: #333;
+}
+
+
+.featurette-divider-hidden {
+  margin: 6em 0; /* Space out the Bootstrap <hr> more */
+  width: 20%;
+  margin-left: 40%;
+  border: none;
+  height: 1px;
+  /* Set the hr color */
+  color: #333; /* old IE */
+  background-color: #333;
+  display: none;
 }
 
 
@@ -176,6 +189,19 @@ body {
       display: block;
       height: auto; 
   }
+
+
+.featurette-divider-hidden {
+  margin: 6em 0; /* Space out the Bootstrap <hr> more */
+  width: 20%;
+  margin-left: 40%;
+  border: none;
+  height: 1px;
+  /* Set the hr color */
+  color: #333; /* old IE */
+  background-color: #333;
+  display: block;
+}
 
 
 }
