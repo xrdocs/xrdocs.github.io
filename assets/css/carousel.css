@@ -90,7 +90,7 @@ body {
 ------------------------- */
 
 .featurette-divider {
-  margin: 6em 0; /* Space out the Bootstrap <hr> more */
+  margin: 4em 0; /* Space out the Bootstrap <hr> more */
   width: 20%;
   margin-left: 40%;
   border: none;
@@ -204,7 +204,7 @@ body {
 
 
 .featurette-divider-hidden {
-  margin: 6em 0; /* Space out the Bootstrap <hr> more */
+  margin: 4em 0; /* Space out the Bootstrap <hr> more */
   width: 20%;
   margin-left: 40%;
   border: none;
