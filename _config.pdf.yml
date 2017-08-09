@@ -1,0 +1,469 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your entire site, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# `jekyll serve`. If you change this file, please restart the server process.
+
+# Site Settings
+locale                   : "en-US"
+title                    : "IOS XR Application Hosting @xrdocs"
+title_short              : "AppHosting @xrdocs"
+title_separator          : "|"
+name                     : &name "Cisco Systems Inc"
+description              : &description "Documentation, Blogs and Tutorials on the Application Hosting Infrastructure in IOS-XR"
+url                      : http://localhost:4000 #"https://xrdocs.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+baseurl                  : #"/application-hosting" # the subpath of your site, e.g. "/blog"
+gh_repo                  : "https://github.com/xrdocs/application-hosting"
+teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
+# breadcrumbs            : false # true, false (default)
+words_per_minute         : 200
+comments:
+  provider               : "disqus" # false (default), "disqus", "facebook", "google-plus", custom"
+  disqus:
+    shortname            : "xrdocs" # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+  facebook:
+    # https://developers.facebook.com/docs/plugins/comments
+    appid                :
+    num_posts            : # 5 (default)
+    colorscheme          : # "light" (default), "dark"
+
+# SEO Related
+google_site_verification :
+bing_site_verification   :
+alexa_site_verification  :
+yandex_site_verification :
+
+# Social Sharing
+twitter:
+  username               : &twitter "CiscoDevNet"
+facebook:
+  username               :
+  app_id                 :
+  publisher              :
+og_image                 : "site-logo.png" # Open Graph/Twitter default site image
+# For specifying social profiles
+# - https://developers.google.com/structured-data/customize/social-profiles
+social:
+  type                   : # Person or Organization (defaults to Person)
+  name                   : # If the user or organization name differs from the site's name
+  links: # An array of links to social media profiles
+    - "https://twitter.com/CiscoDevNet"
+
+# Analytics
+analytics:
+  provider               : "google-universal" # false (default), "google", "google-universal", "custom"
+  google:
+    tracking_id          : "UA-78256516-1"
+
+# Google AdSense
+google_ad_client         :
+google_ad_slot           :
+
+
+# Site Author
+author:
+  name             : "Cisco Web Team"
+  avatar           : "app-hosting-team.jpg"
+  bio              : "A Team of coders and network engineers determined to build the best network operating system for Web-Scale Service Providers"
+  location         : "San jose, California"
+  email            :
+  uri              :
+  bitbucket        :
+  codepen          :
+  dribbble         :
+  flickr           :
+  facebook         :
+  foursquare       :
+  github           : "xrdocs"
+  google_plus      :
+  keybase          :
+  instagram        :
+  lastfm           :
+  linkedin         :
+  pinterest        :
+  soundcloud       :
+  stackoverflow    : # http://stackoverflow.com/users/123456/username
+  steam            :
+  tumblr           :
+  twitter          :
+  vine             :
+  weibo            :
+  xing             :
+  youtube          :
+
+
+# Reading Files
+include:
+  - .htaccess
+  - _pages
+exclude:
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - .asset-cache
+  - .bundle
+  - .jekyll-assets-cache
+  - .sass-cache
+  - assets/js/plugins
+  - assets/js/_main.js
+  - assets/js/vendor
+  - Capfile
+  - CHANGELOG
+  - config
+  - Gemfile
+  - Gruntfile.js
+  - gulpfile.js
+  - LICENSE
+  - log
+  - node_modules
+  - package.json
+  - Rakefile
+  - README
+  - tmp
+keep_files:
+  - .git
+  - .svn
+encoding: "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+
+
+# Conversion
+markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
+
+
+# Markdown Processing
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+
+
+# Collections
+collections:
+  techdocs:
+    output: true
+    permalink: /:collection/:path/
+  blogs:
+    output: true
+    permalink: /:collection/:path/
+  tutorials:
+    output: true
+    permalink: /:collection/:path/
+
+
+# Defaults
+defaults:
+# _techdocs
+  - scope:
+      path: ""
+      type: techdocs
+    values:
+      layout: single
+      read_time: false
+      author_profile: false
+      share: false
+      comments: false
+
+# _blogs
+  - scope:
+      path: ""
+      type: blogs
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+      position: "top"
+# _tutorials
+  - scope:
+      path: ""
+      type: tutorials
+    values:
+      layout: singlepdf
+      author_profile: true
+      read_time: true
+      comments: false 
+      share: false 
+      related: false 
+      position: "top"
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+  # _docs
+  - scope:
+      path: ""
+      type: docs
+    values:
+      layout: single
+      read_time: false
+      author_profile: false
+      share: false
+      comments: false
+      sidebar:
+        nav: "docs"
+
+
+# Outputting
+permalink: /:categories/:title/
+# paginate: 5 # amount of posts to show
+# paginate_path: /page:num/
+timezone: Australia/ACT# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+future: true
+
+# Plugins
+gems:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jemoji
+  - jekyll-redirect-from
+
+# mimic GitHub Pages with --safe
+whitelist:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jemoji
+  - jekyll-redirect-from
+
+
+# Archives
+#  Type
+#  - GitHub Pages compatible archive pages built with Liquid ~> type: liquid (default)
+#  - Jekyll Archives plugin archive pages ~> type: jekyll-archives
+#  Path (examples)
+#  - Archive page should exist at path when using Liquid method or you can
+#    expect broken links (especially with breadcrumbs enabled)
+#  - <base_path>/tags/my-awesome-tag/index.html ~> path: /tags/
+#  - <base_path/categories/my-awesome-category/index.html ~> path: /categories/
+#  - <base_path/my-awesome-category/index.html ~> path: /
+categories:
+  type: liquid
+  path: /categories/
+tags:
+  type: liquid
+  path: /tags/
+# https://github.com/jekyll/jekyll-archives
+# jekyll-archives:
+#   enabled:
+#     - categories
+#     - tags
+#   layouts:
+#     category: archive-taxonomy
+#     tag: archive-taxonomy
+#   permalinks:
+#     category: /categories/:name/
+#     tag: /tags/:name/
+
+
+prose:
+  siteurl: 'https://xrdocs.github.io/application-hosting/'
+  relativeLinks: 'http://prose.github.io/starter/links.jsonp'
+  media: 'images'
+  ignore:
+    - index.md
+    - _config.yml
+    - /_layouts
+    - /_includes
+    - /_posts
+    - /_pages
+    - /_docs
+    - /_data/ui-test.yml
+    - /_drafts
+    - /_includes
+    - /_layouts
+    - /_pages
+    - /_pets
+    - /_portfolio
+    - /_posts
+    - /_recipes
+    - /assets
+    - /images
+    - /_data/ui-text.yml
+    - Gemfile
+    - Gemfile.lock
+    - LICENSE
+    - _config.dev.yml
+    - _config.yml
+    - package.json
+    - search_data.html
+    - .jekyll-metadata
+    - CHANGELOG.md
+    - feed.xml
+  metadata:
+    _blogs:
+      - name: "title"
+        field:
+            element: "text"
+            label: "Title"
+            value: ""
+      - name: "permalink"
+        field:
+            element: "text"
+            label: "Relative URL"
+            help: "provide a url relative to site url, for eg. /blogs/blog1"
+      - name: "author"
+        field:
+            element: "text"
+            label: "Author"
+      - name: "excerpt"
+        field:
+            element: "text"
+            help: "Brief description of the blog"
+            label: "Excerpt"
+      - name: "tags"
+        field:
+            element: "multiselect"
+            label: "Add Tags"
+            placeholder: "Choose Tags"
+            alterable: true
+            options:
+             - name: "Vagrant"
+               value: "vagrant"
+             - name: "IOS-XR"
+               value: "iosxr"
+             - name: "Cisco"
+               value: "cisco"
+             - name: "Linux"
+               value: "linux"
+      - name: "published"
+        field:
+            label: "Published"
+            element: "checkbox"
+            value: false
+      - name: "date"
+        field:
+            element: "text"
+            label: "Date"
+            value: "CURRENT_DATETIME"
+
+    _techdocs:
+      - name: "permalink"
+        field:
+            element: "text"
+            label: "Relative URL"
+            help: "provide a url relative to site url, for eg. /techdocs/doc1/home"
+      - name: "excerpt"
+        field:
+            element: "text"
+            help: "Brief description of the Technical Document"
+            label: "Excerpt"
+      - name: "position"
+        field:
+            element: "text"
+            label: "Techdoc Page Position"
+            help: "Set this to 'top' only for the first page of the techdoc"
+      - name: "tags"
+        field:
+            element: "multiselect"
+            label: "Add Tags"
+            placeholder: "Choose Tags"
+            alterable: true
+            options:
+             - name: "Vagrant"
+               value: "vagrant"
+             - name: "IOS-XR"
+               value: "iosxr"
+             - name: "Cisco"
+               value: "cisco"
+             - name: "Linux"
+               value: "linux"
+      - name: "modified"
+        field:
+            element: "text"
+            label: "Date"
+            value: "CURRENT_DATETIME"
+      - name: "published"
+        field:
+            label: "Published"
+            element: "checkbox"
+            value: false
+
+    _tutorials:
+      - name: "title"
+        field:
+            element: "text"
+            label: "Title"
+            value: ""
+      - name: "permalink"
+        field:
+            element: "text"
+            label: "Relative URL"
+            help: "provide a url relative to site url, for eg. /tutorials/tutorial1"
+      - name: "author"
+        field:
+            element: "text"
+            label: "Author"
+      - name: "excerpt"
+        field:
+            element: "text"
+            help: "Brief description of the tutorial"
+            label: "Excerpt"
+      - name: "published"
+        field:
+            label: "Published"
+            element: "checkbox"
+            value: false
+      - name: "tags"
+        field:
+            element: "multiselect"
+            label: "Add Tags"
+            placeholder: "Choose Tags"
+            alterable: true
+            options:
+             - name: "Vagrant"
+               value: "vagrant"
+             - name: "IOS-XR"
+               value: "iosxr"
+             - name: "Cisco"
+               value: "cisco"
+             - name: "Linux"
+               value: "linux"
+      - name: "date"
+        field:
+            element: "text"
+            label: "Date"
+            value: "CURRENT_DATETIME"
+
+
+
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# HTML Compression
+# - http://jch.penibelst.de/
+compress_html:
+  clippings: all
+  ignore:
+    envs: development
+
+host: "0.0.0.0"
+port: 4000

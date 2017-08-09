@@ -1,0 +1,41 @@
+{% include base_path %}
+
+<meta charset="utf-8">
+
+{% include seo.html %}
+
+<link href="{{ base_path }}/feed.xml" type="application/atom+xml" rel="alternate" title="{{ site.title }} Feed">
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="google-site-verification" content="jgRKKm6B9FwJJPXxpmc0-EP3D0Mh8JHXaJqoYIGj1ek" />
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<script>
+if (!(window.location.host.startsWith("127.0.0.1") || window.location.host.startsWith("localhost")) && (window.location.host.substr(-10) == '.github.io') && (window.location.protocol != "https:"))
+    window.location.protocol = "https";
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+<meta http-equiv="cleartype" content="on">
+<style>
+.underline-on-hover:hover {
+    text-decoration: underline;
+}
+.searchForm{
+      border-radius:5px;
+      -moz-border-radius:5px;
+      -webkit-border-radius:5px;
+      width: 900px;
+   }
+#search_results{
+      display: table; margin:0 auto;
+   }
+</style>
+</style>

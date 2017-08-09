@@ -1,0 +1,87 @@
+---
+layout: default
+permalink: /getting-started/
+title: "Get Started with @xrdocs"
+author_profile: false
+author: "Cisco @xrdocs Team"
+feature_row1:
+  - image_path: avatars/telemetry-team.png 
+    alt: "Streaming Telemetry Icon"
+    title: "Streaming Telemetry"
+    excerpt: "Learn how to stream modeled Operational and Configuration data off the box in Real-Time and analyse it using your favorite tools: pipeline, Kafka, InfluxDB and many more."
+    url: https://xrdocs.github.io/telemetry
+    btn_class: "btn--inverse"
+    btn_label: "Learn More"
+  - image_path: avatars/app-hosting-team.jpg
+    alt: "Application-Hosting Icon"
+    title: "Application-Hosting"
+    excerpt: "Host Linux Applications natively and within Containers (docker, lxc) on your router. Leverage the Packet/IO infrastructure that lets apps ride on top of the IOS-XR network stack!"
+    url: https://xrdocs.github.io/application-hosting
+    btn_class: "btn--inverse"
+    btn_label: "Learn More"
+  - image_path: sr-logo.png
+    alt: "Segment Routing"
+    title: "Segment Routing"      
+    excerpt: "Get up to speed with the latest tutorials, conferences and IETF developments associated with the de-facto SDN network architecture coming directly from the industry experts!"
+    url: https://xrdocs.github.io/segment-routing
+    btn_class: "btn--inverse"
+    btn_label: "Learn More!"    
+
+feature_row2:
+  - image_path: avatars/software-management-team.png
+    alt: "Software Management"
+    title: "Software Provisioning and Management"
+    excerpt: "Understand how Zero Touch Provisioning(ZTP) works for IOS-XR and provision your boxes without touching the console. Learn how the IOS-XR sofware now leverages RPMs for all its sofware components and patches!"
+    url: https://xrdocs.github.io/software-management
+    btn_class: "btn--inverse"
+    btn_label: "Learn More!"
+  - image_path: avatars/programmability-team.png
+    alt: "Model Driven Programmability"
+    title: "Model Driven Programmability"
+    excerpt: "Learn how to work with IOS-XR native and Openconfig YANG models over Netconf and GRPC.Explore the world of YDK and utilize native bindings in the language of your choice to automate IOS-XR configuration and learn how to integrate with other tools."
+    url: https://xrdocs.github.io/programmability
+    btn_class: "btn--inverse"
+    btn_label: "Learn More"
+  - image_path: avatars/cisco-design-team.png
+    alt: "Design@xrdocs Icon"
+    title: "Design"
+    excerpt: "Service Provider deployments have consistently evolved for the last few decades and keeping abreast of the changes can get hard. Let the best in the industry walk you through Network Designs and Architectures that will lay the foundation for the next-gen SP networks."
+    url: https://xrdocs.github.io/design
+    btn_class: "btn--inverse"
+    btn_label: "Learn More!"
+
+feature_row3:
+  - image_path: avatars/automation-xrdocs.jpg
+    alt: "Network Automation Icon"
+    title: "Network Automation"
+    excerpt: "Network Automation is a critical part of today's succesful large scale SP deployments. Learn how tools and frameworks such as the Wan Optimization Engine (WAE), NSO etc. can be used to uplevel your deployment."
+    url: https://xrdocs.github.io/automation
+    btn_class: "btn--inverse"
+    btn_label: "Learn More"
+  - image_path: avatars/cloud-scale-networking-team.png
+    alt: "Cloud Scale Networking"
+    title: "Cloud Scale Networking"
+    excerpt: "Learn about the platforms and features that help enable networking for Cloud-Scale Deployments! Explore the intricacies of the architecture of cloud scale platforms such as the NCS550x series, ASR9k-64bit and more upcoming platforms. "
+    url: https://xrdocs.github.io/cloud-scale-networking
+    btn_class: "btn--inverse"
+    btn_label: "Learn More!"
+
+---
+
+&nbsp;  
+&nbsp;  
+    
+
+{% include feature_row id="feature_row1"%}
+{% include feature_row id="feature_row2"%}
+{% include feature_row id="feature_row3"%}
+
+{% include base_path %}
+
+<div class="stretch__archive">
+{% capture written_year %}'None'{% endcapture %}
+{% assign sorted = (site.getting-started | sort: 'date') %}
+{% for post in sorted %}
+  {% include archive-getting-started.html %}
+{% endfor %}
+</div>

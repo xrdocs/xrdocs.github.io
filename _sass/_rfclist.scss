@@ -1,0 +1,44 @@
+/* ==========================================================================
+   RFC List. Labels.
+   ========================================================================== */
+
+.rfclist {
+  font-size:$type-size-3;
+  font-weight:300;
+
+  ul {
+    padding-left:0;
+    margin-top: 0.5em;
+    margin-bottom: 2em;
+    list-style-type:none;
+  }
+
+  .tag {
+    font-size: $type-size-6;
+    font-weight: 100;
+    color: $dark-gray;
+    text-transform: uppercase;
+
+    &:hover {
+      font-color: $dark-gray;
+    }
+
+    /* extra large button */
+
+    &--x-large {
+      font-size: $type-size-4;
+    }
+
+    &--large {
+      font-size: $type-size-5;
+    }
+
+    &--small {
+      font-size: $type-size-7;
+    }
+
+    &--bold {
+      font-weight: 400;
+    }
+  }
+}
