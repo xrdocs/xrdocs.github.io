@@ -120,6 +120,7 @@ exclude:
   - Rakefile
   - README
   - tmp
+exclude: ["vendor"]
 keep_files:
   - .git
   - .svn
