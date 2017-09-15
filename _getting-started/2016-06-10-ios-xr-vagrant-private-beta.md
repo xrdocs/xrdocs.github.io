@@ -2,7 +2,7 @@
 published: true
 date: '2016-06-10 16:09 -0700'
 title: IOS-XR Vagrant Private Beta
-permalink: https://xrdocs.github.io/getting-started/iosxr-vagrant-beta
+permalink: /getting-started/iosxr-vagrant-beta
 excerpt: Get Access to IOS-XR Vagrant today!
 author: Cisco xrdocs Team
 ---
