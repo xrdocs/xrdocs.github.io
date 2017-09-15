@@ -5,4 +5,4 @@ rvm:
 branches:
   only:
   - master     # test the gh-pages branch
-script: "bundle exec jekyll build; bundle exec htmlproofer ./_site --file-ignore /getting-started --verbose"
+script: "bundle exec jekyll build; bundle exec htmlproof ./_site --file-ignore /getting-started --verbose"
