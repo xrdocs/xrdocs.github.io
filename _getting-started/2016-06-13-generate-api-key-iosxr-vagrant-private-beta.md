@@ -4,7 +4,7 @@ date: '2016-06-13 16:37 -0500'
 title: Generate API-KEY to access IOS-XR Vagrant box
 author: Akshat Sharma
 excerpt: Steps to download the private-beta IOS-XR Vagrant box
-permalink: /getting-started/steps-download-iosxr-vagrant
+permalink: https://xrdocs.github.io/getting-started/steps-download-iosxr-vagrant
 ---
 
 {% include base_path %}
