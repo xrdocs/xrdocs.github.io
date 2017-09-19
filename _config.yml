@@ -281,6 +281,9 @@ prose:
     - CHANGELOG.md
     - README.md
     - feed.xml
+    - .gitmodules
+    - .travis.yml
+    - _config.pdf.yml
   metadata:
     _getting-started:
       - name: "title"
