@@ -5,4 +5,4 @@ rvm:
 branches:
   only:
   - master     # test the gh-pages branch
-script: "bundle exec jekyll build; bundle exec htmlproofer --url-ignore --url-ignore \"/#.*/,/getting-started\" ./_site"
+script: "bundle exec jekyll build; bundle exec htmlproofer --url-ignore \"/#.*/,/getting-started\" ./_site"
