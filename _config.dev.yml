@@ -64,7 +64,7 @@ google_ad_slot           :
 # Site Author
 author:
   name             : "Cisco @xrdocs Team"
-  avatar           : "xrdocs_logo.png"
+  avatar           : "avatars/xrdocs_logo.png"
   bio              : "A Team of coders and network engineers determined to build the best network operating system for Web-Scale Service Providers"
   location         : "San jose, California"
   email            :
@@ -385,5 +385,5 @@ compress_html:
   ignore:
     envs: development
 
-host: "10.0.0.188"
+host: "localhost"
 port: 4000

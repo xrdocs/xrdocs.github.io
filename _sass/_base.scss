@@ -389,6 +389,27 @@ nav {
   display: none;
 }
 
+.section-logo {
+  margin: auto;
+  height: 60px;
+  width: 60px;
+}
+
+.section-title {
+  font-size: 1.5em;
+  display: inline-block;
+}
+
+.section-description {
+  font-size: 1.1em;
+}
+
+.section-description-short{
+  font-size: 1.1em;
+  display: none;
+}
+
+
 @media only screen and (max-width: 1024px){           
     .large-screen {
      display: none;
@@ -404,6 +425,32 @@ nav {
 
    .small-screen {
      display: none;
+   }
+
+}
+
+
+@media only screen and (max-width: 1100px){
+
+  .section-logo {
+     margin: auto;
+     height: 60px;
+     width: 60px;
+   }
+
+   .section-title {
+     font-size: 1.3em;
+     display: inline-block;
+   }
+
+   .section-description {
+     font-size: 1em;
+     display: none;
+   }
+
+   .section-description-short{
+     font-size: 1.1em;
+     display: block;
    }
 }
 
@@ -423,6 +470,28 @@ nav {
    .small-screen {
      display: none;
    }
+
+   .section-logo {
+     margin: auto;
+     height: 40px;
+     width: 40px;
+   }
+
+   .section-title {
+     font-size: 1.2em;
+     display: inline-block;
+   }
+
+   .section-description {
+     font-size: 1em;
+     display: none;
+   }
+
+   .section-description-short{
+     font-size: 1em;
+     display: block;
+   }
+
 }
 
 @media only screen and (max-width: 500px){
@@ -439,6 +508,27 @@ nav {
    }
 
    .small-screen {
+     display: block;
+   }
+
+  .section-logo {
+     margin: auto;
+     height: 30px;
+     width: 30px;
+   }
+
+   .section-title {
+     font-size: 1.1em;
+     display: inline-block;
+   }
+
+   .section-description {
+     font-size: 0.9em;
+     display: none;
+   }
+
+   .section-description-short{
+     font-size: 0.9em;
      display: block;
    }
 }
