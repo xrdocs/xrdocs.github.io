@@ -24,6 +24,9 @@ main:
   - title: "Get Started"
     url: "/getting-started/"
 
+  - title: "Service Layer"
+    url: "https://xrdocs.github.io/cisco-service-layer"
+
   - title: "Telemetry"
     url: "https://xrdocs.github.io/telemetry"
 
