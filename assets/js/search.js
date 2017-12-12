@@ -11,7 +11,7 @@ jQuery(function() {
 
  var base_url =  document.getElementById('base_url').getAttribute("value")
   // Get the generated search_data.json file so lunr.js can search it locally.
-  window.data = $.getJSON(base_url + '/search_data/index.html');
+  window.data = $.getJSON('https://raw.githubusercontent.com/xrdocs/xrdocs.github.io/master/assets/repos_search_ex.txt');
 
   // Wait for the data to load and add it to lunr
   window.data.then(function(loaded_data){
