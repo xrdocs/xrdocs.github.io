@@ -51,6 +51,8 @@ main:
   - title: "Automation"
     url: "https://xrdocs.github.io/automation"
 
+  - title: "Search"
+    url: "https://xrdocs.github.io/search"
 
 # documentation links
 docs:
