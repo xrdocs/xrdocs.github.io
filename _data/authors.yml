@@ -123,8 +123,9 @@ Nicolas Leiva:
   name        : "Nicolas Leiva"
   github      : "nleiva"
   email       : "nleiva@cisco.com"
-  bio         : "Architect, Solutions Integration, Cisco."
+  bio         : "Solutions Architect, Cisco"
   avatar      : "nleiva.png"
+  github      : "nleiv4"
 
 
 Jose Liste:
@@ -213,4 +214,3 @@ Cisco Cloud Scale Networking Team:
   bio         : "A Team of coders and network engineers determined to build the best network operating system for Web-Scale Service Providers."
   avatar      : "cloud-scale-networking-team.png"
   twitter     : "xrdocs"
-
