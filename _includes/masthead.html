@@ -1,38 +1,47 @@
 {% include base_path %}
+<style>
+    .dropdown:hover .dropdown-menu {
+        display: block;
+    }
+</style>
 
 <div class="masthead">
-  <div class="masthead__inner-wrap">
-    <div class="masthead__menu" style="padding-left:0;">
-      <nav id="site-nav" class="greedy-nav">
-        <button><div class="navicon"></div></button>
-        <ul class="visible-links">
-          <img src="{{ base_path }}/images/xrdocs_logo.png" width="45px" height="45px" alt="xrdocs logo" style="float:left;">
-          <li class="masthead__menu-item masthead__menu-item--lg"><a href="{{ base_path }}/">{{ site.title_short }}</a></li>
-          {% for link in site.data.navigation.main %}
-            {% if link.url contains 'http' %}
-              {% assign domain = '' %}
-              {% else %}
-              {% assign domain = base_path %}
-            {% endif %}
-            {% if page.url contains link.url %}
-                {% if link.title contains 'Search' %}
-                    <li class="masthead__menu-item greedy-nav-active"><a href="{{ domain }}{{ link.url }}">{{ link.title }} <i class="fa fa-search" aria-hidden="true"></i></a></li>
-                {% else %}
-                    <li class="masthead__menu-item greedy-nav-active"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
-                {% endif %}
-            {% else %}
-                {% if link.title contains 'Search' %}
-                    <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }} <i class="fa fa-search" aria-hidden="true"></i></a></li>
-                {% else %}
-                    <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
-                {% endif %}
-            {% endif %}
+    <div class="masthead__inner-wrap">
+        <div class="masthead__menu" style="padding-left:0;">
+            <nav id="site-nav" class="greedy-nav">
+                <button><div class="navicon"></div></button>
+                <ul class="visible-links">
+                    <img src="{{ base_path }}/images/xrdocs_logo.png" width="45px" height="45px" alt="xrdocs logo" style="float:left;">
+                    <li class="masthead__menu-item masthead__menu-item--lg"><a href="{{ base_path }}/">{{ site.title_short }}</a></li>
+                    {% for item in site.data.navigation.main %}
+                    <li class="dropdown">
+                        {% if item.children %}
 
-
-          {% endfor %}
-        </ul>
-        <ul class="hidden-links hidden"></ul>
-      </nav>
+                        <a href="{{ base_path }}{{ item.url }}" class="dropdown-toggle masthead__menu-item"
+                           data-toggle="dropdown" role="button"
+                           aria-haspopup="true" aria-expanded="false">{{ item.title}}
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                {% for entry in item.children %}
+                                <a class="masthead__menu-item" href="{{ entry.url }}"
+                                   style="height: 35px; padding-top: 8px;">{{ entry.title}}</a>
+                                {% endfor %}
+                            </li>
+                        </ul>
+                        {% else %}
+                        {% if item.title contains 'Search' %}
+                        <a href="{{ item.url }}" class="masthead__menu-item">{{ item.title}} &nbsp;<i
+                                class="fa fa-search" aria-hidden="true"></i></a>
+                        {% else %}
+                        <a href="{{ item.url }}" class="masthead__menu-item">{{ item.title}}</a>
+                        {% endif %}
+                        {% endif %}
+                        {% endfor %}
+                </ul>
+                <ul class="hidden-links hidden masthead__menu-item"></ul>
+            </nav>
+        </div>
     </div>
-  </div>
 </div>

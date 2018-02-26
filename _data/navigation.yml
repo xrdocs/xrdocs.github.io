@@ -22,28 +22,26 @@ foo:
 # main links links
 main:
   - title: "Get Started"
-    url: "/getting-started/"
+    url: "https://xrdocs.github.io/getting-started/"
 
-  - title: "Service Layer"
-    url: "https://xrdocs.github.io/cisco-service-layer"
-
-  - title: "Telemetry"
-    url: "https://xrdocs.github.io/telemetry"
+  - title: XR Core
+    children:
+    - title: "Service Layer"
+      url: "https://xrdocs.github.io/cisco-service-layer"
+    - title: "Telemetry"
+      url: "https://xrdocs.github.io/telemetry"
+    - title: "App-Hosting"
+      url: "https://xrdocs.github.io/application-hosting"
+    - title: "Programmability"
+      url: "https://xrdocs.github.io/programmability"
+    - title: "Software-Management"
+      url: "https://xrdocs.github.io/software-management"
 
   - title: "Design"
     url: "https://xrdocs.github.io/design"
 
-  - title: "App-Hosting"
-    url: "https://xrdocs.github.io/application-hosting"
-
   - title: "Segment-Routing"
     url: "https://xrdocs.github.io/segment-routing"
-
-  - title: "Programmability"
-    url: "https://xrdocs.github.io/programmability"
-
-  - title: "Software-Management"
-    url: "https://xrdocs.github.io/software-management"
 
   - title: "Cloud-Scale Networking"
     url: "https://xrdocs.github.io/cloud-scale-networking"
