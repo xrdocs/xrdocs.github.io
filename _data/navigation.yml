@@ -38,7 +38,7 @@ main:
       url: "https://xrdocs.github.io/software-management"
 
   - title: "Compass Design"
-    url: "https://xrdocs.github.io/compass-design"
+    url: "https://xrdocs.github.io/design"
 
   - title: "Segment-Routing"
     url: "https://xrdocs.github.io/segment-routing"
