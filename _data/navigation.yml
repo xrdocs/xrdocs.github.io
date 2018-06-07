@@ -1,110 +1,31 @@
-# example navigation
-foo:
-  - title: "Parent Link 1"
-    url: /parent-1-page-url/
-    children:
-      - title: "Child Link 1"
-        url: /child-1-page-url/
-      - title: "Child Link 2"
-        url: /child-2-page-url/
-
-  - title: "Parent Link 2"
-    url: /parent-2-page-url/
-    children:
-      - title: "Child Link 1"
-        url: /child-1-page-url/
-      - title: "Child Link 2"
-        url: /child-2-page-url/
-      - title: "Child Link 3"
-        url: /child-3-page-url/
-
-
-# main links links
 main:
   - title: "Get Started"
-    url: "https://xrdocs.github.io/getting-started/"
+    url: "https://xrdocs.io/getting-started/"
 
   - title: XR Core
     children:
     - title: "Service Layer"
-      url: "https://xrdocs.github.io/cisco-service-layer"
+      url: "https://xrdocs.io/cisco-service-layer"
     - title: "Telemetry"
-      url: "https://xrdocs.github.io/telemetry"
+      url: "https://xrdocs.io/telemetry"
     - title: "App-Hosting"
-      url: "https://xrdocs.github.io/application-hosting"
+      url: "https://xrdocs.io/application-hosting"
     - title: "Programmability"
-      url: "https://xrdocs.github.io/programmability"
+      url: "https://xrdocs.io/programmability"
     - title: "Software-Management"
-      url: "https://xrdocs.github.io/software-management"
+      url: "https://xrdocs.io/software-management"
 
   - title: "Design"
-    url: "https://xrdocs.github.io/design"
+    url: "https://xrdocs.io/design"
 
   - title: "Segment-Routing"
-    url: "https://xrdocs.github.io/segment-routing"
+    url: "https://xrdocs.io/segment-routing"
 
   - title: "Cloud-Scale Networking"
-    url: "https://xrdocs.github.io/cloud-scale-networking"
+    url: "https://xrdocs.io/cloud-scale-networking"
 
   - title: "Automation"
-    url: "https://xrdocs.github.io/automation"
+    url: "https://xrdocs.io/automation"
 
   - title: "Search"
-    url: "https://xrdocs.github.io/search"
-
-# documentation links
-docs:
-  - title: Getting Started
-    children:
-      - title: "Quick-Start Guide"
-        url: /docs/quick-start-guide/
-      - title: "Structure"
-        url: /docs/structure/
-      - title: "Installation"
-        url: /docs/installation/
-      - title: "Upgrading"
-        url: /docs/upgrading/
-
-  - title: Customization
-    children:
-      - title: "Configuration"
-        url: /docs/configuration/
-      - title: "Navigation"
-        url: /docs/navigation/
-      - title: "UI Text"
-        url: /docs/ui-text/
-      - title: "Authors"
-        url: /docs/authors/
-      - title: "Layouts"
-        url: /docs/layouts/
-
-  - title: Content
-    children:
-      - title: "Working with Posts"
-        url: /docs/posts/
-      - title: "Working with Pages"
-        url: /docs/pages/
-      - title: "Working with Collections"
-        url: /docs/collections/
-      - title: "Helpers"
-        url: /docs/helpers/
-      - title: "Utility Classes"
-        url: /docs/utility-classes/
-
-  - title: Extras
-    children:
-      - title: "Stylesheets"
-        url: /docs/stylesheets/
-      - title: "JavaScript"
-        url: /docs/javascript/
-
-  - title: Meta
-    children:
-      - title: "History"
-        url: /docs/history/
-      - title: "Contributing"
-        url: /docs/contributing/
-      - title: "Old 2.2 Docs"
-        url: /docs/docs-2-2/
-      - title: "License"
-        url: /docs/license/
+    url: "https://xrdocs.io/search"
