@@ -24,6 +24,9 @@ main:
   - title: "Cloud-Scale Networking"
     url: "https://xrdocs.io/cloud-scale-networking"
 
+  - title: "Cisco ASR9000"
+    url: "https://xrdocs.io/asr9k"
+
   - title: "Automation"
     url: "https://xrdocs.io/automation"
 
