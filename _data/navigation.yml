@@ -27,6 +27,9 @@ main:
   - title: "Cisco ASR9000"
     url: "https://xrdocs.io/asr9k"
 
+  - title: "EVPN"
+    url: "https://e-vpn.io/"
+
   - title: "Automation"
     url: "https://xrdocs.io/automation"
 
