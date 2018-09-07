@@ -2,7 +2,7 @@ main:
   - title: "Get Started"
     url: "https://xrdocs.io/getting-started/"
 
-  - title: XR Core
+  - title: Technologies
     children:
     - title: "Service Layer"
       url: "https://xrdocs.io/cisco-service-layer"
@@ -10,28 +10,25 @@ main:
       url: "https://xrdocs.io/telemetry"
     - title: "App Hosting"
       url: "https://xrdocs.io/application-hosting"
-    - title: "Programmability"
-      url: "https://xrdocs.io/programmability"
     - title: "Software-Management"
       url: "https://xrdocs.io/software-management"
-
+    - title: "EVPN"
+      url: "https://e-vpn.io/"
+    - title: "Segment-Routing"
+      url: "https://xrdocs.io/segment-routing"
+    - title: "Programmability"
+      url: "https://xrdocs.io/programmability"
+      
   - title: "Design"
     url: "https://xrdocs.io/design"
 
-  - title: "Segment-Routing"
-    url: "https://xrdocs.io/segment-routing"
 
-  - title: "Cloud-Scale Networking"
-    url: "https://xrdocs.io/cloud-scale-networking"
-
-  - title: "Cisco ASR9000"
-    url: "https://xrdocs.io/asr9k"
-
-  - title: "EVPN"
-    url: "https://e-vpn.io/"
-
-  - title: "Automation"
-    url: "https://xrdocs.io/automation"
+  - title: Platforms
+    children:
+    - title: "Cloud-Scale Networking"
+      url: "https://xrdocs.io/cloud-scale-networking"
+    - title: "Cisco ASR9000"
+      url: "https://xrdocs.io/asr9k"
 
   - title: "Search"
     url: "https://xrdocs.io/search"
