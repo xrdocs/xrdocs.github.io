@@ -282,6 +282,10 @@ The image above should extend outside of the parent container on right.
 {: .full}
 ```
 
+## Adding the Table
+
+Adding new table in Markdown is not straightforward. Simple way to create a new one by using external service, such as [tablesgenerator.com](https://www.tablesgenerator.com/markdown_tables#). 
+
 ## Buttons
 
 Make any link standout more when applying the `.btn` class.
