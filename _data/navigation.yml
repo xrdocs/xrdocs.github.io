@@ -1,34 +1,39 @@
 main:
-  - title: "Get Started"
-    url: "https://xrdocs.io/getting-started/"
+#  - title: "Get Started"
+#    url: "https://xrdocs.io/getting-started/"
 
   - title: Technologies
     children:
-    - title: "Service Layer"
-      url: "https://xrdocs.io/cisco-service-layer"
-    - title: "Telemetry"
-      url: "https://xrdocs.io/telemetry"
     - title: "App Hosting"
       url: "https://xrdocs.io/application-hosting"
-    - title: "Software-Management"
+    - title: "Device Lifecycle"
       url: "https://xrdocs.io/software-management"
+
     - title: "EVPN"
       url: "https://e-vpn.io/"
-    - title: "Segment-Routing"
-      url: "https://xrdocs.io/segment-routing"
     - title: "Programmability"
       url: "https://xrdocs.io/programmability"
-      
-  - title: "Design"
-    url: "https://xrdocs.io/design"
+    - title: "Telemetry"
+      url: "https://xrdocs.io/telemetry"
+
+
+    - title: "Segment-Routing"
+      url: "https://xrdocs.io/segment-routing"
+    - title: "Security"
+      url: "https://xrdocs.io/"
+
 
 
   - title: Platforms
     children:
-    - title: "Cloud-Scale Networking"
+    - title: "Cisco NCS5500"
       url: "https://xrdocs.io/cloud-scale-networking"
     - title: "Cisco ASR9000"
       url: "https://xrdocs.io/asr9k"
+
+  - title: "Designs"
+    url: "https://xrdocs.io/design"
+
 
   - title: "Search"
     url: "https://xrdocs.io/search"
