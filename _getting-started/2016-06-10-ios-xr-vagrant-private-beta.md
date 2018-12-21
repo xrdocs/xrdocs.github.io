@@ -18,7 +18,7 @@ IOS-XR Vagrant box.
 {: .notice--warning}
 
 >
-**You will need a CCO ID to download the box! If you don't have one, please click here to register:  [Create CCO ID](http://tools.cisco.com/RPF/register/register.do)**  
+**You will need a CCO ID to download the box! If you don't have one, please click here to register:  [Create CCO ID](https://rpfa.cloudapps.cisco.com/rpfa/profile/profile_management.do)**  
 >
 Make sure you activate your account once you receive an email, post registration.
 
