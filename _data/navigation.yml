@@ -14,7 +14,9 @@ main:
       - title: "Segment Routing"
         url: "https://xrdocs.io/segment-routing"
       - title: "Service Layer"
-        url: "https://xrdocs.io/cisco-service-layer/"
+        url: "https://xrdocs.io/cisco-service-layer"
+      - title: "TDM2IP"
+        url: "https://xrdocs.io/tdm2ip"
 
 
   - title: Platforms
