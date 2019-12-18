@@ -214,3 +214,10 @@ Cisco Cloud Scale Networking Team:
   avatar      : "cloud-scale-networking-team.png"
   twitter     : "xrdocs"
 
+Nicolas Fevrier:
+  name        : "Nicolas Fevrier"
+  github      : "nfevrier"
+  email       : "nifevrie@cisco.com"
+  avatar      : "nfevrier_bio.jpeg"
+  bio         : "Principal Engineer, Cisco"
+  twitter     : "CiscoIOSXR"
