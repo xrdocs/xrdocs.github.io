@@ -97,7 +97,7 @@ Advanced Topics in XR Telemetry - **BRKSPG-2503**, by Brian Wallace
 [https://www.ciscolive.com/emea/learn/sessions/content-catalog.html?search=BRKSPG-2503#/](https://www.ciscolive.com/emea/learn/sessions/content-catalog.html?search=BRKSPG-2503#/)  
 
 Thursday, January 30 | 02:45 PM - 04:15 PM  
-Multicast and Segment Routing - **BRKIPM-2249**, by IJsbrand Wijnands  
+Multicast and Segment Routing - **BRKIPM-2249**, by Ijsbrand Wijnands  
 [https://www.ciscolive.com/emea/learn/sessions/content-catalog.html?search=BRKIPM-2249#/](https://www.ciscolive.com/emea/learn/sessions/content-catalog.html?search=BRKIPM-2249#/)
 
 Friday, January 31 | 09:00 AM - 10:30 AM  
