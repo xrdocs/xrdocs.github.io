@@ -106,7 +106,12 @@ Programmability with IOS-XR Platforms - **BRKOPS-2285**, by Shambhu Mishra
 
 Friday, January 31 | 11:30 AM - 01:00 PM  
 Service Provider Network Fabric: How to bring Access Services using EVPN - **BRKSPG-2322**, by Thierry Courture and Patrice Brissette  
-[https://www.ciscolive.com/emea/learn/sessions/content-catalog.html?search=BRKSPG-2322#/](https://www.ciscolive.com/emea/learn/sessions/content-catalog.html?search=BRKSPG-2322#/)
+[https://www.ciscolive.com/emea/learn/sessions/content-catalog.html?search=BRKSPG-2322#/](https://www.ciscolive.com/emea/learn/sessions/content-catalog.html?search=BRKSPG-2322#/)  
+
+Friday, January 31 | 11:30 AM - 01:00 PM  
+5G Synchronization - Design, testing and deploying Timing to support 5G rollouts - **BRKSPG-2557**, by Dennis Hagarty  
+[https://www.ciscolive.com/emea/learn/sessions/content-catalog.html?search=BRKSPG-2557#/](https://www.ciscolive.com/emea/learn/sessions/content-catalog.html?search=BRKSPG-2557#/)  
+
 
 ## Instructor Led Labs
 
