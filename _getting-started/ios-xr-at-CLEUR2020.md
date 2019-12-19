@@ -177,7 +177,7 @@ Automating Services with Cisco NSO and Model-Driven Telemetry - **DEVWKS-2312**,
 [https://www.ciscolive.com/emea/learn/sessions/content-catalog.html?search=DEVWKS-2312#/](https://www.ciscolive.com/emea/learn/sessions/content-catalog.html?search=DEVWKS-2312#/)
 
 Tuesday, January 28 | 03:00 PM - 03:45 PM  
-Understand gNMI and how to build your first gNMI client with Python to interwork with IOS-XR - **DEVWKS-2332**, by Steveb Barth  
+Understand gNMI and how to build your first gNMI client with Python to interwork with IOS-XR - **DEVWKS-2332**, by Steven Barth  
 [https://www.ciscolive.com/emea/learn/sessions/content-catalog.html?search=DEVWKS-2332#/](https://www.ciscolive.com/emea/learn/sessions/content-catalog.html?search=DEVWKS-2332#/)  
 
 Tuesday, January 28 | 04:00 PM - 04:45 PM  
