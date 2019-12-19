@@ -56,6 +56,10 @@ Wednesday, January 29 | 11:00 AM - 01:00 PM
 Cisco ASR 9000 Architecture - **BRKARC-2003**, by Yongzhong Peng  
 [https://www.ciscolive.com/emea/learn/sessions/content-catalog.html?search=BRKARC-2003#/](https://www.ciscolive.com/emea/learn/sessions/content-catalog.html?search=BRKARC-2003#/)  
 
+Wednesday, January 29 | 11:00 AM - 12:00 PM  
+Migrating your network to Segment Routing using NSO - **BRKOPS-2418**, by Michael Maddern  
+[https://www.ciscolive.com/emea/learn/sessions/content-catalog.html?search=BRKOPS-2418#/](https://www.ciscolive.com/emea/learn/sessions/content-catalog.html?search=BRKOPS-2418#/)
+
 Wednesday, January 29 | 04:45 PM - 06:15 PM  
 IOS-XR Runtime - Turst me? Trust me not? - **BRKSPG-1768**, by Dan Backman  
 [https://www.ciscolive.com/emea/learn/sessions/content-catalog.html?search=BRKSPG-1768#/](https://www.ciscolive.com/emea/learn/sessions/content-catalog.html?search=BRKSPG-1768#/)
@@ -91,6 +95,10 @@ Internet Peering Concepts and Emerging Trends - **BRKSPG-2003**, by Phil Bedard
 Thursday, January 30 | 02:45 PM - 04:15 PM  
 Advanced Topics in XR Telemetry - **BRKSPG-2503**, by Brian Wallace  
 [https://www.ciscolive.com/emea/learn/sessions/content-catalog.html?search=BRKSPG-2503#/](https://www.ciscolive.com/emea/learn/sessions/content-catalog.html?search=BRKSPG-2503#/)  
+
+Thursday, January 30 | 02:45 PM - 04:15 PM  
+Multicast and Segment Routing - **BRKIPM-2249**, by IJsbrand Wijnands  
+[https://www.ciscolive.com/emea/learn/sessions/content-catalog.html?search=BRKIPM-2249#/](https://www.ciscolive.com/emea/learn/sessions/content-catalog.html?search=BRKIPM-2249#/)
 
 Friday, January 31 | 09:00 AM - 10:30 AM  
 Model-Driven Programmability for Cisco IOS XR - **BRKSPG-2303**, by Santiago Alvarez  
