@@ -29,8 +29,8 @@ Network Function Virtualization (NFV) using IOS-XR - **BRKSPG-2724**, by Alexand
 [https://www.ciscolive.com/emea/learn/sessions/content-catalog.html?search=BRKSPG-2724#/](https://www.ciscolive.com/emea/learn/sessions/content-catalog.html?search=BRKSPG-2724#/)
 
 Tuesday, January 28 | 02:30 PM - 04:30 PM  
-Advanced Troubleshooting of the NCS5500 (IOS-XR) made easy - **BRKSPG-2165**, by Andrzej Mieczkowski  
-[https://www.ciscolive.com/emea/learn/sessions/content-catalog.html?search=BRKSPG-2165#/](https://www.ciscolive.com/emea/learn/sessions/content-catalog.html?search=BRKSPG-2165#/)
+NCS5500: Deepdive in the Merchant Silicon High-end SP Routers - **BRKSPG-2900**, by Nicolas Fevrier  
+[https://www.ciscolive.com/emea/learn/sessions/content-catalog.html?search=BRKSPG-2900#/](https://www.ciscolive.com/emea/learn/sessions/content-catalog.html?search=BRKSPG-2900#/)  
 
 Tuesday, January 28 | 02:30 PM - 04:30 PM  
 Service Provider Programmable SDN solution for the Metro Fabric, powered by Segment Routing and EVPN - **BRKSPG-2518**, by Phil Bedard  
@@ -81,8 +81,8 @@ Introduction to Segment Routing - **BRPRST-2124**, by Alberto Donzelli
 [https://www.ciscolive.com/emea/learn/sessions/content-catalog.html?search=BRPRST-2124#/](https://www.ciscolive.com/emea/learn/sessions/content-catalog.html?search=BRPRST-2124#/)  
 
 Thursday, January 30 | 08:30 AM - 10:30 AM  
-NCS5500: Deepdive in the Merchant Silicon High-end SP Routers - **BRKSPG-2900**, by Nicolas Fevrier  
-[https://www.ciscolive.com/emea/learn/sessions/content-catalog.html?search=BRKSPG-2900#/](https://www.ciscolive.com/emea/learn/sessions/content-catalog.html?search=BRKSPG-2900#/)  
+Advanced Troubleshooting of the NCS5500 (IOS-XR) made easy - **BRKSPG-2165**, by Andrzej Mieczkowski  
+[https://www.ciscolive.com/emea/learn/sessions/content-catalog.html?search=BRKSPG-2165#/](https://www.ciscolive.com/emea/learn/sessions/content-catalog.html?search=BRKSPG-2165#/)
 
 Thursday, January 30 | 11:15 AM - 12:45 PM  
 Unprecedented Visibility and Forensics: Analyze system integrity and trustworthiness of network devices - **BRKSPG-2415**, by Deepak Bhargava  
