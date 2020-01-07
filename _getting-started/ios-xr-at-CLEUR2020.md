@@ -222,3 +222,30 @@ Note: Technical Seminars are priced in addition to your Main Conference pass or 
 Monday, January 27 | 02:30 PM - 06:45 PM  
 YANG > Telemetry > Visualization > Machine Learning or From YANG to Machine Learning in 4 hours! - **TECDEV-2765**, by Kevin Kuhls, Mike Mikhail and Einar Nilsen-Nygaard  
 [https://www.ciscolive.com/emea/learn/sessions/content-catalog.html?search=TECDEV-2765#/](https://www.ciscolive.com/emea/learn/sessions/content-catalog.html?search=TECDEV-2765#/)
+
+## World Of Solutions
+
+The World of Solutions is the energetic core of Cisco Live, where you’ll have the chance to learn about the latest innovations from Cisco and our partners and connect in one amazing space. Think of it as the place to be when you are not in a session.
+
+Here is the list of our exciting demos: 
+
+- NCS8000 Overview;
+- IOS-XR7 Demo;
+- Crosswork Qualification Environment (CQE);
+- Segment Routing - Stateless Programmable Infrastructure;
+- End-to-End Security and Trust for Service Providers;
+- Managed SD-WAN and SD-Branch Services;
+- 5G for Enterprise;
+- High velocity Managed Services;
+- Access convergence for 5G in Cable;
+- Intent-Based Automation for SP;
+- End-To-End 5G Network Slicing;
+- Optical & Routing Transport;
+- Distributed fabric for Edge DC with segment routing based slicing;
+- Cisco MEC optimized NFVI;
+- Evolution of Mobile Packet Core.
+
+We can’t wait to see you there!
+
+
+
