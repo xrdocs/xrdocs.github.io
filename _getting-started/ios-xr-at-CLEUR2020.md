@@ -92,6 +92,10 @@ Thursday, January 30 | 11:15 AM - 12:45 PM
 Internet Peering Concepts and Emerging Trends - **BRKSPG-2003**, by Phil Bedard  
 [https://www.ciscolive.com/emea/learn/sessions/content-catalog.html?search=BRKSPG-2003#/](https://www.ciscolive.com/emea/learn/sessions/content-catalog.html?search=BRKSPG-2003#/)  
 
+Thursday, January 30 | 11:15 AM - 12:45 PM  
+5G Timing & Synchronization architectures - **BRKSPM-3295**, by Shahid Ajmeri
+[https://www.ciscolive.com/emea/learn/sessions/content-catalog.html?search=BRKSPM-3295#/](https://www.ciscolive.com/emea/learn/sessions/content-catalog.html?search=BRKSPM-3295#/)  
+
 Thursday, January 30 | 02:45 PM - 04:15 PM  
 Advanced Topics in XR Telemetry - **BRKSPG-2503**, by Brian Wallace  
 [https://www.ciscolive.com/emea/learn/sessions/content-catalog.html?search=BRKSPG-2503#/](https://www.ciscolive.com/emea/learn/sessions/content-catalog.html?search=BRKSPG-2503#/)  
