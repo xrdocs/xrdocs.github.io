@@ -96,6 +96,11 @@ Thursday, January 30 | 11:15 AM - 12:45 PM
 5G Timing & Synchronization architectures - **BRKSPM-3295**, by Shahid Ajmeri
 [https://www.ciscolive.com/emea/learn/sessions/content-catalog.html?search=BRKSPM-3295#/](https://www.ciscolive.com/emea/learn/sessions/content-catalog.html?search=BRKSPM-3295#/)  
 
+Thursday, January 30 | 01:30 PM - 02:30 PM
+Addressing the Architectural Transitions within Service Provider Networks - **PSOSPG-2188**, by Rana El Desouky Kazamel 
+[https://www.ciscolive.com/emea/learn/sessions/content-catalog.html?search=PSOSPG-2188#/](https://www.ciscolive.com/emea/learn/sessions/content-catalog.html?search=PSOSPG-2188#/)  
+
+
 Thursday, January 30 | 02:45 PM - 04:15 PM  
 Advanced Topics in XR Telemetry - **BRKSPG-2503**, by Brian Wallace  
 [https://www.ciscolive.com/emea/learn/sessions/content-catalog.html?search=BRKSPG-2503#/](https://www.ciscolive.com/emea/learn/sessions/content-catalog.html?search=BRKSPG-2503#/)  
@@ -246,6 +251,3 @@ Here is the list of our exciting demos:
 - Evolution of Mobile Packet Core.
 
 We can’t wait to see you there!
-
-
-
