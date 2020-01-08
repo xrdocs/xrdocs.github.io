@@ -96,8 +96,7 @@ Thursday, January 30 | 11:15 AM - 12:45 PM
 5G Timing & Synchronization architectures - **BRKSPM-3295**, by Shahid Ajmeri
 [https://www.ciscolive.com/emea/learn/sessions/content-catalog.html?search=BRKSPM-3295#/](https://www.ciscolive.com/emea/learn/sessions/content-catalog.html?search=BRKSPM-3295#/)  
 
-Thursday, January 30 | 01:30 PM - 02:30 PM
-
+Thursday, January 30 | 01:30 PM - 02:30 PM  
 Addressing the Architectural Transitions within Service Provider Networks - **PSOSPG-2188**, by Rana El Desouky Kazamel 
 [https://www.ciscolive.com/emea/learn/sessions/content-catalog.html?search=PSOSPG-2188#/](https://www.ciscolive.com/emea/learn/sessions/content-catalog.html?search=PSOSPG-2188#/)  
 
