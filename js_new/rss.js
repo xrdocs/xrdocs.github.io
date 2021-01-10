@@ -12,7 +12,7 @@ fetch('assets/urls.json').then((res) => {
 		JSON.parse(data).urls.forEach((u) => {
 			try {
                 var url = new URL(u)
-                var proxy_url = 'https://cors-anywhere.herokuapp.com/';
+                var proxy_url = '';
 			}
 			catch (e) {
 				console.error('URL invalid');
