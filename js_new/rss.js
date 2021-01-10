@@ -12,7 +12,7 @@ fetch('assets/urls.json').then((res) => {
 		JSON.parse(data).urls.forEach((u) => {
 			try {
                 var url = new URL(u)
-                var proxy_url = '';
+                var proxy_url = 'https://cors-anywhere.herokuapp.com/';
 			}
 			catch (e) {
 				console.error('URL invalid');
@@ -55,7 +55,7 @@ fetch('assets/urls.json').then((res) => {
 }).then((res) => {
 			var frag = document.createDocumentFragment()
 			
-			
+
 		setTimeout(() => {
 			let lastesPosts = res.sort((a, b) => new Date(b.date) - new Date(a.date)).slice(0,5)
 			
