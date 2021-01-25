@@ -311,6 +311,9 @@ ul.splide__list {
     background-color: #00bceb;
     box-shadow: -7px 7px 18px 0 rgba(0, 0, 0, 0.2);
 }
+.platform-description {
+    height: 240px;
+}
 .box-heading {
     position: absolute;
     margin: 0;
@@ -424,7 +427,6 @@ ul.splide__list {
         padding: 80px 10px 40px;
     }
 }
-
 @media screen and (max-width: 991px) {
   .container{
     max-width: 728px;
@@ -544,10 +546,10 @@ ul.splide__list {
     padding: 5px;
   }
 /* Hero  */
-.hero-section {
-    padding: 144px 40px;
-    border-bottom-style: none;
-  }
+    .hero-section {
+        padding: 144px 40px;
+        border-bottom-style: none;
+    }
 /* Spotlight Section  */
     .spotlight-text-box {
         float: none;
@@ -559,6 +561,10 @@ ul.splide__list {
     .col-25 {
         display: block;
         width: 100%
+    }
+/* Platform Section */
+    .platform-description {
+        height: 370px;
     }
 /* Design Section  */
     .designs-section {
@@ -576,6 +582,7 @@ ul.splide__list {
         padding-left: 40px;
     }
 }
+
 @media screen and (max-width: 768px) {
     .container {
         max-width: 620px;
@@ -624,6 +631,10 @@ ul.splide__list {
     }
     .transparent p {
         margin: 10px 0;
+    }
+    .platform-description {
+        height: 400px;
+        overflow-y: auto;
     }
 /* CTA Section */
     .cta-section {
@@ -725,6 +736,9 @@ ul.splide__list {
     }
     .box-heading {
         width: 220px;
+    }
+    .platform-description {
+        height: 100%;
     }
 /* Design Section  */
     .button.dark-blue-bg {
