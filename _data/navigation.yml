@@ -16,6 +16,8 @@ main:
       url: "https://e-vpn.io/"
     - title: "Segment-Routing"
       url: "https://xrdocs.io/segment-routing"
+    - title: "Packet Fronthaul"
+      url: "https://xrdocs.io/packet-fronthaul/"
     - title: "Programmability"
       url: "https://xrdocs.io/programmability"
       
