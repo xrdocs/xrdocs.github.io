@@ -27,6 +27,8 @@ main:
         url: "https://xrdocs.io/ncs5500"
       - title: "Cisco ASR9000"
         url: "https://xrdocs.io/asr9k"
+      - title: "Cisco 8000"
+        url: "https://xrdocs.io/8000"
 
   - title: "Designs"
     url: "https://xrdocs.io/design"
