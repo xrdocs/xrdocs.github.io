@@ -36,6 +36,7 @@ If you cannot attend in-person, sessions will be recorded and material will be p
 
 ## Breakout Sessions
 New: this year those are 45min long sessions. They still cover highly technical topics.
+
 | Session Code | Title |
 |---|---|
 | BRKSPG-2028 | Management of IP+Optical Networks Using an SDN Controller   Architecture  |
@@ -45,6 +46,7 @@ New: this year those are 45min long sessions. They still cover highly technical 
 
 ## Connected Learning
 Digital online Hands-On Labs, 3-4h long. Connected Learning registration is in addition to your conference pass.
+
 | **Session Code** | **Title** |
 |---|---|
 | BRKSPG\-2028 | Management of IP\+Optical Networks Using an SDN Controller Architecture  |
