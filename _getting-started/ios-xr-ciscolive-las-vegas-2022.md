@@ -16,7 +16,7 @@ permalink: /ios-xr-ciscolive-las-vegas-2022
 ---
 {% include toc icon="table" title="IOS XR at Cisco 2022" %}
 
-![clus2022.png]({{site.baseurl}}/images/clus2022.png) {: .align-center}
+![clus2022.png]({{site.baseurl}}/images/clus2022.png){: .align-center}
 
 ## Introduction
 
