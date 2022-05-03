@@ -85,6 +85,23 @@ New: this year those are 45min long sessions. They still cover highly technical 
 ## Connected Learning
 Digital online Hands-On Labs, 3-4h long. Connected Learning registration is in addition to your conference pass.
 
+| Session   Code | Title |
+|---|---|
+| HOLSPG-2403.a | Introduction to Multicast Routing on IOS-XR |
+| HOLSPG-2002.a | Hands on with XR Programmability |
+| HOLSPG-2004.a | Managing multiple, isolated SD-WAN overlays made easy |
+| HOLSPG-1093.a | Mastering SRv6 |
+| HOLSPG-2090.a | Seamless Transition from LDP to Segment Routing |
+| HOLSPG-2091.a | Mastering BGP with Recent Features and Troubleshooting   techniques on IOS-XR |
+| HOLSPG-2092.a | mLDP-Based mVPN on IOS-XR Lab |
+| HOLSPG-2400.a | Telemetry >> Visualization >> Machine Learning |
+| HOLSPG-2404.a | Traffic Engineering with Segment Routing |
+| HOLSPG-3004.a | Segment Routing and Flex Algo, Configuration/Verification on   IOS XR |
+| HOLSPG-2104.a | Telemetry collection with Crosswork Data Gateway 2.0 |
+| HOLSPG-3120.a | SRv6 based IP Transport for 5G Hands on Lab |
+| HOLSPG-2004.b | Managing multiple, isolated SD-WAN overlays made easy |
+| HOLSPG-1093.b | Mastering SRv6 |
+| HOLSPG-2400.b | Telemetry >> Visualization >> Machine Learning |
 
 
 ## Instructor-Led Labs
