@@ -1,7 +1,7 @@
 ---
 published: true
 date: '2022-05-03 14:42 +0200'
-title: IOS XR and related topics at CiscoLive Las Vegas 2022
+title: xrdocs.io at CiscoLive Las Vegas 2022
 author: Frederic Cuiller
 tags:
   - iosxr
