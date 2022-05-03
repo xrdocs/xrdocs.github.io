@@ -1,7 +1,7 @@
 ---
 published: true
 date: '2022-05-03 14:42 +0200'
-title: xrdocs.io at CiscoLive Las Vegas 2022
+title: xrdocs.io at Cisco Live Las Vegas 2022
 author: Frederic Cuiller
 tags:
   - iosxr
@@ -14,7 +14,7 @@ excerpt: >-
   This post will help you pick your sessions and build your agenda.
 permalink: /ios-xr-ciscolive-las-vegas-2022
 ---
-{% include toc icon="table" title="IOS XR at Cisco Live 2022" %}
+{% include toc icon="table" title="xrdocs.io at Cisco Live 2022" %}
 
 ![clus2022.png]({{site.baseurl}}/images/clus2022.png){: .align-center}
 
