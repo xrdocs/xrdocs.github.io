@@ -36,6 +36,18 @@ If you cannot attend in-person, sessions will be recorded and material will be p
 
 ## Breakout Sessions
 New: this year those are 45min long sessions. They still cover highly technical topics.
+| Session Code | Title                                                                                               |   |   |   |   |   |   |   |   |
+|--------------|-----------------------------------------------------------------------------------------------------|---|---|---|---|---|---|---|---|
+| BRKSPG-2028  | Management of IP+Optical Networks Using an SDN Controller Architecture                              |   |   |   |   |   |   |   |   |
+| BRKOPT-1005  | High Value Wavelength / Private Line Services – Understanding the Customer and Provider Perspective |   |   |   |   |   |   |   |   |
+| BRKSPG-2038  | Cisco Ultra Cloud Core - Taking 2G, 3G, 4G and 5G Towards a Common Cloud-Based Mobile Core Future   |   |   |   |   |   |   |   |   |
+| BRKSPG-2029  | Designing Routed Optical Networks – IP/MPLS Considerations                                          |   |   |   |   |   |   |   |   |
+| BRKSPG-1020  | Learn How to Build a Webscaler Network: One Silicon, One Architecture, Any Software - Cisco 8000    |   |   |   |   |   |   |   |   |
+| BRKMPL-2113  | Design Your Next-Gen MPLS Network with Automation and Orchestration in Mind                         |   |   |   |   |   |   |   |   |
+| BRKOPT-2013  | Optical and Transport Innovations                                                                   |   |   |   |   |   |   |   |   |
+| BRKSPG-2032  | Deploying High dense Aggregation, Peering for Service Provider Network                              |   |   |   |   |   |   |   |   |
+| BRKMPL-2117  | SRv6 based IP Transport – Design, Deployment Best Practices & Challenges                            |   |   |   |   |   |   |   |   |
+
 ## Connected Learning
 Digital online Hands-On Labs, 3-4h long. Connected Learning registration is in addition to your conference pass.
 ## Instructor-Led Labs
