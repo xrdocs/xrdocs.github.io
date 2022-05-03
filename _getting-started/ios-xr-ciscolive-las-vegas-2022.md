@@ -30,10 +30,6 @@ The Service Provider track will cover most [xrdocs.io](https://xrdocs.io) topics
 - Network Programmability, Automation and Security
 - And more…
 
-This post will help you picking your sessions to build your agenda.
-
-If you cannot attend in-person, sessions will be recorded and material will be published on Cisco Live website. Meanwhile, Cisco Live on-demand library is accessible and available for free to explore recent global Cisco Live content.  
-
 This post will help you pick your sessions and build your agenda.  
 
 If you cannot attend in-person, sessions will be recorded and material will be published on Cisco Live website. Meanwhile, Cisco Live [on-demand library](https://www.ciscolive.com/on-demand/on-demand-library.html#/) is accessible and available for free to explore recent global Cisco Live content.
