@@ -14,9 +14,9 @@ excerpt: >-
   This post will help you pick your sessions and build your agenda.
 permalink: /ios-xr-ciscolive-las-vegas-2022
 ---
-{% include toc icon="table" title="IOS XR at Cisco Live US 2022" %}  
+{% include toc icon="table" title="IOS XR at Cisco 2022" %}
 
-![CLEUR2020.png]({{site.baseurl}}/images/CLEUR2020.png){: .align-center}
+![clus2022.png]({{site.baseurl}}/images/clus2022.png) {: .align-center}
 
 ## Introduction
 
