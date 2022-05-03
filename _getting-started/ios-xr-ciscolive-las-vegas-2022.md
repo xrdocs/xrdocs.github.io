@@ -45,6 +45,10 @@ New: this year those are 45min long sessions. They still cover highly technical 
 
 ## Connected Learning
 Digital online Hands-On Labs, 3-4h long. Connected Learning registration is in addition to your conference pass.
+| **Session Code** | **Title** |
+|---|---|
+| BRKSPG\-2028 | Management of IP\+Optical Networks Using an SDN Controller Architecture  |
+| BRKOPT\-1005 | High Value Wavelength / Private Line Services – Understanding the Customer and Provider Perspective |
 
 ## Instructor-Led Labs
 Instructor-Led Labs are hands-on learning, 4h long and are priced in addition to your conference fee.
