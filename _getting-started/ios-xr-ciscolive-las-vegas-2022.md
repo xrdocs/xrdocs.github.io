@@ -106,10 +106,71 @@ Digital online Hands-On Labs, 3-4h long. Connected Learning registration is in a
 
 ## Instructor-Led Labs
 Instructor-Led Labs are hands-on learning, 4h long and are priced in addition to your conference fee.
+
+| Session   Code | Title |
+|---|---|
+| LTRSPG-1070 | Creating Custom Workflows to Automate Manual Tasks Using   Crosswork Applications |
+| LTRSPG-2004 | Programmable Intent-Based Slicing, Powered by Segment Routing   on IOS XR  |
+| LTROPS-1007 | Hands-on with Smart Licensing using Policy |
+| LTRTRS-2132 | Sabotage! |
+| LTRSPG-1192 | Introduction to CLI Automation with Ansible |
+| LTRSPG-2054 | IOS-XR Overview and Hands-on Configuration |
+| LTRSPG-2081 | Deploying VPN Services with Advance SLAS using Crosswork   Network Controller - SDN for transport networks |
+| LTRMPL-2116 | Seamless transition from LDP to Segment routing |
+| LTRSPG-2140 | Mastering BGP with recent features and troubleshooting   techniques on IOS-XR |
+| LTRSPG-2161 | Telemetry >> Visualization >> Machine Learning |
+| LTRMPL-2208 | Traffic Engineering with Segment Routing |
+| LTRSPG-2837 | IOS-XR EVPN Hands-On Lab |
+| LTRMPL-3145 | mLDP-Based mVPN on IOS-XR Lab |
+| LTRMPL-2910 | MPLS and Its Application |
+
 ## Technical Seminars
 Technical Seminars are Classroom-style sessions, 4h long and are priced in addition to your conference fee. They take place on Sunday, June 12 at the Mandalay Bay.
+
+| Session   Code | Title |
+|---|---|
+| TECMPL-2147 | Segment Routing Implementation in Action: From CLI to   Closed-Loop Automation |
+| TECSPG-2431 | 5G Programmable Transport - Architecture, Design,   Orchestration & Automation |
+| TECSPG-2432 | New Adventures in Wireless:    The Journey of WiFi6 and Private 5G Networks for the Enterprise |
+| TECOPT-2010 | Routed Optical Networking In-Depth Analysis |
+| TECMPL-2143 | Segment Routing MPLS to Optimize Path Selection Utilizing   Enterprise Platforms |
+| TECSPG-2100 | Platform Architecture and Transport Innovations in Service   Provider Edge and Core Platforms |
+
 ## Walk in Labs
 45-60 minute pre-designed scenarios to explore configurations, evaluate, and test some of the latest products and solutions – all at your own pace.
+
+| Session   Code | Title |
+|---|---|
+| LABSPG-2002 | Getting Started with Next-Generation Service Provider   Networking |
+| LABSPG-1021 | Primer on IOS-XR |
+| LABSPG-2111 | Automated Migration to Segment Routing based SDN Transport   Services with NSO based Cisco Migration Automation Platform |
+| LABSPG-3120 | SRv6 based IP Transport for 5G – Hands on Lab |
+| LABMPL-2011 | How to use the Segment Routing PCE (Path Computation Element)   (controller) for IOS-XR |
+| LABMPL-1201 | SRv6 Basics |
+| LABMPL-2012 | mVPN: Profile 14 |
+| LABSP-1085 | Cloud Native BNG Hands-on Lab |
+| LABSP-1581 | MPLS Segment Routing Introduction |
+| LABSP-2104 | Telemetry collection with Crosswork Data Gateway 2.0 |
+| LABSP-2509 | EVPN troubleshooting and debugging |
+| LABSP-3393 | Implementing Segment Routing v6 (SRv6) Transport on NCS   55xx/5xx platforms - Advanced |
+| LABSP-3395 | Configure and Implement BGP-EVPN with Segment Routing using   NCS 55xx/5xx platforms - Advanced |
+
 ## Misc
 Product or Strategy Overviews: 30min to provide a high-level overview of new Cisco products, features, and solutions.  
 Customer Success Stories: 30min sessions, delivered by Cisco customers and staff, focused on best practices and recommendations for deploying, managing and extending Cisco product features and capabilities.
+
+| Session   Code | Title |
+|---|---|
+| CSSSPG-2000 | Service Provider's Zero Trust Journey |
+| CSSOPS-2001 | ISE Adoption in AWS |
+| PSOSPG-2009 | Multi Layer, Multi Vendor Automation with Cisco's Hierarchical   Controller  |
+| DEVLIT-1259 | The World of NSO Web UI |
+| DEVWKS-3150 | Service Orchestration with Pro-Active Monitoring and   Remediation using Crosswork |
+| PSOSPG-2010 | Coherent Pluggables: Revolutionizing Optical Infrastructure |
+| PSOSPG-2011 | Cisco’s Routed Optical Networking: Experience Game-changing   Innovation with a Converged Architecture and Automation |
+| PSOSPG-1002 | Leading Your Digital Transformation with Cisco Private 5G   Network Offer |
+| PSOSPG-1015 | The Fast and the Furious High Velocity Managed Services |
+| PSOSPG-2013 | Leveraging the Carrier Network Edge to Optimize Content   Delivery |
+| PSOSPG-1701 | Win the 5G Connected Car Race with Cisco IoT Control Center |
+| INTIOT-1300 | Digitizing the Physical World with Mass-scale Industrial IoT   to Move Industries Forward |
+| CSSSPG-2200 | How Intel leverages SDN to enable the Future of Manufacturing   Communication |
