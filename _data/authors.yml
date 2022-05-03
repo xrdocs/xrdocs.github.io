@@ -212,3 +212,11 @@ Nicolas Fevrier:
   avatar      : "nfevrier_bio.jpeg"
   bio         : "ex-Cisco"
   twitter     : "CiscoIOSXR"
+  
+Frederic Cuiller:
+  name        : "Frederic Cuiller"
+  github      : "fcuiller"
+  email       : "fcuiller@cisco.com"
+  avatar      : "fcuiller.jpeg"
+  bio         : "Technical Marketing Engineer"
+  twitter     : "fcuiller"
