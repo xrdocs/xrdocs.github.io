@@ -158,6 +158,7 @@ Technical Seminars are Classroom-style sessions, 4h long and are priced in addit
 ## Misc
 Product or Strategy Overviews: 30min to provide a high-level overview of new Cisco products, features, and solutions.  
 Customer Success Stories: 30min sessions, delivered by Cisco customers and staff, focused on best practices and recommendations for deploying, managing and extending Cisco product features and capabilities.
+DevNet: 45min labs and demos focused on automation, programmability, telemetry and application hosting.
 
 | Session   Code | Title |
 |---|---|
@@ -174,3 +175,5 @@ Customer Success Stories: 30min sessions, delivered by Cisco customers and staff
 | PSOSPG-1701 | Win the 5G Connected Car Race with Cisco IoT Control Center |
 | INTIOT-1300 | Digitizing the Physical World with Mass-scale Industrial IoT   to Move Industries Forward |
 | CSSSPG-2200 | How Intel leverages SDN to enable the Future of Manufacturing   Communication |
+|DEVWKS-1688  | Introduction to Network Operations using gNOI |
+|DEVNET-2460  | Jupyter Notebooks + XR for Modern Learning Process |
