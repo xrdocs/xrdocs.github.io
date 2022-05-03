@@ -34,8 +34,15 @@ This post will help you pick your sessions and build your agenda.
 If you cannot attend in-person, sessions will be recorded and material will be published on Cisco Live website. Meanwhile, Cisco Live [on-demand library](https://www.ciscolive.com/on-demand/on-demand-library.html#/) is accessible and available for free to explore recent global Cisco Live content.
 
 ## Breakout Sessions
+New: this year those are 45min long sessions. They still cover highly technical topics.
 ## Connected Learning
+Digital online Hands-On Labs, 3-4h long. Connected Learning registration is in addition to your conference pass.
 ## Instructor-Led Labs
+Instructor-Led Labs are hands-on learning, 4h long and are priced in addition to your conference fee.
 ## Technical Seminars
+Technical Seminars are Classroom-style sessions, 4h long and are priced in addition to your conference fee. They take place on Sunday, June 12 at the Mandalay Bay.
 ## Walk in Labs
+45-60 minute pre-designed scenarios to explore configurations, evaluate, and test some of the latest products and solutions – all at your own pace.
 ## Misc
+Product or Strategy Overviews: 30min to provide a high-level overview of new Cisco products, features, and solutions.  
+Customer Success Stories: 30min sessions, delivered by Cisco customers and staff, focused on best practices and recommendations for deploying, managing and extending Cisco product features and capabilities.
