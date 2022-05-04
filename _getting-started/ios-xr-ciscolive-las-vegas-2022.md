@@ -7,7 +7,7 @@ tags:
   - iosxr
   - cisco
   - Cisco Live
-position: hidden
+position: top
 excerpt: >-
   CiscoLive is back! Scheduled for June 12-16, 2022 in Las Vegas, this in-person
   and digital event will be unique opportunity to reconnect after a long break.
