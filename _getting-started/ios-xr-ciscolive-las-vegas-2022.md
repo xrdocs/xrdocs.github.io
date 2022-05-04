@@ -2,7 +2,7 @@
 published: true
 date: '2022-05-03 14:42 +0200'
 title: xrdocs.io at Cisco Live Las Vegas 2022
-author: Frederic Cuille
+author: Frederic Cuiller
 tags:
   - iosxr
   - cisco
