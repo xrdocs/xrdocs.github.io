@@ -104,6 +104,7 @@ exclude:
   - .bundle
   - .jekyll-assets-cache
   - .sass-cache
+  - [vendor]
   - assets/js/plugins
   - assets/js/_main.js
   - assets/js/vendor
@@ -155,10 +156,24 @@ collections:
   helpdocs:
     output: true
     permalink: /:collection/:path/
-  
+  blogs:
+    output: true
+    permalink: /:collection/:path/
 
 # Defaults
 defaults:
+  # _blogs
+  - scope:
+      path: ""
+      type: blogs
+    values:
+      layout: single
+      author_profile: true
+      read_time: false
+      comments: true
+      share: true
+      related: true
+      position: "top"
 # _getting-started
   - scope:
       path: ""
