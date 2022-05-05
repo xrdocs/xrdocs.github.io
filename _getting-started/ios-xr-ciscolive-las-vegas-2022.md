@@ -35,7 +35,7 @@ This post will help you pick your sessions and build your agenda.
 
 If you cannot attend in-person, sessions will be recorded and material will be published on Cisco Live website. Meanwhile, Cisco Live [on-demand library](https://www.ciscolive.com/on-demand/on-demand-library.html#/) is accessible and available for free to explore recent global Cisco Live content.  
 
-Last but not least, you will also have an opportunity to book meetings with Cisco experts to discuss these topics by leveraging the Meet The Engineer program.
+For those attending on-site, you will also have an opportunity to book meetings with Cisco experts to discuss these topics by leveraging the Meet The Engineer program.
 
 ## Breakout Sessions
 New: this year those are 45min long sessions. They still cover highly technical topics.
