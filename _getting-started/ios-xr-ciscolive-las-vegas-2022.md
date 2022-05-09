@@ -68,6 +68,7 @@ New: this year those are 45min long sessions. They still cover highly technical 
 | BRKOPT-2014 | Open Line Systems Innovations and Challenges |
 | BRKSPG-2049 | New Frontiers in IP Assurance |
 | BRKSPM-2842 | Industry enablers making Private 5G a viable private   networking option |
+| BRKSPM-2977 | 5G RAN Transport Architecture |
 | BRKOPT-2130 | The Journey Towards Routed Optical Networking  |
 | BRKOPT-2699 | Optics is Heading Into the Terabit Era - What You Need to   Know! |
 | BRKOPT-2705 | Growing the Network with 400 Gbps Coherent Pluggable Optics |
