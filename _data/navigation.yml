@@ -19,6 +19,8 @@ main:
         url: "https://xrdocs.io/cisco-service-layer"
       - title: "TDM2IP"
         url: "https://xrdocs.io/tdm2ip"
+      - title: "Security"
+        url: "https://xrdocs.io/security"
 
 
   - title: Platforms
