@@ -3,9 +3,8 @@ main:
     children:
       - title: "App Hosting"
         url: "https://xrdocs.io/application-hosting"
-      - title: "ZTP"
-        url: "https://xrdocs.io/ztp"
-      - title: "EVPN"
+      - title: "Device Lifecycle"
+        url: "https://xrdocs.io/device-lifecycle"
         url: "https://e-vpn.io/"
       - title: "Packet Fronthaul"
         url: "https://xrdocs.io/packet-fronthaul/"
