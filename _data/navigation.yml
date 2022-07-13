@@ -5,6 +5,7 @@ main:
         url: "https://xrdocs.io/application-hosting"
       - title: "Device Lifecycle"
         url: "https://xrdocs.io/device-lifecycle"
+      - title: "EVPN"
         url: "https://e-vpn.io/"
       - title: "Packet Fronthaul"
         url: "https://xrdocs.io/packet-fronthaul/"
@@ -16,10 +17,12 @@ main:
         url: "https://xrdocs.io/segment-routing"
       - title: "Service Layer"
         url: "https://xrdocs.io/cisco-service-layer"
-      - title: "TDM2IP"
-        url: "https://xrdocs.io/tdm2ip"
       - title: "Security"
         url: "https://xrdocs.io/security"
+      - title: "TDM2IP"
+        url: "https://xrdocs.io/tdm2ip"
+      - title: "ZTP"
+        url: "https://xrdocs.io/ztp"
 
 
   - title: Platforms
