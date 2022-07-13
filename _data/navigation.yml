@@ -1,6 +1,8 @@
 main:
   - title: Technologies
     children:
+      - title: "ZTP"
+        url: "https://xrdocs.io/ztp"
       - title: "App Hosting"
         url: "https://xrdocs.io/application-hosting"
       - title: "Device Lifecycle"
@@ -21,8 +23,7 @@ main:
         url: "https://xrdocs.io/security"
       - title: "TDM2IP"
         url: "https://xrdocs.io/tdm2ip"
-      - title: "ZTP"
-        url: "https://xrdocs.io/ztp"
+      
 
 
   - title: Platforms
