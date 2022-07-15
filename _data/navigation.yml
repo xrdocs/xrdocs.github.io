@@ -13,7 +13,7 @@ main:
         url: "https://xrdocs.io/packet-fronthaul/"
       - title: "Programmability"
         url: "https://xrdocs.io/programmability"
-      - title: "Streaming Telemetry"
+      - title: "Telemetry"
         url: "https://xrdocs.io/telemetry"
       - title: "Segment Routing"
         url: "https://xrdocs.io/segment-routing"
