@@ -23,7 +23,10 @@ main:
         url: "https://xrdocs.io/security"
       - title: "TDM2IP"
         url: "https://xrdocs.io/tdm2ip"
-      
+      - title: "Automation"
+        url: "https://xrdocs.io/automation"
+      - title: "Cloud Scale Networking"
+        url: "https://xrdocs.io/cloud-scale-networking"
 
 
   - title: Platforms
