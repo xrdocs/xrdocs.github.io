@@ -6,7 +6,7 @@ excerpt: >-
   This blog post covers new feature updates to IOS-XR 7.7.1 and their business
   impacts. 
 author: Akhil Sehgal
-permalink: /ios_xr771_key_features_and_technology_updates
+permalink: /ios-xr771-innovations
 tags:
   - iosxr
 ---
