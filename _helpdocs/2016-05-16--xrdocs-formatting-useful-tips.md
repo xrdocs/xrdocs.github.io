@@ -282,6 +282,17 @@ The image above should extend outside of the parent container on right.
 {: .full}
 ```
 
+## Resizing an image
+
+For best experience, it's preferrable to have fixed image size and resize it offline. You can use Preview on MAC, or Paint on Windows. You can check target image size opening it with your local web browser.  
+
+It's also possible to use Markdown to resize an image. You need to add `{:height="60%" width="60%"}` after the image reference.
+
+For example:  
+
+`![netmiko-textfsm.jpg]({{site.baseurl}}/images/netmiko-textfsm.jpg){: .align-center}{:height="60%" width="60%"}`
+
+
 ## Adding the Table
 
 Adding new table in Markdown is not straightforward. Simple way to create a new one by using external service, such as [tablesgenerator.com](https://www.tablesgenerator.com/markdown_tables#). 
