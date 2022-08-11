@@ -23,6 +23,8 @@ tags:
 ## IOS-XR 7.7.1 Software Availability
 IOS-XR 7.7.1 is Generally Available (GA) for release. 8000, ASR9K 64-bit, NCS5500/NCS5700, NCS560, NCS540, XRv9K, and XRd are supported in this release. 
 
+Official release [notes](https://www.cisco.com/c/en/us/support/ios-nx-os-software/ios-xr-software/products-release-notes-list.html) 
+
 ## Overview 
 - Feature updates among technologies 
 - Software PID's for product portfolio 
