@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html>
 <head>
@@ -68,6 +69,39 @@
                         <a href="/ztp" class="underline">ZTP</a>
 <!--                        <a href="/tdm2ip" class="underline">TDM2IP</a>-->
                     </div>
+=======
+---
+layout: default
+---
+
+{% include base_path %}
+<!--<script src="{{ base_path }}/assets/js/particles.js"></script>-->
+<!--<script>-->
+    <!--particlesJS.load('particles-js', 'https://raw.githubusercontent.com/VincentGarreau/particles.js/master/package.json', function() {-->
+        <!--console.log('callback - particles.js config loaded');-->
+    <!--});-->
+<!--</script>-->
+
+    <!-- Carousel
+    ================================================== -->
+ <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="5000" style="padding-bottom: 20px">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <img class="first-slide" src="{{ base_path }}/images/xrdocs_background-globe-min.png" alt="First slide" style="height:100%;width:100%;">
+          <div class="container">
+            <div class="carousel-caption" style="bottom: 3em;">
+              <h1>@xrdocs</h1>
+              <p>Documentation Blogs and Tutorials on all things IOS-XR<br/>An Open, Extensible and Stable Cloud-Scale Network Operating System</p>
+              <a class="twitter-follow-button" href="https://twitter.com/xrdocs" data-show-count="false" data-size="large">>Follow @xrdocs</a><br/>
+              
+              <a href="{{ base_path }}/getting-started" class="btn btn--light-outline btn--large" style="font-size:0.9em; margin-top:0.5em;"><i class="fa fa-step-forward"></i> Get Started!</a>
+>>>>>>> gh-pages
             </div>
             <div class="dropdown nav-link">
                 <label class="underline">Platforms <i class="fa fa-caret-down"></i>
@@ -93,6 +127,7 @@
             <span></span>
             <span></span>
         </div>
+<<<<<<< HEAD
     </nav>
 </div>
 <div class="hero-section">
@@ -320,3 +355,146 @@
 <script src='js_new/rss.js' defer></script>
 </body>
 </html>
+=======
+      </div>
+      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div><!-- /.carousel -->
+
+    <!-- Marketing messaging and featurettes
+    ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+
+
+
+<!--{% include particles.html %}-->
+<div class="wrapper-div" style="max-width: 80%; padding-bottom: 10px; padding-top: 10px; margin-left: 10%">
+
+{% include tiles.html %}
+
+</div>
+
+<!--<div class="wrapper-div" style="height: 100%; max-width: 100vw; padding-bottom: 0px;">-->
+
+      <!--<div class="row featurette">-->
+        <!--<div class="col-md-7 col-md-push-5">-->
+         <!--<div class="page__content">-->
+          <!--<a href="{{ base_path }}/cisco-service-layer/blogs/2018-02-16-xr-s-journey-to-the-we-b-st-open-r-integration-with-ios-xr/"><h2 class="featurette-heading">Open/R integration with IOS XR</h2></a>-->
+          <!--<p class="lead">Explore how IOS-XR’s service layer APIs and application hosting capabilities can be leveraged to host and integrate Open/R as an IGP on IOS-XR. <b>Akshat Sharma</b> explains.</p>-->
+         <!--</div>-->
+          <!--<p style="text-align:center;"><a class="btn btn-default" href="{{ base_path }}/cisco-service-layer/blogs/2018-02-16-xr-s-journey-to-the-we-b-st-open-r-integration-with-ios-xr/" role="button">Learn more &raquo;</a></p>-->
+        <!--</div>-->
+        <!--<div class="col-md-5 col-md-pull-7">-->
+          <!--<a href="{{ base_path }}/images/openr-integration-xr.png"><img class="featurette-image img-responsive center-block" src="{{ base_path }}/images/openr-integration-xr.png" data-src="holder.js/500x500/auto" alt="open/r integration with ios xr"></a>-->
+        <!--</div>-->
+      <!--</div>-->
+
+      <!--<hr class="featurette-divider">-->
+
+      <!--&lt;!&ndash; Three columns of text below the carousel &ndash;&gt;-->
+      <!--<div class="row" style="margin: 0  auto;">-->
+        <!--<div class="col-lg-4">-->
+          <!--<a href="{{ base_path }}/images/iosxr-app-ecosystem.png"><img src="{{ base_path }}/images/iosxr-app-ecosystem.png" alt="Generic placeholder image" style="display: block; margin: 0  auto; max-height: 189px;"></a>-->
+          <!--<div class="page__content" style="text-align:center;">-->
+          <!--<a href="{{ base_path }}/application-hosting/tags/#xr-toolbox"><h2>App-Hosting: #xr-toolbox</h2></a>-->
+          <!--<p>IOS-XR supports Linux applications like iperf, etcd, pipeline etc. running on-box: both natively and inside containers (Docker, LXC).<b>Akshat Sharma</b> explores the application-hosting capabilties in IOS-XR in a tutorial series called <b>#xr-toolbox</b>, all running on Vagrant IOS-XR on the user's laptop</p>-->
+          <!--</div>-->
+          <!--<p style="text-align:center;"><a class="btn btn-default" href="{{ base_path }}/application-hosting/tags/#xr-toolbox" role="button">View Details &raquo;</a></p>-->
+        <!--</div>&lt;!&ndash; /.col-lg-4 &ndash;&gt;-->
+
+        <!--<hr class="featurette-divider-hidden">-->
+
+        <!--<div class="col-lg-4">-->
+          <!--<a href="{{ base_path }}/images/telemetry_setup.png"><img src="{{ base_path }}/images/pipeline-arch.png" alt="Generic placeholder image" style="display: block; margin: 0  auto; height: 189px;"></a>-->
+          <!--<div class="page__content" style="text-align:center;">-->
+          <!--<a href="{{ base_path }}/telemetry/tutorials/"><h2>All about Pipeline</h2></a>-->
+          <!--<p>Are you thinking about how to start exploring telemetry? You know how to configure Model Driven Telemetry-->
+                        <!--on IOS XR routers and your next question is how to consume it? <b>Viktor Osipchuk</b>-->
+                        <!--will help you with that.-->
+                        <!--Find some time to go through this -->
+              <!--<a href="https://github.com/cisco/bigmuddy-network-telemetry-pipeline">Pipeline</a>-->
+                        <!--deep dive. You will find all the answers right here!-->
+          <!--</p>-->
+          <!--</div>-->
+          <!--<p style="text-align:center;"><a class="btn btn-default" href="{{ base_path }}/telemetry/tutorials/2018-03-01-everything-you-need-to-know-about-pipeline/" role="button">View Details &raquo;</a></p>-->
+        <!--</div>&lt;!&ndash; /.col-lg-4 &ndash;&gt;-->
+      <!--</div>&lt;!&ndash; /.row &ndash;&gt;-->
+
+
+
+      <!--&lt;!&ndash; START THE FEATURETTES &ndash;&gt;-->
+
+      <!--<hr class="featurette-divider">-->
+
+      <!--<div class="row featurette">-->
+        <!--<div class="col-md-7">-->
+         <!--<div class="page__content">-->
+          <!--<a href="{{ base_path }}/design/blogs/2017-08-01-internet-edge-peering-current-practice/"><h2 class="featurette-heading">Design: Internet Edge Peering</span></h2></a>-->
+          <!--<p class="lead">The Internet was created to provide transparent data services across interconnected packet switched networks. The interconnection and exchange of Internet routing data between two networks is known as Peering and it represents an important administrative, operational, and security boundary between networks. In this blog, <b>Phil Bedard</b> focuses on the technical aspects of peering covering peering history and current peering architecture in the areas of network, security, and telemetry.</p>-->
+        <!--</div>-->
+          <!--<p style="text-align:center;"><a class="btn btn-default" href="{{ base_path }}/design/blogs/2017-08-01-internet-edge-peering-current-practice/" role="button">View Details &raquo;</a></p>-->
+        <!--</div>-->
+        <!--<div class="col-md-5">-->
+          <!--<a href="{{ base_path }}/images/peering-design.png"><img class="featurette-image img-responsive center-block" src="{{ base_path }}/images/peering-design.png" data-src="holder.js/500x500/auto" alt="Design  @xrdocs"></a>-->
+        <!--</div>-->
+      <!--</div>-->
+
+
+      <!--<hr class="featurette-divider">-->
+
+      <!--<div class="row featurette">-->
+        <!--<div class="col-md-7 col-md-push-5">-->
+         <!--<div class="page__content">-->
+          <!--<a href="{{ base_path }}/software-management/tutorials/2016-08-26-working-with-ztp/"><h2 class="featurette-heading">Software-Management: ZTP</h2></a>-->
+          <!--<p class="lead">Zero Touch provisioning (ZTP) has become an integral part of the workflow for most Users of IOS-XR. ZTP allows an IOS-XR box to be provisioned without any manual intervention by either running a user-defined script (bash/python) or simply applying a configuration file - all done automatically on boot. <b>Patrick Warichet</b> explains.</p>-->
+         <!--</div>-->
+          <!--<p style="text-align:center;"><a class="btn btn-default" href="{{ base_path }}/software-management/tutorials/2016-08-26-working-with-ztp/" role="button">View Details &raquo;</a></p>-->
+        <!--</div>-->
+        <!--<div class="col-md-5 col-md-pull-7">-->
+          <!--<a href="{{ base_path }}/images/ztp-flow.png"><img class="featurette-image img-responsive center-block" src="{{ base_path }}/images/ztp-flow.png" data-src="holder.js/500x500/auto" alt="ZTP topology"></a>-->
+        <!--</div>-->
+      <!--</div>-->
+
+      <!--<hr class="featurette-divider">-->
+
+      <!--<div class="row featurette">-->
+        <!--<div class="col-md-7">-->
+         <!--<div class="page__content">-->
+          <!--<a href=""{{ base_path }}/segment-routing/tutorials/2016-09-27-topology-independent-lfa-ti-lfa/"><h2 class="featurette-heading">Segment-Routing: Failure Protection</h2></a>-->
+          <!--<p class="lead">The Segment Routing-based fast-reroute solution, TI-LFA, can provide per-destination sub-50msec protection upon any single link, node or SRLG failure regardless the topology. The traffic is rerouted straight to the post-convergence path, hence avoiding any intermediate flap via an intermediate path. The primary and backup path computation is completely automatic by the IGP. <b>Clarence Filsfils</b> and <b>Kris Michielsen</b> dive deeper.</p>-->
+        <!--</div>-->
+        <!--<p style="text-align:center;"><a class="btn btn-default" href="{{ base_path }}/segment-routing/tutorials/2016-09-27-topology-independent-lfa-ti-lfa/" role="button">View Details &raquo;</a></p>-->
+        <!--</div>-->
+        <!--<div class="col-md-5">-->
+          <!--<img class="featurette-image img-responsive center-block" src="{{ base_path }}/images/failure_protection.png" data-src="holder.js/500x500/auto" alt="Generic placeholder image">-->
+        <!--</div>-->
+      <!--</div>-->
+
+
+      <!--&lt;!&ndash; /END THE FEATURETTES &ndash;&gt;-->
+
+
+
+    <!--&lt;!&ndash;<div class="floating__feed">&ndash;&gt;-->
+    <!--&lt;!&ndash;<div class="rssfeed">&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash; start feedwind code &ndash;&gt; <script type="text/javascript" src="https://feed.mikle.com/js/fw-loader.js" data-fw-param="40064/"></script> &lt;!&ndash; end feedwind code &ndash;&gt;&ndash;&gt;-->
+    <!--&lt;!&ndash;</div>&ndash;&gt;-->
+    <!--&lt;!&ndash;</div>&ndash;&gt;-->
+    <!--<div style="clear: both;"></div>-->
+
+<!--</div>-->
+
+
+<script src="{{ base_path }}/assets/js/main.min.js"></script>
+<script src="{{ base_path }}/assets/js/scrollmenu.js"></script>
+<script src="{{ base_path }}/assets/js/bootstrap.min.js"></script>
+<script src="{{ base_path }}/assets/js/holder.min.js"></script>
+<script src="{{ base_path }}/assets/js/custom_script.js"></script>
+<script src="{{ base_path }}/assets/js/rssfeed.js"></script>
+>>>>>>> gh-pages
