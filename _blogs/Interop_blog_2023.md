@@ -4,7 +4,7 @@ date: '2023-05-4 09:23 +0200'
 title: Interop Blog 2023
 permalink: /blogs/interop_blog_2023
 author: Sai Gopalakrishnan
-excerpt: interop
+excerpt: The following blog outlines the highlights from the EANTC Interop Showcase at MPLS SD & AI Net World 2023 in Paris.
 tags:
   - iosxr
   - cisco
