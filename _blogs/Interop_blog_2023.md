@@ -8,7 +8,7 @@ excerpt: The following blog outlines the highlights from the EANTC Interop Showc
 tags:
   - iosxr
   - cisco
-position: hidden
+position: top
 sitemap: false
 ---
 
@@ -33,7 +33,7 @@ By participating in scenarios involving EVPN, SRv6, SR-MPLS, and SDN technologie
 ## Snapshots
 
 ![interop blog 2023 1.1.jpg]({{site.baseurl}}/images/interop blog 2023 1.1.jpg){: .align-center}
-_The engineers who made the interop a huge success! (Photo credit: @ EANTC AG)_
+_The engineers who made the interop a huge success! (Photo credit: © EANTC AG)_
 {: .text-center}
 
 ![interop blog 2023 1.2.jpg]({{site.baseurl}}/images/interop blog 2023 1.2.jpg){: .align-center}
