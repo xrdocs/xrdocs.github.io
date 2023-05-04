@@ -29,11 +29,15 @@ The second important aspect of interoperability is to showcase it works when put
 _By participating in scenarios involving EVPN, SRv6, SR-MPLS, and SDN technologies, Cisco showed multi-vendor readiness of their solutions with regard to network slicing, traffic engineering, policing, and packet network synchronization,” said Carsten Rossenhövel, Managing Director and Co-Founder of EANTC. He added, “Cisco provided significant contributions to the success of the EANTC SDN interoperability event 2023, involving four router product lines and a network automation solution. The test event was a major success, with over 80 attendees from 17 vendors. This year’s testing program reflected the continued industry shift towards software-defined networking; many testing scenarios involving programmability and manageability. In particular, Cisco products smoothly interoperated in the SRv6 area, where we tested compressed segment IDs (µSID) for the first time._
 
 ![interop blog 2023 1.1.jpg]({{site.baseurl}}/images/interop blog 2023 1.1.jpg)
+_The engineers who made the interop a huge success! (Photo credit: @ EANTC AG)_
 
 ![interop blog 2023 1.2.jpg]({{site.baseurl}}/images/interop blog 2023 1.2.jpg)
+_EANTC Interop Showcase at MPLS SD & AI Net World 2023, All the gears racked up (Photo credit: © EANTC AG_
 
 ![interop blog 2023 1.3.jpg]({{site.baseurl}}/images/interop blog 2023 1.3.jpg)
+_The engineers burning the metaphorical midnight oil. (Photo credit: © EANTC AG)_
 
 ![interop blog 2023 1.4.jpg]({{site.baseurl}}/images/interop blog 2023 1.4.jpg)
+_SRv6 interop showcase @ the EANTC booth in MPLS SD & AI Net World 2023._
 
 
