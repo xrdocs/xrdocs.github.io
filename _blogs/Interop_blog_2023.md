@@ -2,7 +2,7 @@
 published: true
 date: '2023-05-4 09:23 +0200'
 title: "Interoperability in an open networking world: Cisco's Commitment to Innovation and Collaboration"
-permalink: /blogs/interop_blog_2023
+permalink: /interop-blog-2023
 author: Sai Gopalakrishnan
 excerpt: The following blog outlines the highlights from the EANTC Interop Showcase at MPLS SD & AI Net World 2023 in Paris.
 tags:
