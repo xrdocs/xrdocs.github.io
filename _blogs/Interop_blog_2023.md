@@ -30,4 +30,10 @@ _By participating in scenarios involving EVPN, SRv6, SR-MPLS, and SDN technologi
 
 ![interop blog 2023 1.1.jpg]({{site.baseurl}}/images/interop blog 2023 1.1.jpg)
 
+![interop blog 2023 1.2.jpg]({{site.baseurl}}/images/interop blog 2023 1.2.jpg)
+
+![interop blog 2023 1.3.jpg]({{site.baseurl}}/images/interop blog 2023 1.3.jpg)
+
+![interop blog 2023 1.4.jpg]({{site.baseurl}}/images/interop blog 2023 1.4.jpg)
+
 
