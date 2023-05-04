@@ -60,6 +60,6 @@ The key highlights from EANTC public Interop 2023 are:
 - Software Defined Networking (SDN): Path Computation Element Communication Protocol (PCEP), NETCONF/YANG across SRv6 and SR-MPLS data planes, streaming Telemetry using gNMI and OpenConfig data models.
 - Clock synchronization: Class C, Class D, enhanced SyncE and O-RAN Fronthaul synchronization in mobile open RAN scenarios.
     
-If you are interested in getting access to more details about the tests and results, download the [EANTC report](https://eantc.de/fileadmin/eantc/downloads/events/2023/EANTC-InteropTest2023-TestReport.pdf). In the coming weeks, [Jose Liste](https://www.linkedin.com/in/jose-liste-a8565248/), Distinguished Engineer, will post a blog to do a technical deep dive and share some key learnings and best practices. Finally, we are planning to host a Cisco Knowledge Webinar on this topic, stay tuned!
+If you are interested in getting access to more details about the tests and results, download the [EANTC report](https://eantc.de/fileadmin/eantc/downloads/events/2023/EANTC-InteropTest2023-TestReport.pdf). In the coming weeks, Jose Liste, Distinguished Engineer, will post a blog to do a technical deep dive and share some key learnings and best practices. Finally, we are planning to host a Cisco Knowledge Webinar on this topic, stay tuned!
 
 
