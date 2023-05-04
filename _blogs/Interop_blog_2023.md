@@ -30,15 +30,19 @@ _By participating in scenarios involving EVPN, SRv6, SR-MPLS, and SDN technologi
 
 ![interop blog 2023 1.1.jpg]({{site.baseurl}}/images/interop blog 2023 1.1.jpg)
 _The engineers who made the interop a huge success! (Photo credit: @ EANTC AG)_
+{: .text-center}
 
 ![interop blog 2023 1.2.jpg]({{site.baseurl}}/images/interop blog 2023 1.2.jpg)
 _EANTC Interop Showcase at MPLS SD & AI Net World 2023, All the gears racked up (Photo credit: © EANTC AG_
+{: .text-center}
 
 ![interop blog 2023 1.3.jpg]({{site.baseurl}}/images/interop blog 2023 1.3.jpg)
 _The engineers burning the metaphorical midnight oil. (Photo credit: © EANTC AG)_
+{: .text-center}
 
 ![interop blog 2023 1.4.jpg]({{site.baseurl}}/images/interop blog 2023 1.4.jpg)
 _SRv6 interop showcase @ the EANTC booth in MPLS SD & AI Net World 2023._
+{: .text-center}
 
 ## Highlights
 
