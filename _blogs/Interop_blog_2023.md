@@ -8,7 +8,7 @@ excerpt: interop
 tags:
   - iosxr
   - cisco
-position: top
+position: hidden
 sitemap: false
 ---
 
