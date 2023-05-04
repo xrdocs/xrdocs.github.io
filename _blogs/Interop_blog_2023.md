@@ -40,4 +40,18 @@ _The engineers burning the metaphorical midnight oil. (Photo credit: © EANTC AG
 ![interop blog 2023 1.4.jpg]({{site.baseurl}}/images/interop blog 2023 1.4.jpg)
 _SRv6 interop showcase @ the EANTC booth in MPLS SD & AI Net World 2023._
 
+## Highlights
+
+The key highlights from EANTC public Interop 2023 are:
+
+	-Cisco participated with our entire portfolio of Provider Connectivity product line consisting of physical routers, virtual routers, and automation suite – 8000, ASR9K, NCS540, NCS5700, Crosswork and IOS XRd.
+    -Segment Routing v6: Industry-first micro segment ID (usid) multi-vendor interop. Several test cases including Topology Independent Loop Free Alternate (TI-LFA), Flex Algo, Summarization, Unreachable Prefix Announcement (UPA) and Segment Routing Traffic Engineering (SR-TE) policies with usid.
+    -SR-MPLS test cases: including Flexible Algorithm Prefix Metric (FAPM), Fast Re-routing (FRR), performance measurement, failure discovery and SR traffic steering.
+    -Ethernet Virtual Private Network (EVPN): EVPN with Segment Routing transport (MPLS and IPv6), EVPN enhancements, and EVPN interworking.
+    -400G OpenZR+: An SR-MPLS (OSPF) control plane was established between multiple nodes and bi-directional traffic through three nodes, all of which were connected using ZR+ optics.
+    -Software Defined Networking (SDN): Path Computation Element Communication Protocol (PCEP), NETCONF/YANG across SRv6 and SR-MPLS data planes, streaming Telemetry using gNMI and OpenConfig data models.
+    -Clock synchronization: Class C, Class D, enhanced SyncE and O-RAN Fronthaul synchronization in mobile open RAN scenarios.
+    
+If you are interested in getting access to more details about the tests and results, download the [EANTC report](https://eantc.de/fileadmin/eantc/downloads/events/2023/EANTC-InteropTest2023-TestReport.pdf). In the coming weeks, [Jose Liste](https://www.linkedin.com/in/jose-liste-a8565248/), Distinguished Engineer, will post a blog to do a technical deep dive and share some key learnings and best practices. Finally, we are planning to host a Cisco Knowledge Webinar on this topic, stay tuned!
+
 
