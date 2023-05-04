@@ -37,12 +37,10 @@ _EANTC Interop Showcase at MPLS SD & AI Net World 2023, All the gears racked up 
 {: .text-center}
 
 ![interop blog 2023 1.3.jpg]({{site.baseurl}}/images/interop blog 2023 1.3.jpg){: .align-center}
-
 _The engineers burning the metaphorical midnight oil. (Photo credit: © EANTC AG)_
 {: .text-center}
 
 ![interop blog 2023 1.4.jpg]({{site.baseurl}}/images/interop blog 2023 1.4.jpg){: .align-center}
-
 _SRv6 interop showcase @ the EANTC booth in MPLS SD & AI Net World 2023._
 {: .text-center}
 
