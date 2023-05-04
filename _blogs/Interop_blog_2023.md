@@ -23,7 +23,7 @@ sitemap: false
 The Seventeenth century English poet John Donne famously wrote that “No man is an island.” Similarly, one can say “No vendor is an island” as in today's complex networking landscape, most communication service providers rely on multiple vendors to build up their network. As communication service providers take for granted that components from multiple vendors work seamlessly together to ensure smooth and efficient network operations, interoperability between vendors is of critical importance.
 
 ## The Twin Pillars
-Innovation is in Cisco’s DNA (18% of Cisco revenues are spent on [Research and Development](https://investor.cisco.com/news/news-details/2023/CISCO-REPORTS-SECOND-QUARTER-EARNINGS/default.aspx)) as it helps us to stay ahead of the curve in this highly competitive networking industry. Interoperability fosters an environment of collaboration between vendors and underpins our customer success. So, at Cisco, we consider innovation and interoperability as twin pillars of our technology philosophy, each playing a vital role in shaping the future of the other. Our unwavering commitment to foster innovation and seamless interoperability empowers us to drive cutting-edge solutions that not only push the boundaries of what is possible but also ensure that these solutions work harmoniously together, unlocking new opportunities and delivering unparalleled value to our customers.
+Innovation is in Cisco’s DNA (18% of Cisco revenues are spent on [Research and Development](https://investor.cisco.com/news/news-details/2023/CISCO-REPORTS-SECOND-QUARTER-EARNINGS/default.aspx)<base target="_blank">) as it helps us to stay ahead of the curve in this highly competitive networking industry. Interoperability fosters an environment of collaboration between vendors and underpins our customer success. So, at Cisco, we consider innovation and interoperability as twin pillars of our technology philosophy, each playing a vital role in shaping the future of the other. Our unwavering commitment to foster innovation and seamless interoperability empowers us to drive cutting-edge solutions that not only push the boundaries of what is possible but also ensure that these solutions work harmoniously together, unlocking new opportunities and delivering unparalleled value to our customers.
 
 ## Contribution
 Cisco is strongly committed to open standards, driven by standard bodies through inclusive and transparent processes. Cisco has been a leading force in this realm, actively engaging and contributing to esteemed organizations such as the Internet Engineering Task Force (IETF), as well as other prominent industry associations such as International Telecommunication Union (ITU-T), Metro Ethernet Forum (MEF), Institute of Electrical and Electronics Engineers (IEEE), and more.
@@ -36,19 +36,19 @@ The second important aspect of interoperability is to showcase it works when put
 
 ## Snapshots
 
-![interop blog 2023 1.1.jpg]({{site.baseurl}}/images/interop blog 2023 1.1.jpg){: .align-center}
+![interop blog 2023 1.1.jpg]({{site.baseurl}}/images/interop blog 2023 1.1.jpg)<base target="_blank">{: .align-center}
 _The engineers who made the interop a huge success! (Photo credit: © EANTC AG)_
 {: .text-center}
 
-![interop blog 2023 1.2.jpg]({{site.baseurl}}/images/interop blog 2023 1.2.jpg){: .align-center}
+![interop blog 2023 1.2.jpg]({{site.baseurl}}/images/interop blog 2023 1.2.jpg)<base target="_blank">{: .align-center}
 _EANTC Interop Showcase at MPLS SD & AI Net World 2023, All the gears racked up (Photo credit: © EANTC AG)_
 {: .text-center}
 
-![interop blog 2023 1.3.jpg]({{site.baseurl}}/images/interop blog 2023 1.3.jpg){: .align-center}
+![interop blog 2023 1.3.jpg]({{site.baseurl}}/images/interop blog 2023 1.3.jpg)<base target="_blank">{: .align-center}
 _The engineers burning the metaphorical midnight oil. (Photo credit: © EANTC AG)_
 {: .text-center}
 
-![interop blog 2023 1.4.jpg]({{site.baseurl}}/images/interop blog 2023 1.4.jpg){: .align-center}
+![interop blog 2023 1.4.jpg]({{site.baseurl}}/images/interop blog 2023 1.4.jpg)<base target="_blank">{: .align-center}
 _SRv6 interop showcase @ the EANTC booth in MPLS SD & AI Net World 2023._
 {: .text-center}
 
@@ -64,4 +64,4 @@ The key highlights from EANTC public Interop 2023 are:
 - Software Defined Networking (SDN): Path Computation Element Communication Protocol (PCEP), NETCONF/YANG across SRv6 and SR-MPLS data planes, streaming Telemetry using gNMI and OpenConfig data models.
 - Clock synchronization: Class C, Class D, enhanced SyncE and O-RAN Fronthaul synchronization in mobile open RAN scenarios.
     
-If you are interested in getting access to more details about the tests and results, download the [EANTC report](https://eantc.de/fileadmin/eantc/downloads/events/2023/EANTC-InteropTest2023-TestReport.pdf). In the coming weeks, Jose Liste, Distinguished Engineer, will post a blog to do a technical deep dive and share some key learnings and best practices. Finally, we are planning to host a Cisco Knowledge Webinar on this topic, stay tuned!
+If you are interested in getting access to more details about the tests and results, download the [EANTC report](https://eantc.de/fileadmin/eantc/downloads/events/2023/EANTC-InteropTest2023-TestReport.pdf)<base target="_blank">. In the coming weeks, Jose Liste, Distinguished Engineer, will post a blog to do a technical deep dive and share some key learnings and best practices. Finally, we are planning to host a Cisco Knowledge Webinar on this topic, stay tuned!
