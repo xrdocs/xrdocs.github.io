@@ -1,10 +1,14 @@
 ---
 published: true
 date: '2023-05-4 09:23 +0200'
-title: "Interoperability in an open networking world: Cisco's Commitment to Innovation and Collaboration"
+title: >-
+  Interoperability in an open networking world: Cisco's Commitment to Innovation
+  and Collaboration
 permalink: /interop-blog-2023
 author: Sai Gopalakrishnan
-excerpt: The following blog outlines the highlights from the EANTC Interop Showcase at MPLS SD & AI Net World 2023 in Paris.
+excerpt: >-
+  The following blog outlines the highlights from the EANTC Interop Showcase at
+  MPLS SD & AI Net World 2023 in Paris.
 tags:
   - iosxr
   - cisco
@@ -25,7 +29,7 @@ Innovation is in Cisco’s DNA (18% of Cisco revenues are spent on [Research and
 Cisco is strongly committed to open standards, driven by standard bodies through inclusive and transparent processes. Cisco has been a leading force in this realm, actively engaging and contributing to esteemed organizations such as the Internet Engineering Task Force (IETF), as well as other prominent industry associations such as International Telecommunication Union (ITU-T), Metro Ethernet Forum (MEF), Institute of Electrical and Electronics Engineers (IEEE), and more.
 
 ## EANTC
-The second important aspect of interoperability is to showcase it works when put to the test. This is why we actively support vendor neutral forums such as what is provided by European Advanced Networking Test Center [(EANTC)](https://eantc.de/) for hosting public multi-vendor interoperability tests. This year, the scope of these tests covered: Segment Routing (SR-MPLS and SRv6), Ethernet Virtual Private Network (EVPN) including Layer2 E-LAN, E-LINE, E-TREE and also Layer3 IP Gateway services, Software Defined Networking (Signaling SR policies, NETCONF/YANG, Telemetry-gNMI and OpenConfig), and Clock synchronization (Fronthaul with O-RAN specs, Precision Time Protocol (PTP), enhanced SyncE, and more).
+The second important aspect of interoperability is to showcase it works when put to the test. This is why we actively support vendor neutral forums such as what is provided by European Advanced Networking Test Center [(EANTC)](https://eantc.de/)<base target="_blank"> for hosting public multi-vendor interoperability tests. This year, the scope of these tests covered: Segment Routing (SR-MPLS and SRv6), Ethernet Virtual Private Network (EVPN) including Layer2 E-LAN, E-LINE, E-TREE and also Layer3 IP Gateway services, Software Defined Networking (Signaling SR policies, NETCONF/YANG, Telemetry-gNMI and OpenConfig), and Clock synchronization (Fronthaul with O-RAN specs, Precision Time Protocol (PTP), enhanced SyncE, and more).
 
 ”By participating in scenarios involving EVPN, SRv6, SR-MPLS, and SDN technologies, Cisco showed multi-vendor readiness of their solutions with regard to network slicing, traffic engineering, policing, and packet network synchronization” said *Carsten Rossenhövel, Managing Director and Co-Founder of EANTC*. He added, “Cisco provided significant contributions to the success of the EANTC SDN interoperability event 2023, involving four router product lines and a network automation solution. The test event was a major success, with over 80 attendees from 17 vendors. This year’s testing program reflected the continued industry shift towards software-defined networking; many testing scenarios involving programmability and manageability. In particular, Cisco products smoothly interoperated in the SRv6 area, where we tested compressed segment IDs (µSID) for the first time.”
 {: .notice--success}
@@ -61,5 +65,3 @@ The key highlights from EANTC public Interop 2023 are:
 - Clock synchronization: Class C, Class D, enhanced SyncE and O-RAN Fronthaul synchronization in mobile open RAN scenarios.
     
 If you are interested in getting access to more details about the tests and results, download the [EANTC report](https://eantc.de/fileadmin/eantc/downloads/events/2023/EANTC-InteropTest2023-TestReport.pdf). In the coming weeks, Jose Liste, Distinguished Engineer, will post a blog to do a technical deep dive and share some key learnings and best practices. Finally, we are planning to host a Cisco Knowledge Webinar on this topic, stay tuned!
-
-
