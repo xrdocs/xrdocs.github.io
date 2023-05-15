@@ -95,9 +95,6 @@ Small-group sessions to enable an interactive discussion on technical topics on 
 | IBOSPG-2007  | Getting Started with Private 5G                                                                    |
 | IBOSPG-2008  | An outcome-based approach to Service Provider automation   using the Cisco SP Automation Blueprint |
 | IBOSPM-2030  | 5G Transport Design Considerations Combining Onsite and   Cloud-Based Deployments                  |
-
-## Connected Learning
-
 ## Instructor-Led Labs
 
 Instructor-Led Labs are hands-on learning, 4h long and are priced in addition to your conference fee.
@@ -145,3 +142,10 @@ Work through predesigned scenarios at your own pace. First come, first serve. Su
 Product or Strategy Overviews: 30min to provide a high-level overview of new Cisco products, features, and solutions.  
 Customer Success Stories: 30min sessions, delivered by Cisco customers and staff, focused on best practices and recommendations for deploying, managing and extending Cisco product features and capabilities.  
 DevNet: 45min labs and demos focused on automation, programmability, telemetry and application hosting.  
+
+| PSOSPG-1002 | Leading Your Digital Transformation   with Cisco Private 5G Network Offer                                    |
+|-------------|--------------------------------------------------------------------------------------------------------------|
+| PSOSPG-1141 | Differentiate Your Services with Confidence - Automated   Assurance Best Practices and Use Cases             |
+| PSOSPG-1701 | 3 Keys to Succeeding at IoT Scale with Cellular   Connectivity Management                                    |
+| PSOSPG-2010 | Coherent Pluggables: Revolutionizing Optical Infrastructure                                                  |
+| PSOSPG-2011 | Routed Optical Networking and Automation: Business   Transformation through Simplicity, Scale and Efficiency |
