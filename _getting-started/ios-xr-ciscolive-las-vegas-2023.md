@@ -115,6 +115,16 @@ Instructor-Led Labs are hands-on learning, 4h long and are priced in addition to
 
 ## Technical Seminars
 
+In-depth, comprehensive half-day seminar delivered by a Cisco expert on a particular technology including design principles, case studies, and best practices. Priced in addition to conference fee.
+
+| TECMPL-2119 | SRv6 Tech Update, Use Cases and   Operations                                                                         |
+|-------------|----------------------------------------------------------------------------------------------------------------------|
+| TECMPL-2143 | Segment Routing MPLS to Optimize Path Selection Utilizing   Enterprise Platforms                                     |
+| TECOPT-2010 | Routed Optical Networking In-Depth Analysis                                                                          |
+| TECSPG-2002 | NCS5500 deployment nuts and bolts: Architecture, Operation,   and Troubleshooting                                    |
+| TECSPG-2003 | Cisco 8000 Powered by Silicon One & IOS XR7:   Architecture, positioning, deployments, and troubleshooting deep dive |
+| TECSPG-2432 | New Adventures in Wireless:    The Journey of WiFi6 and Private 5G Networks for the Enterprise                       |
+
 ## Walk in Labs
 
 ## Misc
