@@ -155,3 +155,4 @@ DevNet: 45min labs and demos focused on automation, programmability, telemetry a
 | PSOSPG-1701 | 3 Keys to Succeeding at IoT Scale with Cellular   Connectivity Management                                    |
 | PSOSPG-2010 | Coherent Pluggables: Revolutionizing Optical Infrastructure                                                  |
 | PSOSPG-2011 | Routed Optical Networking and Automation: Business   Transformation through Simplicity, Scale and Efficiency |
+| DEVWKS-2132 | Deploying XRd in AWS |
