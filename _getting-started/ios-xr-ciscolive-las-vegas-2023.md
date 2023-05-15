@@ -127,6 +127,19 @@ In-depth, comprehensive half-day seminar delivered by a Cisco expert on a partic
 
 ## Walk in Labs
 
+Work through predesigned scenarios at your own pace. First come, first serve. Subject Matter Experts on hand to answer questions. Walk-up only.
+
+| LABMPL-1201 | SRv6 Basics                                                                             |
+|-------------|-----------------------------------------------------------------------------------------|
+| LABMPL-2011 | How to use the Segment Routing PCE (Path Computation   Element) (controller) for IOS-XR |
+| LABMPL-2012 | mVPN: Profile 14                                                                        |
+| LABSP-1581  | MPLS Segment Routing Introduction                                                       |
+| LABSP-2509  | EVPN troubleshooting and debugging                                                      |
+| LABSP-3393  | Implementing Segment Routing v6 (SRv6) Transport on NCS   55xx/5xx platforms - Advanced |
+| LABSPG-2003 | What the RPL                                                                            |
+| LABSPG-2004 | Next-Generation Service Provider Networking.                                            |
+| LABSPG-3000 | Configure and Implement BGP-EVPN with Segment Routing using   NCS 55xx/5xx platforms    |
+
 ## Misc
 
 Product or Strategy Overviews: 30min to provide a high-level overview of new Cisco products, features, and solutions.  
