@@ -7,6 +7,7 @@ position: hidden
 tags:
   - iosxr
   - Cisco Live
+permalink: /ios-xr-ciscolive-las-vegas-2023
 ---
 {% include toc icon="table" title="xrdocs.io at Cisco Live 2023" %}
 
@@ -14,7 +15,7 @@ tags:
 
 ## Introduction
 
-CiscoLive is back! Scheduled for June 4-8, 2023 in Las Vegas, this in-person and digital event will be unique opportunity to reconnect after a long break.
+CiscoLive is back! Scheduled for June 4-8, 2023 in Las Vegas, this in-person and digital event will be unique opportunity to gain knowledge, build community & share experiences.
 
 The Service Provider track will cover most xrdocs.io topics of interest such:
 
