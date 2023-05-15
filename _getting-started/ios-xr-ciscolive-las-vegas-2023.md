@@ -100,6 +100,7 @@ Small-group sessions to enable an interactive discussion on technical topics on 
 | IBOSPG-2007  | Getting Started with Private 5G                                                                    |
 | IBOSPG-2008  | An outcome-based approach to Service Provider automation   using the Cisco SP Automation Blueprint |
 | IBOSPM-2030  | 5G Transport Design Considerations Combining Onsite and   Cloud-Based Deployments                  |
+
 ## Instructor-Led Labs
 
 Instructor-Led Labs are hands-on learning, 4h long and are priced in addition to your conference fee.
