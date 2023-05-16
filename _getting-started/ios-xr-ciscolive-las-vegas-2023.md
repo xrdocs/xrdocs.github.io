@@ -105,8 +105,9 @@ Small-group sessions to enable an interactive discussion on technical topics on 
 
 Instructor-Led Labs are hands-on learning, 4h long and are priced in addition to your conference fee.
 
+| Session Code | Title                                                                                                 |
+|--------------|-------------------------------------------------------------------------------------------------------|
 | LTRMPL-2208 | Traffic Engineering with Segment   Routing                                    |
-|-------------|-------------------------------------------------------------------------------|
 | LTRMPL-2910 | MPLS and Its Application                                                      |
 | LTRSPG-2002 | Mastering Cisco 8000 Platform: A first hands-on experience                    |
 | LTRSPG-2003 | IP/MPLS Network Reliability Engineering Lab                                   |
@@ -120,8 +121,9 @@ Instructor-Led Labs are hands-on learning, 4h long and are priced in addition to
 
 In-depth, comprehensive half-day seminar delivered by a Cisco expert on a particular technology including design principles, case studies, and best practices. Priced in addition to conference fee.
 
-| TECMPL-2119 | SRv6 Tech Update, Use Cases and   Operations                                                                         |
-|-------------|----------------------------------------------------------------------------------------------------------------------|
+| Session Code | Title                                                                                                 |
+|--------------|-------------------------------------------------------------------------------------------------------|
+| TECMPL-2119 | SRv6 Tech Update, Use Cases and   Operations |
 | TECMPL-2143 | Segment Routing MPLS to Optimize Path Selection Utilizing   Enterprise Platforms                                     |
 | TECOPT-2010 | Routed Optical Networking In-Depth Analysis                                                                          |
 | TECSPG-2002 | NCS5500 deployment nuts and bolts: Architecture, Operation,   and Troubleshooting                                    |
@@ -132,8 +134,9 @@ In-depth, comprehensive half-day seminar delivered by a Cisco expert on a partic
 
 Work through predesigned scenarios at your own pace. First come, first serve. Subject Matter Experts on hand to answer questions. Walk-up only.
 
+| Session Code | Title                                                                                                 |
+|--------------|-------------------------------------------------------------------------------------------------------|
 | LABMPL-1201 | SRv6 Basics                                                                             |
-|-------------|-----------------------------------------------------------------------------------------|
 | LABMPL-2011 | How to use the Segment Routing PCE (Path Computation   Element) (controller) for IOS-XR |
 | LABMPL-2012 | mVPN: Profile 14                                                                        |
 | LABSP-1581  | MPLS Segment Routing Introduction                                                       |
@@ -149,8 +152,9 @@ Product or Strategy Overviews: 30min to provide a high-level overview of new Cis
 Customer Success Stories: 30min sessions, delivered by Cisco customers and staff, focused on best practices and recommendations for deploying, managing and extending Cisco product features and capabilities.  
 DevNet: 45min labs and demos focused on automation, programmability, telemetry and application hosting.  
 
+| Session Code | Title                                                                                                 |
+|--------------|-------------------------------------------------------------------------------------------------------|
 | PSOSPG-1002 | Leading Your Digital Transformation   with Cisco Private 5G Network Offer                                    |
-|-------------|--------------------------------------------------------------------------------------------------------------|
 | PSOSPG-1141 | Differentiate Your Services with Confidence - Automated   Assurance Best Practices and Use Cases             |
 | PSOSPG-1701 | 3 Keys to Succeeding at IoT Scale with Cellular   Connectivity Management                                    |
 | PSOSPG-2010 | Coherent Pluggables: Revolutionizing Optical Infrastructure                                                  |
