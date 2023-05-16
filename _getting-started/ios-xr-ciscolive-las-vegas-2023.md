@@ -149,7 +149,6 @@ Work through predesigned scenarios at your own pace. First come, first serve. Su
 ## Misc
 
 - Product or Strategy Overviews: 30min to provide a high-level overview of new Cisco products, features, and solutions.  
-- Customer Success Stories: 30min sessions, delivered by Cisco customers and staff, focused on best practices and recommendations for deploying, managing and extending Cisco product features and capabilities.  
 - DevNet: 45min labs and demos focused on automation, programmability, telemetry and application hosting.  
 
 | Session Code | Title                                                                                                 |
