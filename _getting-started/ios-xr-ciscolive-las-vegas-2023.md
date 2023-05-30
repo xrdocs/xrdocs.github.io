@@ -162,11 +162,5 @@ Work through predesigned scenarios at your own pace. First come, first serve. Su
 | DEVWKS-2125 | Deploy apps on the router like a pro with app manager on IOS XR |
 | DEVWKS-2120 | Scrape the CLI. Getting started with Scrapli |
 | DEVWKS-2150 | gNMI + IOS XR |
-| CSSDL-1152  | Building Hybrid Cloud Infrastructure - Routed Optical Network (RON) at Play! |
-
-## Share Your Experience
-
-Share your insight on Crosswork Automation & Data Center products to win exciting prizes.
-![share-your-experience.jpeg]({{site.baseurl}}/images/share-your-experience.jpeg)
 
 
