@@ -18,10 +18,11 @@ jobs:
           python-version: 3.11
       
       - name: Install dependencies
-        run: pip install pyyaml pygithub
+        run: pip install pyyaml PyJWT PyGithub cryptography
       
       - name: Run Python Script
         env: 
           PRIVATEKEY_FETCH_LATEST_BLOGS: ${{ secrets.PRIVATEKEY_FETCH_LATEST_BLOGS}}
+          APP_ID: ${{secrets.APP_ID}}
         run: python fetch_blogs.py
     
