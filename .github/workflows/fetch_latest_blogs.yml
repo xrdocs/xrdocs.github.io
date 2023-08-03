@@ -2,7 +2,7 @@ name: Fetch Latest Blogs
 
 on:
   schedule:
-    - cron: "0 12 * * *"
+    - cron: "5 * * * *"
     
 jobs:
   fetch_latest_blogs:
@@ -17,7 +17,7 @@ jobs:
           python-version: 3.11
       
       - name: Install dependencies
-        run: pip install requests pygithub
+        run: pip install pygithub
       
       - name: Run Python Script
         env: 
