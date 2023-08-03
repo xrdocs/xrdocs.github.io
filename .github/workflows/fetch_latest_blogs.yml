@@ -18,7 +18,7 @@ jobs:
           python-version: 3.11
       
       - name: Install dependencies
-        run: pip install pygithub
+        run: pip install pyyaml pygithub
       
       - name: Run Python Script
         env: 
