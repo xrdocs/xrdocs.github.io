@@ -1,45 +1,20 @@
-import os
-import re
 import yaml
 import json
 from datetime import datetime
 from operator import itemgetter
+import re
+import os 
 from github import Github
-import jwt
-import time
-from cryptography.hazmat.primitives import serialization
-from cryptography.hazmat.primitives.asymmetric import rsa
-from cryptography.hazmat.backends import default_backend
+
+PRIVATEKEY_FETCH_LATEST_BLOGS = os.environ['PRIVATEKEY_FETCH_LATEST_BLOGS']
+g = Github(PRIVATEKEY_FETCH_LATEST_BLOGS)
 
 
-def create_jwt():
-    PRIVATE_KEY = os.getenv('PRIVATEKEY_FETCH_LATEST_BLOGS')
-    APP_ID = os.getenv('APP_ID')  # replace with your GitHub App's ID
-    # Generate the JWT
-    private_key = serialization.load_pem_private_key(
-        PRIVATE_KEY.encode(),
-        password=None,
-        backend=default_backend()
-    )
-    # Define payload
-    payload = {
-        "iat": int(time.time()),
-        "exp": int(time.time()) + (10 * 60),
-        "iss": APP_ID
-    }
-    jwt_token = jwt.encode(payload, private_key, algorithm='RS256')
-    return jwt_token
-
-
-# Authenticate with GitHub
-jwt_token = create_jwt()
-g = Github(jwt=jwt_token)
-
-
-#github_api_url = "https://api.github.com/repos/{}/{}/contents{}"
+#print ('current working dir:', os.getcwd())
+#github_api_url = 'https://api.github.com/repos/{}/{}/contents/{}'
 
 repos = [
-('xrdocs', 'design', '_blogs'), #this is the error repo
+    ('xrdocs', 'design', '_blogs'), #this is the error repo
     ('xrdocs', 'design', '_tutorials'), 
     ('xrdocs', 'virtual-routing', '_blogs'),
     ('xrdocs', 'virtual-routing', '_tutorials'),
@@ -85,6 +60,12 @@ def remove_date_from_title(title) :
     else:
        return title
 
+#have to add key here, key is only needed when fetching more than 60 requests an hour, only using for testing 
+#authenticates the request from the bearer key for github
+#session = requests.Session()
+#session.headers.update(headers)
+
+#parses through front yaml regardless of position of attributes
 def get_published_info(content, path, user, repo, directory) :
     if content.startswith('---\n') :
         last_line = content.find('\n---\n', 4)
@@ -96,6 +77,7 @@ def get_published_info(content, path, user, repo, directory) :
                     first_lines['path'] = path
                     first_lines['url'] = f"https://xrdocs.io/{user}/{repo}/{directory[1:]}/{path[:-3]}/"
                     description = first_lines.get('excerpt', '')
+                    #blank description edge case
                     if description is not None and isinstance(description, str):
                         first_lines['description'] = description.strip()
                     else :
@@ -113,28 +95,27 @@ def main() :
         contents = repo_obj.get_contents(directory)
 
         for content_file in contents :
-            if content_file.name == '2019-02-02-modernizing-ixp-design.md' :
+            if content_file.name == '2019-02-02-modernizing-ixp-design.md' : #file that contains YAML error in design/_blogs repo
                 continue 
 
             if content_file.type == 'file' and content_file.name.endswith('.md') :
-                commits = list(repo_obj.get_commits(path=content_file.path))
-        
+                commits = list(repo_obj.get_commits(path = content_file.path))
+
                 if commits:
                     last_commit_date = commits[0].commit.committer.date
                     date = last_commit_date.replace(tzinfo=None)
-
                     file_content = content_file.decoded_content.decode()
                     first_lines = get_published_info(file_content, content_file.name, user, repo_name, directory)
-
+            
                     if first_lines and first_lines.get('published', False) and first_lines.get('position', '') == 'top' and first_lines.get('title') :
                         title = remove_date_from_title(content_file.name[:-3])
                         repo_url = f'https://xrdocs.io/{repo_name}/{directory[1:]}/{content_file.name[:-3]}/'
                         description = first_lines.get('excerpt', '')
                         recent_posts.append({
-                        'title' : title,
-                        'date' : date,
-                        'url' : repo_url,
-                        'blog-description' : description
+                            'title' : title,
+                            'date' : date,
+                            'url' : repo_url,
+                            'blog-description' : description
                         })
 
     recent_posts.sort(key = itemgetter('date'), reverse = True)
