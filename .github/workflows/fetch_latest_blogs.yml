@@ -22,6 +22,6 @@ jobs:
       
       - name: Run Python Script
         env: 
-          PRIVATEKEY_FETCH_LATEST_BLOGS: ${{ secrets.FETCH_BLOGS}}
+          FETCH_BLOGS: ${{ secrets.FETCH_BLOGS}}
         run: python fetch_blogs.py
     
