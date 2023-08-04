@@ -6,8 +6,8 @@ import re
 import os 
 from github import Github
 
-PRIVATEKEY_FETCH_LATEST_BLOGS = os.environ['PRIVATEKEY_FETCH_LATEST_BLOGS']
-g = Github(PRIVATEKEY_FETCH_LATEST_BLOGS)
+FETCH_BLOGS = os.environ['FETCH_BLOGS']
+g = Github(FETCH_BLOGS)
 
 
 #print ('current working dir:', os.getcwd())
