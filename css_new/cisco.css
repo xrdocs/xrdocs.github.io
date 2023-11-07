@@ -101,11 +101,11 @@ a {
     z-index: 1;
 }
 .dropdown-content a {
-    padding: 14px 16px;
+    margin: 20px 16px;
     text-decoration: none;
     display: block;
     text-align: left;
-    line-height: 20px;
+    line-height: 30px;
     min-height: 20px;
 }
 a.underline, label.underline {
@@ -122,7 +122,7 @@ a.underline:before, label.underline:before {
     visibility: hidden;
     transition: all 0.3s ease-in-out;
 }
-label.underline:before {
+label.underline:before, a.underline:before {
     top: 30px;
 }
 #toggle {
@@ -402,7 +402,7 @@ ul.splide__list {
 /* Nav Section  */
     a.underline:hover:before, label.underline:hover:before {
         visibility: visible;
-        width: 90%;
+        width: 100%;
     }
     #toggle:hover + div {
         display: block;
