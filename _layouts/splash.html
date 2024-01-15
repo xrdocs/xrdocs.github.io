@@ -84,8 +84,8 @@
             <a class="underline nav-link" href="/search">Search <i class="fas fa-search"></i></a>
             <div class="social">
                 <a href="https://twitter.com/xrdocs" target="_blank"><img src="images/twitter.svg" width="50" alt="twitter icon" class="social-icon"></a>
-                <a href="https://github.com/xrdocs"  target="_blank"><img src="images/github-social-icon.svg" width="50" alt="github icon" class="social-icon"></a>
-                <a href="https://xrdocs.io/feed.xml" target="_blank"><img src="images/rss.svg" width="50" alt="rss icon" class="social-icon"></a>
+               <!-- <a href="https://github.com/xrdocs"  target="_blank"><img src="images/github-social-icon.svg" width="50" alt="github icon" class="social-icon"></a> -->
+                <a href="https://www.youtube.com/xrdocs" target="_blank"><img src="images/youtube_bubble.svg" width="50" alt="rss icon" class="social-icon"></a>
             </div>
         </div>
         <div class="menu-icon" id="nav-icon">
@@ -104,6 +104,7 @@
         <div ><a href="https://xrdocs.io/getting-started" class="button blue-bg">Get started</a></div>
     </div>
 </div>
+<!-- 
 <div class="spotlight-section">
     <div class="container">
         <div class="spotlight-text-box col-75">
@@ -115,8 +116,9 @@
         </div>
     </div>
 </div>
-
-<div class="design-section">
+-->
+    <!-- we have left this class intentionally blank because of the spacing between technologies and get started -->
+<div class="">
     <h2 class="section-heading blue">Technologies</h2>
     <div class="section-subheading dark-blue">Gain knowledge of Cisco IOS XR.<br> By leveraging latest IOS XR technologies
         you'll enable the ability to utilize more <br> advanced features, more successful and higher performing IT
@@ -192,10 +194,11 @@
         <div class="col">
             <div class="transparent">
                 <a href="/ncs5500">
-                    <div class="platform-box">
-                        <h3 class="box-heading">Cisco Network Convergence System 5500 Series</h3>
-                    </div>
+                        <img src = "images/5500_series.jpg" width = "260.8" height = "210" >
                 </a>
+                <div> 
+                    <div class="sub"> Cisco Network Convergence System 5500 Series </div>
+                </div>
                 <p>The Network Convergence System (NCS) 5500 Series offers industry-leading density of routed 100 GE
                     ports for high-scale WAN aggregation. It is designed to efficiently scale between data centers and
                     large enterprise, web, and service provider WAN and aggregation networks.</p>
@@ -205,10 +208,11 @@
         <div class="col">
             <div class="transparent">
                 <a href="/asr9k">
-                    <div class="platform-box">
-                        <h3 class="box-heading">Cisco Network Aggregation Services Routers 9000 Series</h3>
-                    </div>
+                        <img src = "images/9000_series.png" width = "260.8" height = "210" > 
                 </a>
+                <div>
+                    <div class="sub"> Cisco Aggregation Services Routers 9000 Series </div>
+                </div>
                 <p>High performance routers built to serve demanding edge markets
                     Edge networks serve billions of devices. You need feature rich routers
                     that economically scale with bandwidth demand. The ASR 9000 series is your edge routing device
@@ -219,10 +223,11 @@
         <div class="col">
             <div class="transparent">
                 <a href="/8000">
-                    <div class="platform-box">
-                        <h3 class="box-heading">Cisco 8000 Series</h3>
-                    </div>
+                        <img src = "images/8000_series_clear.jpg" width = "260.8" height = "210" >
                 </a>
+                <div>
+                    <div class ="sub"> Cisco 8000 Series </div>
+                </div>
                 <p>Cisco 8000 Series routers are cloud-enhanced systems powered by groundbreaking Cisco Silicon One™ ASICs and
                     Cisco IOS XR7 software. Released late 2019, new hardware, software and innovations have been introduced since 
                     and will be covered in this section.</p>
@@ -266,6 +271,9 @@
 <div class="blog-section">
     <div class="container">
         <h2 class="section-heading blue">Latest @xrdocs Posts</h2>
+        <div id="latest-posts" ></div>
+    </div>
+</div>
 <!--        <template>-->
 <!--            <a href="" target="_blank">-->
 <!--                <div class="transparent box-blog">-->
@@ -274,7 +282,47 @@
 <!--                </div>-->
 <!--            </a>-->
 <!--        </template>-->
-        <a href="https://xrdocs.io/programmability/tutorials/2020-12-02-nornir-overview/" target="_blank">
+
+<script>
+    //fetch the latest posts from raw json file location (xrdocs-scripts)
+    const url = "https://raw.githubusercontent.com/xrdocs/xrdocs-scripts/main/latest-articles.json"
+    fetch(url)
+    .then(response => response.json())
+    .then(data => {
+        //three latest posts
+        for (let i = 0; i < 3; i++) {
+            let anchor = document.createElement('a');
+            anchor.href = data[i].url;
+            anchor.target = "_blank";
+
+            let div = document.createElement('div');
+            div.className = "transparent box-blog";
+
+            //title
+            let h2 = document.createElement('h2');
+            h2.className = "blog-title";
+            
+            let title = data[i].title.split('-').join(' ');
+            title = title.split(' ').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ');
+            
+            h2.textContent = title;
+
+            //description
+            let h3 = document.createElement('h3');
+            h3.className = "blog-description";
+            h3.textContent = data[i]["blog-description"];
+
+            div.appendChild(h2);
+            div.appendChild(h3);
+
+            anchor.appendChild(div);
+            document.getElementById('latest-posts').appendChild(anchor);
+        }
+    })
+    .catch(error => console.error('Error:', error));
+</script>
+        
+<!--        <a href="https://xrdocs.io/programmability/tutorials/2020-12-02-nornir-overview/" target="_blank">
             <div class="transparent box-blog">
                 <h2 class="blog-title">Nornir Overview</h2>
                     <h3 class="blog-description">Nornir is the new automation framework which grabbed the attention of
@@ -297,22 +345,24 @@
         </a>
         <output></output>
     </div>
-</div>
+</div> -->
 <div class="blog-section-bg"></div>
 <div class="cta-section">
     <div class="container">
         <div class="section-heading blue">@xrdocs is completely open-source.</div>
         <div class="section-subheading">Check out our helpdocs and start contributing!</div>
-        <div><a href="https://xrdocs.io/getting-started/" class="button blue-bg">Get started</a></div>
+        <div><a href="https://github.com/xrdocs" class="button blue-bg">Get started</a></div>
     </div>
 </div>
 <div class="footer">
     <div class="section-subheading blue">Follow us</div>
     <div class="container">
         <div class="div-block">
+            <!-- There are two files for the new X logo aka Twitter that have been added under images, new_twitter_logo.png and twitter_icon_outline.svg
+                but both of them are not sized properly -->
             <a href="https://twitter.com/xrdocs" target="_blank"><img src="images/twitter.svg" width="50" alt=" twitter icon" class="social-icon"></a>
-            <a href="https://twitter.com/xrdocs" target="_blank"><img src="images/github-social-icon.svg" width="50" alt="github icon" class="social-icon"></a>
-            <a href="https://xrdocs.io/feed.xml" target="_blank"><img src="images/rss.svg" width="50" alt="rss icon" class="social-icon"></a>
+           <!-- <a href="https://twitter.com/xrdocs" target="_blank"><img src="images/github-social-icon.svg" width="50" alt="github icon" class="social-icon"></a> -->
+            <a href="https://www.youtube.com/xrdocs" target="_blank"><img src="images/youtube_bubble.svg" width="50" alt="rss icon" class="social-icon"></a>
         </div>
         <div class="footer-text">This site is maintained by Cisco Systems, Inc. employees.</div>
     </div>
